@@ -2,95 +2,1924 @@
 
 .option scale=1u
 
-M1000 and_0/v_out_and and_0/nand_0/v_out_nand and_0/vdd and_0/inverter_0/w_n13_n2# pfet w=8 l=2
-+  ad=48 pd=28 as=128 ps=80
-M1001 and_0/v_out_and and_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=8 l=2
-+  ad=48 pd=28 as=68 ps=46
-M1002 and_0/nand_0/a_13_n14# and_0/v_a_and and_0/gnd Gnd nfet w=4 l=2
+M1000 and_5/v_out_and and_5/nand_0/v_out_nand and_7/vdd and_5/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=96 pd=56 as=10929 ps=6900
+M1001 and_5/v_out_and and_5/nand_0/v_out_nand and_5/gnd Gnd nfet w=8 l=2
++  ad=96 pd=56 as=68 ps=46
+M1002 and_5/nand_0/a_13_n14# and_5/a_n24_n7# and_5/gnd Gnd nfet w=4 l=2
 +  ad=40 pd=36 as=0 ps=0
-M1003 and_0/nand_0/v_out_nand and_0/v_b_and and_0/nand_0/a_13_n14# Gnd nfet w=4 l=2
+M1003 and_5/nand_0/v_out_nand and_5/a_n24_n27# and_5/nand_0/a_13_n14# Gnd nfet w=4 l=2
 +  ad=20 pd=18 as=0 ps=0
-M1004 and_0/nand_0/v_out_nand and_0/v_a_and and_0/vdd and_0/nand_0/w_0_3# pfet w=8 l=2
+M1004 and_5/nand_0/v_out_nand and_5/a_n24_n7# and_7/vdd and_5/nand_0/w_0_3# pfet w=8 l=2
 +  ad=80 pd=52 as=0 ps=0
-M1005 and_0/nand_0/v_out_nand and_0/v_b_and and_0/vdd and_0/nand_0/w_0_3# pfet w=8 l=2
+M1005 and_5/nand_0/v_out_nand and_5/a_n24_n27# and_7/vdd and_5/nand_0/w_0_3# pfet w=8 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1006 and_1/v_out_and and_1/nand_0/v_out_nand and_1/vdd and_1/inverter_0/w_n13_n2# pfet w=8 l=2
-+  ad=48 pd=28 as=128 ps=80
-M1007 and_1/v_out_and and_1/nand_0/v_out_nand and_1/gnd Gnd nfet w=8 l=2
+M1006 and_6/v_out_and and_6/nand_0/v_out_nand and_7/vdd and_6/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1007 and_6/v_out_and and_6/nand_0/v_out_nand and_6/gnd Gnd nfet w=8 l=2
 +  ad=48 pd=28 as=68 ps=46
-M1008 and_1/nand_0/a_13_n14# and_1/v_a_and and_1/gnd Gnd nfet w=4 l=2
+M1008 and_6/nand_0/a_13_n14# and_6/a_n24_n7# and_6/gnd Gnd nfet w=4 l=2
 +  ad=40 pd=36 as=0 ps=0
-M1009 and_1/nand_0/v_out_nand and_1/v_b_and and_1/nand_0/a_13_n14# Gnd nfet w=4 l=2
+M1009 and_6/nand_0/v_out_nand and_6/a_n24_n27# and_6/nand_0/a_13_n14# Gnd nfet w=4 l=2
 +  ad=20 pd=18 as=0 ps=0
-M1010 and_1/nand_0/v_out_nand and_1/v_a_and and_1/vdd and_1/nand_0/w_0_3# pfet w=8 l=2
+M1010 and_6/nand_0/v_out_nand and_6/a_n24_n7# and_7/vdd and_6/nand_0/w_0_3# pfet w=8 l=2
 +  ad=80 pd=52 as=0 ps=0
-M1011 and_1/nand_0/v_out_nand and_1/v_b_and and_1/vdd and_1/nand_0/w_0_3# pfet w=8 l=2
+M1011 and_6/nand_0/v_out_nand and_6/a_n24_n27# and_7/vdd and_6/nand_0/w_0_3# pfet w=8 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1012 and_2/v_out_and and_2/nand_0/v_out_nand and_2/vdd and_2/inverter_0/w_n13_n2# pfet w=8 l=2
-+  ad=48 pd=28 as=128 ps=80
-M1013 and_2/v_out_and and_2/nand_0/v_out_nand and_2/gnd Gnd nfet w=8 l=2
+M1012 and_7/v_out_and and_7/nand_0/v_out_nand and_7/vdd and_7/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1013 and_7/v_out_and and_7/nand_0/v_out_nand and_7/gnd Gnd nfet w=8 l=2
 +  ad=48 pd=28 as=68 ps=46
-M1014 and_2/nand_0/a_13_n14# and_2/v_a_and and_2/gnd Gnd nfet w=4 l=2
+M1014 and_7/nand_0/a_13_n14# and_0/gnd and_7/gnd Gnd nfet w=4 l=2
 +  ad=40 pd=36 as=0 ps=0
-M1015 and_2/nand_0/v_out_nand and_2/v_b_and and_2/nand_0/a_13_n14# Gnd nfet w=4 l=2
+M1015 and_7/nand_0/v_out_nand and_0/gnd and_7/nand_0/a_13_n14# Gnd nfet w=4 l=2
 +  ad=20 pd=18 as=0 ps=0
-M1016 and_2/nand_0/v_out_nand and_2/v_a_and and_2/vdd and_2/nand_0/w_0_3# pfet w=8 l=2
+M1016 and_7/nand_0/v_out_nand and_0/gnd and_7/vdd and_7/nand_0/w_0_3# pfet w=8 l=2
 +  ad=80 pd=52 as=0 ps=0
-M1017 and_2/nand_0/v_out_nand and_2/v_b_and and_2/vdd and_2/nand_0/w_0_3# pfet w=8 l=2
+M1017 and_7/nand_0/v_out_nand and_0/gnd and_7/vdd and_7/nand_0/w_0_3# pfet w=8 l=2
 +  ad=0 pd=0 as=0 ps=0
-M1018 and_3/v_out_and and_3/nand_0/v_out_nand and_3/vdd and_3/inverter_0/w_n13_n2# pfet w=8 l=2
+M1018 and_8/v_out_and and_8/nand_0/v_out_nand and_8/vdd and_8/inverter_0/w_n13_n2# pfet w=8 l=2
 +  ad=48 pd=28 as=128 ps=80
-M1019 and_3/v_out_and and_3/nand_0/v_out_nand and_3/gnd Gnd nfet w=8 l=2
+M1019 and_8/v_out_and and_8/nand_0/v_out_nand and_8/gnd Gnd nfet w=8 l=2
 +  ad=48 pd=28 as=68 ps=46
-M1020 and_3/nand_0/a_13_n14# and_3/v_a_and and_3/gnd Gnd nfet w=4 l=2
+M1020 and_8/nand_0/a_13_n14# and_8/a_n24_n7# and_8/gnd Gnd nfet w=4 l=2
 +  ad=40 pd=36 as=0 ps=0
-M1021 and_3/nand_0/v_out_nand and_3/v_b_and and_3/nand_0/a_13_n14# Gnd nfet w=4 l=2
+M1021 and_8/nand_0/v_out_nand and_8/a_n24_n27# and_8/nand_0/a_13_n14# Gnd nfet w=4 l=2
 +  ad=20 pd=18 as=0 ps=0
-M1022 and_3/nand_0/v_out_nand and_3/v_a_and and_3/vdd and_3/nand_0/w_0_3# pfet w=8 l=2
+M1022 and_8/nand_0/v_out_nand and_8/a_n24_n7# and_8/vdd and_8/nand_0/w_0_3# pfet w=8 l=2
 +  ad=80 pd=52 as=0 ps=0
-M1023 and_3/nand_0/v_out_nand and_3/v_b_and and_3/vdd and_3/nand_0/w_0_3# pfet w=8 l=2
+M1023 and_8/nand_0/v_out_nand and_8/a_n24_n27# and_8/vdd and_8/nand_0/w_0_3# pfet w=8 l=2
 +  ad=0 pd=0 as=0 ps=0
-C0 and_3/inverter_0/w_n13_n2# and_3/nand_0/v_out_nand 3.18fF
-C1 and_0/v_b_and and_0/nand_0/w_0_3# 2.46fF
-C2 and_2/nand_0/w_0_3# and_2/v_b_and 2.46fF
-C3 and_1/v_b_and and_1/nand_0/w_0_3# 2.46fF
-C4 and_0/nand_0/w_0_3# and_0/v_a_and 2.46fF
-C5 and_0/vdd and_0/nand_0/w_0_3# 2.26fF
-C6 and_3/nand_0/w_0_3# and_3/v_a_and 2.46fF
-C7 and_0/inverter_0/w_n13_n2# and_0/nand_0/v_out_nand 3.18fF
-C8 and_3/vdd and_3/nand_0/w_0_3# 2.26fF
-C9 and_3/nand_0/w_0_3# and_3/v_b_and 2.46fF
-C10 and_2/nand_0/w_0_3# and_2/v_a_and 2.46fF
-C11 and_2/nand_0/w_0_3# and_2/vdd 2.26fF
-C12 and_1/inverter_0/w_n13_n2# and_1/nand_0/v_out_nand 3.18fF
-C13 and_2/nand_0/v_out_nand and_2/inverter_0/w_n13_n2# 3.18fF
-C14 and_1/v_a_and and_1/nand_0/w_0_3# 2.46fF
-C15 and_1/vdd and_1/nand_0/w_0_3# 2.26fF
-C16 and_3/nand_0/a_13_n14# Gnd 2.44fF
-C17 and_3/gnd Gnd 24.82fF
-C18 and_3/nand_0/v_out_nand Gnd 30.13fF
-C19 and_3/vdd Gnd 27.07fF
-C20 and_3/v_b_and Gnd 39.77fF
-C21 and_3/v_a_and Gnd 35.34fF
-C22 and_3/v_out_and Gnd 6.06fF
-C23 and_2/nand_0/a_13_n14# Gnd 2.44fF
-C24 and_2/gnd Gnd 24.82fF
-C25 and_2/nand_0/v_out_nand Gnd 30.13fF
-C26 and_2/vdd Gnd 27.07fF
-C27 and_2/v_b_and Gnd 39.77fF
-C28 and_2/v_a_and Gnd 35.34fF
-C29 and_2/v_out_and Gnd 6.06fF
-C30 and_1/nand_0/a_13_n14# Gnd 2.44fF
-C31 and_1/gnd Gnd 24.82fF
-C32 and_1/nand_0/v_out_nand Gnd 30.13fF
-C33 and_1/vdd Gnd 27.07fF
-C34 and_1/v_b_and Gnd 39.77fF
-C35 and_1/v_a_and Gnd 35.34fF
-C36 and_1/v_out_and Gnd 6.06fF
-C37 and_0/nand_0/a_13_n14# Gnd 2.44fF
-C38 and_0/gnd Gnd 24.82fF
-C39 and_0/nand_0/v_out_nand Gnd 30.13fF
-C40 and_0/vdd Gnd 27.07fF
-C41 and_0/v_b_and Gnd 39.77fF
-C42 and_0/v_a_and Gnd 35.34fF
-C43 and_0/v_out_and Gnd 6.06fF
+M1024 and_9/v_out_and and_9/nand_0/v_out_nand and_9/vdd and_9/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=128 pd=80 as=128 ps=80
+M1025 and_9/v_out_and and_9/nand_0/v_out_nand and_9/gnd Gnd nfet w=8 l=2
++  ad=68 pd=46 as=68 ps=46
+M1026 and_9/nand_0/a_13_n14# and_9/a_n24_n7# and_9/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1027 and_9/nand_0/v_out_nand and_9/a_n24_n27# and_9/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1028 and_9/nand_0/v_out_nand and_9/a_n24_n7# and_9/vdd and_9/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1029 and_9/nand_0/v_out_nand and_9/a_n24_n27# and_9/vdd and_9/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1030 and_10/v_out_and and_10/nand_0/v_out_nand and_10/vdd and_10/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=128 pd=80 as=128 ps=80
+M1031 and_10/v_out_and and_10/nand_0/v_out_nand and_10/gnd Gnd nfet w=8 l=2
++  ad=68 pd=46 as=68 ps=46
+M1032 and_10/nand_0/a_13_n14# and_10/a_n24_n7# and_10/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1033 and_10/nand_0/v_out_nand and_10/a_n24_n27# and_10/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1034 and_10/nand_0/v_out_nand and_10/a_n24_n7# and_10/vdd and_10/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1035 and_10/nand_0/v_out_nand and_10/a_n24_n27# and_10/vdd and_10/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 and_11/v_out_and and_11/nand_0/v_out_nand and_11/vdd and_11/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=48 pd=28 as=128 ps=80
+M1037 and_11/v_out_and and_11/nand_0/v_out_nand and_11/gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=68 ps=46
+M1038 and_11/nand_0/a_13_n14# and_11/a_n24_n7# and_11/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1039 and_11/nand_0/v_out_nand and_11/a_n24_n27# and_11/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1040 and_11/nand_0/v_out_nand and_11/a_n24_n7# and_11/vdd and_11/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1041 and_11/nand_0/v_out_nand and_11/a_n24_n27# and_11/vdd and_11/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1042 and_12/v_out_and and_12/nand_0/v_out_nand and_12/vdd and_12/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=48 pd=28 as=128 ps=80
+M1043 and_12/v_out_and and_12/nand_0/v_out_nand and_12/gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=68 ps=46
+M1044 and_12/nand_0/a_13_n14# and_12/a_n24_n7# and_12/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1045 and_12/nand_0/v_out_nand and_12/a_n24_n27# and_12/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1046 and_12/nand_0/v_out_nand and_12/a_n24_n7# and_12/vdd and_12/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1047 and_12/nand_0/v_out_nand and_12/a_n24_n27# and_12/vdd and_12/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1048 and_13/v_out_and and_13/nand_0/v_out_nand and_13/vdd and_13/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=128 pd=80 as=128 ps=80
+M1049 and_13/v_out_and and_13/nand_0/v_out_nand and_13/gnd Gnd nfet w=8 l=2
++  ad=68 pd=46 as=68 ps=46
+M1050 and_13/nand_0/a_13_n14# and_13/a_n24_n7# and_13/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1051 and_13/nand_0/v_out_nand and_13/a_n24_n27# and_13/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1052 and_13/nand_0/v_out_nand and_13/a_n24_n7# and_13/vdd and_13/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1053 and_13/nand_0/v_out_nand and_13/a_n24_n27# and_13/vdd and_13/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1054 and_14/v_out_and and_14/nand_0/v_out_nand and_14/vdd and_14/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=128 pd=80 as=128 ps=80
+M1055 and_14/v_out_and and_14/nand_0/v_out_nand and_14/gnd Gnd nfet w=8 l=2
++  ad=68 pd=46 as=68 ps=46
+M1056 and_14/nand_0/a_13_n14# and_14/a_n24_n7# and_14/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1057 and_14/nand_0/v_out_nand and_14/a_n24_n27# and_14/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1058 and_14/nand_0/v_out_nand and_14/a_n24_n7# and_14/vdd and_14/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1059 and_14/nand_0/v_out_nand and_14/a_n24_n27# and_14/vdd and_14/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 and_15/v_out_and and_15/nand_0/v_out_nand and_7/vdd and_15/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1061 and_15/v_out_and and_15/nand_0/v_out_nand and_15/gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=68 ps=46
+M1062 and_15/nand_0/a_13_n14# and_15/a_n24_n7# and_15/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1063 and_15/nand_0/v_out_nand and_15/a_n24_n27# and_15/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1064 and_15/nand_0/v_out_nand and_15/a_n24_n7# and_7/vdd and_15/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1065 and_15/nand_0/v_out_nand and_15/a_n24_n27# and_7/vdd and_15/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1066 4bitadder_0/halfadder_0/nand_3/a_13_n14# 4bitadder_0/halfadder_0/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=4184 ps=2980
+M1067 4bitadder_0/s0_4bitadder 4bitadder_0/halfadder_0/nand_2/v_out_nand 4bitadder_0/halfadder_0/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1068 4bitadder_0/s0_4bitadder 4bitadder_0/halfadder_0/nand_1/v_out_nand and_7/vdd 4bitadder_0/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1069 4bitadder_0/s0_4bitadder 4bitadder_0/halfadder_0/nand_2/v_out_nand and_7/vdd 4bitadder_0/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1070 4bitadder_0/halfadder_0/nand_4/a_13_n14# 4bitadder_0/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1071 4bitadder_0/fulladder_0/c_in_fulladder 4bitadder_0/halfadder_0/nand_0/v_out_nand 4bitadder_0/halfadder_0/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1072 4bitadder_0/fulladder_0/c_in_fulladder 4bitadder_0/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_0/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1073 4bitadder_0/fulladder_0/c_in_fulladder 4bitadder_0/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_0/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1074 4bitadder_0/halfadder_0/nand_0/a_13_n14# and_0/v_out_and and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1075 4bitadder_0/halfadder_0/nand_0/v_out_nand and_1/v_out_and 4bitadder_0/halfadder_0/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1076 4bitadder_0/halfadder_0/nand_0/v_out_nand and_0/v_out_and and_7/vdd 4bitadder_0/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1077 4bitadder_0/halfadder_0/nand_0/v_out_nand and_1/v_out_and and_7/vdd 4bitadder_0/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1078 4bitadder_0/halfadder_0/nand_1/a_13_n14# 4bitadder_0/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1079 4bitadder_0/halfadder_0/nand_1/v_out_nand and_0/v_out_and 4bitadder_0/halfadder_0/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1080 4bitadder_0/halfadder_0/nand_1/v_out_nand 4bitadder_0/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_0/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1081 4bitadder_0/halfadder_0/nand_1/v_out_nand and_0/v_out_and and_7/vdd 4bitadder_0/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1082 4bitadder_0/halfadder_0/nand_2/a_13_n14# 4bitadder_0/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1083 4bitadder_0/halfadder_0/nand_2/v_out_nand and_1/v_out_and 4bitadder_0/halfadder_0/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1084 4bitadder_0/halfadder_0/nand_2/v_out_nand 4bitadder_0/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_0/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1085 4bitadder_0/halfadder_0/nand_2/v_out_nand and_1/v_out_and and_7/vdd 4bitadder_0/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1086 4bitadder_0/fulladder_0/halfadder_0/nand_3/a_13_n14# 4bitadder_0/fulladder_0/halfadder_0/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1087 4bitadder_0/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_0/halfadder_0/nand_2/v_out_nand 4bitadder_0/fulladder_0/halfadder_0/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1088 4bitadder_0/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_0/halfadder_0/nand_1/v_out_nand and_7/vdd 4bitadder_0/fulladder_0/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1089 4bitadder_0/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_0/halfadder_0/nand_2/v_out_nand and_7/vdd 4bitadder_0/fulladder_0/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1090 4bitadder_0/fulladder_0/halfadder_0/nand_4/a_13_n14# 4bitadder_0/fulladder_0/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1091 4bitadder_0/fulladder_0/or_0/v_b_or 4bitadder_0/fulladder_0/halfadder_0/nand_0/v_out_nand 4bitadder_0/fulladder_0/halfadder_0/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1092 4bitadder_0/fulladder_0/or_0/v_b_or 4bitadder_0/fulladder_0/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_0/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1093 4bitadder_0/fulladder_0/or_0/v_b_or 4bitadder_0/fulladder_0/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_0/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1094 4bitadder_0/fulladder_0/halfadder_0/nand_0/a_13_n14# and_3/v_out_and and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1095 4bitadder_0/fulladder_0/halfadder_0/nand_0/v_out_nand and_3/v_out_and 4bitadder_0/fulladder_0/halfadder_0/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1096 4bitadder_0/fulladder_0/halfadder_0/nand_0/v_out_nand and_3/v_out_and and_7/vdd 4bitadder_0/fulladder_0/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1097 4bitadder_0/fulladder_0/halfadder_0/nand_0/v_out_nand and_3/v_out_and and_7/vdd 4bitadder_0/fulladder_0/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1098 4bitadder_0/fulladder_0/halfadder_0/nand_1/a_13_n14# 4bitadder_0/fulladder_0/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1099 4bitadder_0/fulladder_0/halfadder_0/nand_1/v_out_nand and_3/v_out_and 4bitadder_0/fulladder_0/halfadder_0/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1100 4bitadder_0/fulladder_0/halfadder_0/nand_1/v_out_nand 4bitadder_0/fulladder_0/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_0/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1101 4bitadder_0/fulladder_0/halfadder_0/nand_1/v_out_nand and_3/v_out_and and_7/vdd 4bitadder_0/fulladder_0/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1102 4bitadder_0/fulladder_0/halfadder_0/nand_2/a_13_n14# 4bitadder_0/fulladder_0/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1103 4bitadder_0/fulladder_0/halfadder_0/nand_2/v_out_nand and_3/v_out_and 4bitadder_0/fulladder_0/halfadder_0/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1104 4bitadder_0/fulladder_0/halfadder_0/nand_2/v_out_nand 4bitadder_0/fulladder_0/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_0/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1105 4bitadder_0/fulladder_0/halfadder_0/nand_2/v_out_nand and_3/v_out_and and_7/vdd 4bitadder_0/fulladder_0/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1106 4bitadder_0/fulladder_0/halfadder_1/nand_3/a_13_n14# 4bitadder_0/fulladder_0/halfadder_1/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1107 4bitadder_1/b0_4bitadder 4bitadder_0/fulladder_0/halfadder_1/nand_2/v_out_nand 4bitadder_0/fulladder_0/halfadder_1/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1108 4bitadder_1/b0_4bitadder 4bitadder_0/fulladder_0/halfadder_1/nand_1/v_out_nand and_7/vdd 4bitadder_0/fulladder_0/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1109 4bitadder_1/b0_4bitadder 4bitadder_0/fulladder_0/halfadder_1/nand_2/v_out_nand and_7/vdd 4bitadder_0/fulladder_0/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1110 4bitadder_0/fulladder_0/halfadder_1/nand_4/a_13_n14# 4bitadder_0/fulladder_0/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1111 4bitadder_0/fulladder_0/or_0/v_a_or 4bitadder_0/fulladder_0/halfadder_1/nand_0/v_out_nand 4bitadder_0/fulladder_0/halfadder_1/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1112 4bitadder_0/fulladder_0/or_0/v_a_or 4bitadder_0/fulladder_0/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_0/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1113 4bitadder_0/fulladder_0/or_0/v_a_or 4bitadder_0/fulladder_0/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_0/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1114 4bitadder_0/fulladder_0/halfadder_1/nand_0/a_13_n14# 4bitadder_0/fulladder_0/halfadder_1/v_a_halfadder and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1115 4bitadder_0/fulladder_0/halfadder_1/nand_0/v_out_nand 4bitadder_0/fulladder_0/c_in_fulladder 4bitadder_0/fulladder_0/halfadder_1/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1116 4bitadder_0/fulladder_0/halfadder_1/nand_0/v_out_nand 4bitadder_0/fulladder_0/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_0/fulladder_0/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1117 4bitadder_0/fulladder_0/halfadder_1/nand_0/v_out_nand 4bitadder_0/fulladder_0/c_in_fulladder and_7/vdd 4bitadder_0/fulladder_0/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1118 4bitadder_0/fulladder_0/halfadder_1/nand_1/a_13_n14# 4bitadder_0/fulladder_0/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1119 4bitadder_0/fulladder_0/halfadder_1/nand_1/v_out_nand 4bitadder_0/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_0/halfadder_1/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1120 4bitadder_0/fulladder_0/halfadder_1/nand_1/v_out_nand 4bitadder_0/fulladder_0/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_0/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1121 4bitadder_0/fulladder_0/halfadder_1/nand_1/v_out_nand 4bitadder_0/fulladder_0/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_0/fulladder_0/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1122 4bitadder_0/fulladder_0/halfadder_1/nand_2/a_13_n14# 4bitadder_0/fulladder_0/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1123 4bitadder_0/fulladder_0/halfadder_1/nand_2/v_out_nand 4bitadder_0/fulladder_0/c_in_fulladder 4bitadder_0/fulladder_0/halfadder_1/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1124 4bitadder_0/fulladder_0/halfadder_1/nand_2/v_out_nand 4bitadder_0/fulladder_0/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_0/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1125 4bitadder_0/fulladder_0/halfadder_1/nand_2/v_out_nand 4bitadder_0/fulladder_0/c_in_fulladder and_7/vdd 4bitadder_0/fulladder_0/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1126 4bitadder_0/fulladder_0/or_0/a_n15_n30# 4bitadder_0/fulladder_0/or_0/v_b_or and_0/gnd Gnd nfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1127 4bitadder_0/fulladder_0/or_0/a_n15_n30# 4bitadder_0/fulladder_0/or_0/v_a_or and_0/gnd Gnd nfet w=12 l=3
++  ad=0 pd=0 as=0 ps=0
+M1128 4bitadder_0/fulladder_1/c_in_fulladder 4bitadder_0/fulladder_0/or_0/a_n15_n30# and_0/gnd Gnd nfet w=16 l=3
++  ad=84 pd=44 as=0 ps=0
+M1129 4bitadder_0/fulladder_0/or_0/a_n15_10# 4bitadder_0/fulladder_0/or_0/v_a_or and_7/vdd 4bitadder_0/fulladder_0/or_0/w_n32_2# pfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1130 and_7/vdd 4bitadder_0/fulladder_0/or_0/a_n15_n30# 4bitadder_0/fulladder_1/c_in_fulladder 4bitadder_0/fulladder_0/or_0/w_78_2# pfet w=16 l=3
++  ad=0 pd=0 as=80 ps=42
+M1131 4bitadder_0/fulladder_0/or_0/a_n15_n30# 4bitadder_0/fulladder_0/or_0/v_b_or 4bitadder_0/fulladder_0/or_0/a_n15_10# 4bitadder_0/fulladder_0/or_0/w_n32_2# pfet w=12 l=3
++  ad=72 pd=36 as=0 ps=0
+M1132 4bitadder_0/fulladder_1/halfadder_0/nand_3/a_13_n14# 4bitadder_0/fulladder_1/halfadder_0/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1133 4bitadder_0/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_1/halfadder_0/nand_2/v_out_nand 4bitadder_0/fulladder_1/halfadder_0/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1134 4bitadder_0/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_1/halfadder_0/nand_1/v_out_nand and_7/vdd 4bitadder_0/fulladder_1/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1135 4bitadder_0/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_1/halfadder_0/nand_2/v_out_nand and_7/vdd 4bitadder_0/fulladder_1/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1136 4bitadder_0/fulladder_1/halfadder_0/nand_4/a_13_n14# 4bitadder_0/fulladder_1/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1137 4bitadder_0/fulladder_1/or_0/v_b_or 4bitadder_0/fulladder_1/halfadder_0/nand_0/v_out_nand 4bitadder_0/fulladder_1/halfadder_0/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1138 4bitadder_0/fulladder_1/or_0/v_b_or 4bitadder_0/fulladder_1/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_1/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1139 4bitadder_0/fulladder_1/or_0/v_b_or 4bitadder_0/fulladder_1/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_1/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1140 4bitadder_0/fulladder_1/halfadder_0/nand_0/a_13_n14# and_5/v_out_and and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1141 4bitadder_0/fulladder_1/halfadder_0/nand_0/v_out_nand and_5/v_out_and 4bitadder_0/fulladder_1/halfadder_0/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1142 4bitadder_0/fulladder_1/halfadder_0/nand_0/v_out_nand and_5/v_out_and and_7/vdd 4bitadder_0/fulladder_1/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1143 4bitadder_0/fulladder_1/halfadder_0/nand_0/v_out_nand and_5/v_out_and and_7/vdd 4bitadder_0/fulladder_1/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1144 4bitadder_0/fulladder_1/halfadder_0/nand_1/a_13_n14# 4bitadder_0/fulladder_1/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1145 4bitadder_0/fulladder_1/halfadder_0/nand_1/v_out_nand and_5/v_out_and 4bitadder_0/fulladder_1/halfadder_0/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1146 4bitadder_0/fulladder_1/halfadder_0/nand_1/v_out_nand 4bitadder_0/fulladder_1/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_1/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1147 4bitadder_0/fulladder_1/halfadder_0/nand_1/v_out_nand and_5/v_out_and and_7/vdd 4bitadder_0/fulladder_1/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1148 4bitadder_0/fulladder_1/halfadder_0/nand_2/a_13_n14# 4bitadder_0/fulladder_1/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1149 4bitadder_0/fulladder_1/halfadder_0/nand_2/v_out_nand and_5/v_out_and 4bitadder_0/fulladder_1/halfadder_0/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1150 4bitadder_0/fulladder_1/halfadder_0/nand_2/v_out_nand 4bitadder_0/fulladder_1/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_1/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1151 4bitadder_0/fulladder_1/halfadder_0/nand_2/v_out_nand and_5/v_out_and and_7/vdd 4bitadder_0/fulladder_1/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1152 4bitadder_0/fulladder_1/halfadder_1/nand_3/a_13_n14# 4bitadder_0/fulladder_1/halfadder_1/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1153 and_9/v_out_and 4bitadder_0/fulladder_1/halfadder_1/nand_2/v_out_nand 4bitadder_0/fulladder_1/halfadder_1/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1154 and_9/v_out_and 4bitadder_0/fulladder_1/halfadder_1/nand_1/v_out_nand and_7/vdd 4bitadder_0/fulladder_1/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1155 and_9/v_out_and 4bitadder_0/fulladder_1/halfadder_1/nand_2/v_out_nand and_7/vdd 4bitadder_0/fulladder_1/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1156 4bitadder_0/fulladder_1/halfadder_1/nand_4/a_13_n14# 4bitadder_0/fulladder_1/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1157 4bitadder_0/fulladder_1/or_0/v_a_or 4bitadder_0/fulladder_1/halfadder_1/nand_0/v_out_nand 4bitadder_0/fulladder_1/halfadder_1/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1158 4bitadder_0/fulladder_1/or_0/v_a_or 4bitadder_0/fulladder_1/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_1/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1159 4bitadder_0/fulladder_1/or_0/v_a_or 4bitadder_0/fulladder_1/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_1/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1160 4bitadder_0/fulladder_1/halfadder_1/nand_0/a_13_n14# 4bitadder_0/fulladder_1/halfadder_1/v_a_halfadder and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1161 4bitadder_0/fulladder_1/halfadder_1/nand_0/v_out_nand 4bitadder_0/fulladder_1/c_in_fulladder 4bitadder_0/fulladder_1/halfadder_1/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1162 4bitadder_0/fulladder_1/halfadder_1/nand_0/v_out_nand 4bitadder_0/fulladder_1/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_0/fulladder_1/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1163 4bitadder_0/fulladder_1/halfadder_1/nand_0/v_out_nand 4bitadder_0/fulladder_1/c_in_fulladder and_7/vdd 4bitadder_0/fulladder_1/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1164 4bitadder_0/fulladder_1/halfadder_1/nand_1/a_13_n14# 4bitadder_0/fulladder_1/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1165 4bitadder_0/fulladder_1/halfadder_1/nand_1/v_out_nand 4bitadder_0/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_1/halfadder_1/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1166 4bitadder_0/fulladder_1/halfadder_1/nand_1/v_out_nand 4bitadder_0/fulladder_1/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_1/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1167 4bitadder_0/fulladder_1/halfadder_1/nand_1/v_out_nand 4bitadder_0/fulladder_1/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_0/fulladder_1/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1168 4bitadder_0/fulladder_1/halfadder_1/nand_2/a_13_n14# 4bitadder_0/fulladder_1/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1169 4bitadder_0/fulladder_1/halfadder_1/nand_2/v_out_nand 4bitadder_0/fulladder_1/c_in_fulladder 4bitadder_0/fulladder_1/halfadder_1/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1170 4bitadder_0/fulladder_1/halfadder_1/nand_2/v_out_nand 4bitadder_0/fulladder_1/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_1/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1171 4bitadder_0/fulladder_1/halfadder_1/nand_2/v_out_nand 4bitadder_0/fulladder_1/c_in_fulladder and_7/vdd 4bitadder_0/fulladder_1/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1172 4bitadder_0/fulladder_1/or_0/a_n15_n30# 4bitadder_0/fulladder_1/or_0/v_b_or and_0/gnd Gnd nfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1173 4bitadder_0/fulladder_1/or_0/a_n15_n30# 4bitadder_0/fulladder_1/or_0/v_a_or and_0/gnd Gnd nfet w=12 l=3
++  ad=0 pd=0 as=0 ps=0
+M1174 4bitadder_0/fulladder_2/c_in_fulladder 4bitadder_0/fulladder_1/or_0/a_n15_n30# and_0/gnd Gnd nfet w=16 l=3
++  ad=84 pd=44 as=0 ps=0
+M1175 4bitadder_0/fulladder_1/or_0/a_n15_10# 4bitadder_0/fulladder_1/or_0/v_a_or and_7/vdd 4bitadder_0/fulladder_1/or_0/w_n32_2# pfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1176 and_7/vdd 4bitadder_0/fulladder_1/or_0/a_n15_n30# 4bitadder_0/fulladder_2/c_in_fulladder 4bitadder_0/fulladder_1/or_0/w_78_2# pfet w=16 l=3
++  ad=0 pd=0 as=80 ps=42
+M1177 4bitadder_0/fulladder_1/or_0/a_n15_n30# 4bitadder_0/fulladder_1/or_0/v_b_or 4bitadder_0/fulladder_1/or_0/a_n15_10# 4bitadder_0/fulladder_1/or_0/w_n32_2# pfet w=12 l=3
++  ad=72 pd=36 as=0 ps=0
+M1178 4bitadder_0/fulladder_2/halfadder_0/nand_3/a_13_n14# 4bitadder_0/fulladder_2/halfadder_0/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1179 4bitadder_0/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_2/halfadder_0/nand_2/v_out_nand 4bitadder_0/fulladder_2/halfadder_0/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1180 4bitadder_0/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_2/halfadder_0/nand_1/v_out_nand and_7/vdd 4bitadder_0/fulladder_2/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1181 4bitadder_0/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_2/halfadder_0/nand_2/v_out_nand and_7/vdd 4bitadder_0/fulladder_2/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1182 4bitadder_0/fulladder_2/halfadder_0/nand_4/a_13_n14# 4bitadder_0/fulladder_2/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1183 4bitadder_0/fulladder_2/or_0/v_b_or 4bitadder_0/fulladder_2/halfadder_0/nand_0/v_out_nand 4bitadder_0/fulladder_2/halfadder_0/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1184 4bitadder_0/fulladder_2/or_0/v_b_or 4bitadder_0/fulladder_2/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_2/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1185 4bitadder_0/fulladder_2/or_0/v_b_or 4bitadder_0/fulladder_2/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_2/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1186 4bitadder_0/fulladder_2/halfadder_0/nand_0/a_13_n14# and_0/gnd and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1187 4bitadder_0/fulladder_2/halfadder_0/nand_0/v_out_nand and_6/v_out_and 4bitadder_0/fulladder_2/halfadder_0/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1188 4bitadder_0/fulladder_2/halfadder_0/nand_0/v_out_nand and_0/gnd and_7/vdd 4bitadder_0/fulladder_2/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1189 4bitadder_0/fulladder_2/halfadder_0/nand_0/v_out_nand and_6/v_out_and and_7/vdd 4bitadder_0/fulladder_2/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1190 4bitadder_0/fulladder_2/halfadder_0/nand_1/a_13_n14# 4bitadder_0/fulladder_2/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1191 4bitadder_0/fulladder_2/halfadder_0/nand_1/v_out_nand and_0/gnd 4bitadder_0/fulladder_2/halfadder_0/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1192 4bitadder_0/fulladder_2/halfadder_0/nand_1/v_out_nand 4bitadder_0/fulladder_2/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_2/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1193 4bitadder_0/fulladder_2/halfadder_0/nand_1/v_out_nand and_0/gnd and_7/vdd 4bitadder_0/fulladder_2/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1194 4bitadder_0/fulladder_2/halfadder_0/nand_2/a_13_n14# 4bitadder_0/fulladder_2/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1195 4bitadder_0/fulladder_2/halfadder_0/nand_2/v_out_nand and_6/v_out_and 4bitadder_0/fulladder_2/halfadder_0/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1196 4bitadder_0/fulladder_2/halfadder_0/nand_2/v_out_nand 4bitadder_0/fulladder_2/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_2/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1197 4bitadder_0/fulladder_2/halfadder_0/nand_2/v_out_nand and_6/v_out_and and_7/vdd 4bitadder_0/fulladder_2/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1198 4bitadder_0/fulladder_2/halfadder_1/nand_3/a_13_n14# 4bitadder_0/fulladder_2/halfadder_1/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1199 and_10/v_out_and 4bitadder_0/fulladder_2/halfadder_1/nand_2/v_out_nand 4bitadder_0/fulladder_2/halfadder_1/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1200 and_10/v_out_and 4bitadder_0/fulladder_2/halfadder_1/nand_1/v_out_nand and_7/vdd 4bitadder_0/fulladder_2/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1201 and_10/v_out_and 4bitadder_0/fulladder_2/halfadder_1/nand_2/v_out_nand and_7/vdd 4bitadder_0/fulladder_2/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1202 4bitadder_0/fulladder_2/halfadder_1/nand_4/a_13_n14# 4bitadder_0/fulladder_2/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1203 4bitadder_0/fulladder_2/or_0/v_a_or 4bitadder_0/fulladder_2/halfadder_1/nand_0/v_out_nand 4bitadder_0/fulladder_2/halfadder_1/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1204 4bitadder_0/fulladder_2/or_0/v_a_or 4bitadder_0/fulladder_2/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_2/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1205 4bitadder_0/fulladder_2/or_0/v_a_or 4bitadder_0/fulladder_2/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_2/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1206 4bitadder_0/fulladder_2/halfadder_1/nand_0/a_13_n14# 4bitadder_0/fulladder_2/halfadder_1/v_a_halfadder and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1207 4bitadder_0/fulladder_2/halfadder_1/nand_0/v_out_nand 4bitadder_0/fulladder_2/c_in_fulladder 4bitadder_0/fulladder_2/halfadder_1/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1208 4bitadder_0/fulladder_2/halfadder_1/nand_0/v_out_nand 4bitadder_0/fulladder_2/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_0/fulladder_2/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1209 4bitadder_0/fulladder_2/halfadder_1/nand_0/v_out_nand 4bitadder_0/fulladder_2/c_in_fulladder and_7/vdd 4bitadder_0/fulladder_2/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1210 4bitadder_0/fulladder_2/halfadder_1/nand_1/a_13_n14# 4bitadder_0/fulladder_2/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1211 4bitadder_0/fulladder_2/halfadder_1/nand_1/v_out_nand 4bitadder_0/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_2/halfadder_1/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1212 4bitadder_0/fulladder_2/halfadder_1/nand_1/v_out_nand 4bitadder_0/fulladder_2/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_2/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1213 4bitadder_0/fulladder_2/halfadder_1/nand_1/v_out_nand 4bitadder_0/fulladder_2/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_0/fulladder_2/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1214 4bitadder_0/fulladder_2/halfadder_1/nand_2/a_13_n14# 4bitadder_0/fulladder_2/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1215 4bitadder_0/fulladder_2/halfadder_1/nand_2/v_out_nand 4bitadder_0/fulladder_2/c_in_fulladder 4bitadder_0/fulladder_2/halfadder_1/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1216 4bitadder_0/fulladder_2/halfadder_1/nand_2/v_out_nand 4bitadder_0/fulladder_2/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_0/fulladder_2/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1217 4bitadder_0/fulladder_2/halfadder_1/nand_2/v_out_nand 4bitadder_0/fulladder_2/c_in_fulladder and_7/vdd 4bitadder_0/fulladder_2/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1218 4bitadder_0/fulladder_2/or_0/a_n15_n30# 4bitadder_0/fulladder_2/or_0/v_b_or and_0/gnd Gnd nfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1219 4bitadder_0/fulladder_2/or_0/a_n15_n30# 4bitadder_0/fulladder_2/or_0/v_a_or and_0/gnd Gnd nfet w=12 l=3
++  ad=0 pd=0 as=0 ps=0
+M1220 4bitadder_0/c_4bitadder 4bitadder_0/fulladder_2/or_0/a_n15_n30# and_0/gnd Gnd nfet w=16 l=3
++  ad=84 pd=44 as=0 ps=0
+M1221 4bitadder_0/fulladder_2/or_0/a_n15_10# 4bitadder_0/fulladder_2/or_0/v_a_or and_7/vdd 4bitadder_0/fulladder_2/or_0/w_n32_2# pfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1222 and_7/vdd 4bitadder_0/fulladder_2/or_0/a_n15_n30# 4bitadder_0/c_4bitadder 4bitadder_0/fulladder_2/or_0/w_78_2# pfet w=16 l=3
++  ad=0 pd=0 as=80 ps=42
+M1223 4bitadder_0/fulladder_2/or_0/a_n15_n30# 4bitadder_0/fulladder_2/or_0/v_b_or 4bitadder_0/fulladder_2/or_0/a_n15_10# 4bitadder_0/fulladder_2/or_0/w_n32_2# pfet w=12 l=3
++  ad=72 pd=36 as=0 ps=0
+M1224 and_0/v_out_and and_0/nand_0/v_out_nand and_7/vdd and_0/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1225 and_0/v_out_and and_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1226 and_0/nand_0/a_13_n14# and_0/a_n24_n7# and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1227 and_0/nand_0/v_out_nand and_0/a_n24_n27# and_0/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1228 and_0/nand_0/v_out_nand and_0/a_n24_n7# and_7/vdd and_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1229 and_0/nand_0/v_out_nand and_0/a_n24_n27# and_7/vdd and_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1230 4bitadder_1/halfadder_0/nand_3/a_13_n14# 4bitadder_1/halfadder_0/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1231 4bitadder_1/s0_4bitadder 4bitadder_1/halfadder_0/nand_2/v_out_nand 4bitadder_1/halfadder_0/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1232 4bitadder_1/s0_4bitadder 4bitadder_1/halfadder_0/nand_1/v_out_nand and_7/vdd 4bitadder_1/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1233 4bitadder_1/s0_4bitadder 4bitadder_1/halfadder_0/nand_2/v_out_nand and_7/vdd 4bitadder_1/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1234 4bitadder_1/halfadder_0/nand_4/a_13_n14# 4bitadder_1/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1235 4bitadder_1/fulladder_0/c_in_fulladder 4bitadder_1/halfadder_0/nand_0/v_out_nand 4bitadder_1/halfadder_0/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1236 4bitadder_1/fulladder_0/c_in_fulladder 4bitadder_1/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_1/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1237 4bitadder_1/fulladder_0/c_in_fulladder 4bitadder_1/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_1/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1238 4bitadder_1/halfadder_0/nand_0/a_13_n14# 4bitadder_1/b0_4bitadder and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1239 4bitadder_1/halfadder_0/nand_0/v_out_nand and_8/v_out_and 4bitadder_1/halfadder_0/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1240 4bitadder_1/halfadder_0/nand_0/v_out_nand 4bitadder_1/b0_4bitadder and_7/vdd 4bitadder_1/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1241 4bitadder_1/halfadder_0/nand_0/v_out_nand and_8/v_out_and and_7/vdd 4bitadder_1/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1242 4bitadder_1/halfadder_0/nand_1/a_13_n14# 4bitadder_1/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1243 4bitadder_1/halfadder_0/nand_1/v_out_nand 4bitadder_1/b0_4bitadder 4bitadder_1/halfadder_0/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1244 4bitadder_1/halfadder_0/nand_1/v_out_nand 4bitadder_1/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_1/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1245 4bitadder_1/halfadder_0/nand_1/v_out_nand 4bitadder_1/b0_4bitadder and_7/vdd 4bitadder_1/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1246 4bitadder_1/halfadder_0/nand_2/a_13_n14# 4bitadder_1/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1247 4bitadder_1/halfadder_0/nand_2/v_out_nand and_8/v_out_and 4bitadder_1/halfadder_0/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1248 4bitadder_1/halfadder_0/nand_2/v_out_nand 4bitadder_1/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_1/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1249 4bitadder_1/halfadder_0/nand_2/v_out_nand and_8/v_out_and and_7/vdd 4bitadder_1/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1250 4bitadder_1/fulladder_0/halfadder_0/nand_3/a_13_n14# 4bitadder_1/fulladder_0/halfadder_0/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1251 4bitadder_1/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_0/halfadder_0/nand_2/v_out_nand 4bitadder_1/fulladder_0/halfadder_0/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1252 4bitadder_1/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_0/halfadder_0/nand_1/v_out_nand and_7/vdd 4bitadder_1/fulladder_0/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1253 4bitadder_1/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_0/halfadder_0/nand_2/v_out_nand and_7/vdd 4bitadder_1/fulladder_0/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1254 4bitadder_1/fulladder_0/halfadder_0/nand_4/a_13_n14# 4bitadder_1/fulladder_0/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1255 4bitadder_1/fulladder_0/or_0/v_b_or 4bitadder_1/fulladder_0/halfadder_0/nand_0/v_out_nand 4bitadder_1/fulladder_0/halfadder_0/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1256 4bitadder_1/fulladder_0/or_0/v_b_or 4bitadder_1/fulladder_0/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_0/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1257 4bitadder_1/fulladder_0/or_0/v_b_or 4bitadder_1/fulladder_0/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_0/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1258 4bitadder_1/fulladder_0/halfadder_0/nand_0/a_13_n14# and_9/v_out_and and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1259 4bitadder_1/fulladder_0/halfadder_0/nand_0/v_out_nand and_9/v_out_and 4bitadder_1/fulladder_0/halfadder_0/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1260 4bitadder_1/fulladder_0/halfadder_0/nand_0/v_out_nand and_9/v_out_and and_7/vdd 4bitadder_1/fulladder_0/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1261 4bitadder_1/fulladder_0/halfadder_0/nand_0/v_out_nand and_9/v_out_and and_7/vdd 4bitadder_1/fulladder_0/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1262 4bitadder_1/fulladder_0/halfadder_0/nand_1/a_13_n14# 4bitadder_1/fulladder_0/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1263 4bitadder_1/fulladder_0/halfadder_0/nand_1/v_out_nand and_9/v_out_and 4bitadder_1/fulladder_0/halfadder_0/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1264 4bitadder_1/fulladder_0/halfadder_0/nand_1/v_out_nand 4bitadder_1/fulladder_0/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_0/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1265 4bitadder_1/fulladder_0/halfadder_0/nand_1/v_out_nand and_9/v_out_and and_7/vdd 4bitadder_1/fulladder_0/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1266 4bitadder_1/fulladder_0/halfadder_0/nand_2/a_13_n14# 4bitadder_1/fulladder_0/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1267 4bitadder_1/fulladder_0/halfadder_0/nand_2/v_out_nand and_9/v_out_and 4bitadder_1/fulladder_0/halfadder_0/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1268 4bitadder_1/fulladder_0/halfadder_0/nand_2/v_out_nand 4bitadder_1/fulladder_0/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_0/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1269 4bitadder_1/fulladder_0/halfadder_0/nand_2/v_out_nand and_9/v_out_and and_7/vdd 4bitadder_1/fulladder_0/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1270 4bitadder_1/fulladder_0/halfadder_1/nand_3/a_13_n14# 4bitadder_1/fulladder_0/halfadder_1/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1271 4bitadder_2/b0_4bitadder 4bitadder_1/fulladder_0/halfadder_1/nand_2/v_out_nand 4bitadder_1/fulladder_0/halfadder_1/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1272 4bitadder_2/b0_4bitadder 4bitadder_1/fulladder_0/halfadder_1/nand_1/v_out_nand and_7/vdd 4bitadder_1/fulladder_0/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1273 4bitadder_2/b0_4bitadder 4bitadder_1/fulladder_0/halfadder_1/nand_2/v_out_nand and_7/vdd 4bitadder_1/fulladder_0/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1274 4bitadder_1/fulladder_0/halfadder_1/nand_4/a_13_n14# 4bitadder_1/fulladder_0/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1275 4bitadder_1/fulladder_0/or_0/v_a_or 4bitadder_1/fulladder_0/halfadder_1/nand_0/v_out_nand 4bitadder_1/fulladder_0/halfadder_1/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1276 4bitadder_1/fulladder_0/or_0/v_a_or 4bitadder_1/fulladder_0/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_0/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1277 4bitadder_1/fulladder_0/or_0/v_a_or 4bitadder_1/fulladder_0/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_0/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1278 4bitadder_1/fulladder_0/halfadder_1/nand_0/a_13_n14# 4bitadder_1/fulladder_0/halfadder_1/v_a_halfadder and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1279 4bitadder_1/fulladder_0/halfadder_1/nand_0/v_out_nand 4bitadder_1/fulladder_0/c_in_fulladder 4bitadder_1/fulladder_0/halfadder_1/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1280 4bitadder_1/fulladder_0/halfadder_1/nand_0/v_out_nand 4bitadder_1/fulladder_0/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_1/fulladder_0/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1281 4bitadder_1/fulladder_0/halfadder_1/nand_0/v_out_nand 4bitadder_1/fulladder_0/c_in_fulladder and_7/vdd 4bitadder_1/fulladder_0/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1282 4bitadder_1/fulladder_0/halfadder_1/nand_1/a_13_n14# 4bitadder_1/fulladder_0/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1283 4bitadder_1/fulladder_0/halfadder_1/nand_1/v_out_nand 4bitadder_1/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_0/halfadder_1/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1284 4bitadder_1/fulladder_0/halfadder_1/nand_1/v_out_nand 4bitadder_1/fulladder_0/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_0/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1285 4bitadder_1/fulladder_0/halfadder_1/nand_1/v_out_nand 4bitadder_1/fulladder_0/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_1/fulladder_0/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1286 4bitadder_1/fulladder_0/halfadder_1/nand_2/a_13_n14# 4bitadder_1/fulladder_0/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1287 4bitadder_1/fulladder_0/halfadder_1/nand_2/v_out_nand 4bitadder_1/fulladder_0/c_in_fulladder 4bitadder_1/fulladder_0/halfadder_1/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1288 4bitadder_1/fulladder_0/halfadder_1/nand_2/v_out_nand 4bitadder_1/fulladder_0/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_0/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1289 4bitadder_1/fulladder_0/halfadder_1/nand_2/v_out_nand 4bitadder_1/fulladder_0/c_in_fulladder and_7/vdd 4bitadder_1/fulladder_0/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1290 4bitadder_1/fulladder_0/or_0/a_n15_n30# 4bitadder_1/fulladder_0/or_0/v_b_or and_0/gnd Gnd nfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1291 4bitadder_1/fulladder_0/or_0/a_n15_n30# 4bitadder_1/fulladder_0/or_0/v_a_or and_0/gnd Gnd nfet w=12 l=3
++  ad=0 pd=0 as=0 ps=0
+M1292 4bitadder_1/fulladder_1/c_in_fulladder 4bitadder_1/fulladder_0/or_0/a_n15_n30# and_0/gnd Gnd nfet w=16 l=3
++  ad=84 pd=44 as=0 ps=0
+M1293 4bitadder_1/fulladder_0/or_0/a_n15_10# 4bitadder_1/fulladder_0/or_0/v_a_or and_7/vdd 4bitadder_1/fulladder_0/or_0/w_n32_2# pfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1294 and_7/vdd 4bitadder_1/fulladder_0/or_0/a_n15_n30# 4bitadder_1/fulladder_1/c_in_fulladder 4bitadder_1/fulladder_0/or_0/w_78_2# pfet w=16 l=3
++  ad=0 pd=0 as=80 ps=42
+M1295 4bitadder_1/fulladder_0/or_0/a_n15_n30# 4bitadder_1/fulladder_0/or_0/v_b_or 4bitadder_1/fulladder_0/or_0/a_n15_10# 4bitadder_1/fulladder_0/or_0/w_n32_2# pfet w=12 l=3
++  ad=72 pd=36 as=0 ps=0
+M1296 4bitadder_1/fulladder_1/halfadder_0/nand_3/a_13_n14# 4bitadder_1/fulladder_1/halfadder_0/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1297 4bitadder_1/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_1/halfadder_0/nand_2/v_out_nand 4bitadder_1/fulladder_1/halfadder_0/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1298 4bitadder_1/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_1/halfadder_0/nand_1/v_out_nand and_7/vdd 4bitadder_1/fulladder_1/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1299 4bitadder_1/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_1/halfadder_0/nand_2/v_out_nand and_7/vdd 4bitadder_1/fulladder_1/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1300 4bitadder_1/fulladder_1/halfadder_0/nand_4/a_13_n14# 4bitadder_1/fulladder_1/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1301 4bitadder_1/fulladder_1/or_0/v_b_or 4bitadder_1/fulladder_1/halfadder_0/nand_0/v_out_nand 4bitadder_1/fulladder_1/halfadder_0/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1302 4bitadder_1/fulladder_1/or_0/v_b_or 4bitadder_1/fulladder_1/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_1/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1303 4bitadder_1/fulladder_1/or_0/v_b_or 4bitadder_1/fulladder_1/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_1/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1304 4bitadder_1/fulladder_1/halfadder_0/nand_0/a_13_n14# and_10/v_out_and and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1305 4bitadder_1/fulladder_1/halfadder_0/nand_0/v_out_nand and_10/v_out_and 4bitadder_1/fulladder_1/halfadder_0/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1306 4bitadder_1/fulladder_1/halfadder_0/nand_0/v_out_nand and_10/v_out_and and_7/vdd 4bitadder_1/fulladder_1/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1307 4bitadder_1/fulladder_1/halfadder_0/nand_0/v_out_nand and_10/v_out_and and_7/vdd 4bitadder_1/fulladder_1/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1308 4bitadder_1/fulladder_1/halfadder_0/nand_1/a_13_n14# 4bitadder_1/fulladder_1/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1309 4bitadder_1/fulladder_1/halfadder_0/nand_1/v_out_nand and_10/v_out_and 4bitadder_1/fulladder_1/halfadder_0/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1310 4bitadder_1/fulladder_1/halfadder_0/nand_1/v_out_nand 4bitadder_1/fulladder_1/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_1/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1311 4bitadder_1/fulladder_1/halfadder_0/nand_1/v_out_nand and_10/v_out_and and_7/vdd 4bitadder_1/fulladder_1/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1312 4bitadder_1/fulladder_1/halfadder_0/nand_2/a_13_n14# 4bitadder_1/fulladder_1/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1313 4bitadder_1/fulladder_1/halfadder_0/nand_2/v_out_nand and_10/v_out_and 4bitadder_1/fulladder_1/halfadder_0/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1314 4bitadder_1/fulladder_1/halfadder_0/nand_2/v_out_nand 4bitadder_1/fulladder_1/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_1/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1315 4bitadder_1/fulladder_1/halfadder_0/nand_2/v_out_nand and_10/v_out_and and_7/vdd 4bitadder_1/fulladder_1/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1316 4bitadder_1/fulladder_1/halfadder_1/nand_3/a_13_n14# 4bitadder_1/fulladder_1/halfadder_1/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1317 and_13/v_out_and 4bitadder_1/fulladder_1/halfadder_1/nand_2/v_out_nand 4bitadder_1/fulladder_1/halfadder_1/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1318 and_13/v_out_and 4bitadder_1/fulladder_1/halfadder_1/nand_1/v_out_nand and_7/vdd 4bitadder_1/fulladder_1/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1319 and_13/v_out_and 4bitadder_1/fulladder_1/halfadder_1/nand_2/v_out_nand and_7/vdd 4bitadder_1/fulladder_1/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1320 4bitadder_1/fulladder_1/halfadder_1/nand_4/a_13_n14# 4bitadder_1/fulladder_1/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1321 4bitadder_1/fulladder_1/or_0/v_a_or 4bitadder_1/fulladder_1/halfadder_1/nand_0/v_out_nand 4bitadder_1/fulladder_1/halfadder_1/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1322 4bitadder_1/fulladder_1/or_0/v_a_or 4bitadder_1/fulladder_1/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_1/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1323 4bitadder_1/fulladder_1/or_0/v_a_or 4bitadder_1/fulladder_1/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_1/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1324 4bitadder_1/fulladder_1/halfadder_1/nand_0/a_13_n14# 4bitadder_1/fulladder_1/halfadder_1/v_a_halfadder and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1325 4bitadder_1/fulladder_1/halfadder_1/nand_0/v_out_nand 4bitadder_1/fulladder_1/c_in_fulladder 4bitadder_1/fulladder_1/halfadder_1/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1326 4bitadder_1/fulladder_1/halfadder_1/nand_0/v_out_nand 4bitadder_1/fulladder_1/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_1/fulladder_1/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1327 4bitadder_1/fulladder_1/halfadder_1/nand_0/v_out_nand 4bitadder_1/fulladder_1/c_in_fulladder and_7/vdd 4bitadder_1/fulladder_1/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1328 4bitadder_1/fulladder_1/halfadder_1/nand_1/a_13_n14# 4bitadder_1/fulladder_1/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1329 4bitadder_1/fulladder_1/halfadder_1/nand_1/v_out_nand 4bitadder_1/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_1/halfadder_1/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1330 4bitadder_1/fulladder_1/halfadder_1/nand_1/v_out_nand 4bitadder_1/fulladder_1/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_1/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1331 4bitadder_1/fulladder_1/halfadder_1/nand_1/v_out_nand 4bitadder_1/fulladder_1/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_1/fulladder_1/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1332 4bitadder_1/fulladder_1/halfadder_1/nand_2/a_13_n14# 4bitadder_1/fulladder_1/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1333 4bitadder_1/fulladder_1/halfadder_1/nand_2/v_out_nand 4bitadder_1/fulladder_1/c_in_fulladder 4bitadder_1/fulladder_1/halfadder_1/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1334 4bitadder_1/fulladder_1/halfadder_1/nand_2/v_out_nand 4bitadder_1/fulladder_1/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_1/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1335 4bitadder_1/fulladder_1/halfadder_1/nand_2/v_out_nand 4bitadder_1/fulladder_1/c_in_fulladder and_7/vdd 4bitadder_1/fulladder_1/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1336 4bitadder_1/fulladder_1/or_0/a_n15_n30# 4bitadder_1/fulladder_1/or_0/v_b_or and_0/gnd Gnd nfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1337 4bitadder_1/fulladder_1/or_0/a_n15_n30# 4bitadder_1/fulladder_1/or_0/v_a_or and_0/gnd Gnd nfet w=12 l=3
++  ad=0 pd=0 as=0 ps=0
+M1338 4bitadder_1/fulladder_2/c_in_fulladder 4bitadder_1/fulladder_1/or_0/a_n15_n30# and_0/gnd Gnd nfet w=16 l=3
++  ad=84 pd=44 as=0 ps=0
+M1339 4bitadder_1/fulladder_1/or_0/a_n15_10# 4bitadder_1/fulladder_1/or_0/v_a_or and_7/vdd 4bitadder_1/fulladder_1/or_0/w_n32_2# pfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1340 and_7/vdd 4bitadder_1/fulladder_1/or_0/a_n15_n30# 4bitadder_1/fulladder_2/c_in_fulladder 4bitadder_1/fulladder_1/or_0/w_78_2# pfet w=16 l=3
++  ad=0 pd=0 as=80 ps=42
+M1341 4bitadder_1/fulladder_1/or_0/a_n15_n30# 4bitadder_1/fulladder_1/or_0/v_b_or 4bitadder_1/fulladder_1/or_0/a_n15_10# 4bitadder_1/fulladder_1/or_0/w_n32_2# pfet w=12 l=3
++  ad=72 pd=36 as=0 ps=0
+M1342 4bitadder_1/fulladder_2/halfadder_0/nand_3/a_13_n14# 4bitadder_1/fulladder_2/halfadder_0/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1343 4bitadder_1/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_2/halfadder_0/nand_2/v_out_nand 4bitadder_1/fulladder_2/halfadder_0/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1344 4bitadder_1/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_2/halfadder_0/nand_1/v_out_nand and_7/vdd 4bitadder_1/fulladder_2/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1345 4bitadder_1/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_2/halfadder_0/nand_2/v_out_nand and_7/vdd 4bitadder_1/fulladder_2/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1346 4bitadder_1/fulladder_2/halfadder_0/nand_4/a_13_n14# 4bitadder_1/fulladder_2/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1347 4bitadder_1/fulladder_2/or_0/v_b_or 4bitadder_1/fulladder_2/halfadder_0/nand_0/v_out_nand 4bitadder_1/fulladder_2/halfadder_0/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1348 4bitadder_1/fulladder_2/or_0/v_b_or 4bitadder_1/fulladder_2/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_2/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1349 4bitadder_1/fulladder_2/or_0/v_b_or 4bitadder_1/fulladder_2/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_2/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1350 4bitadder_1/fulladder_2/halfadder_0/nand_0/a_13_n14# 4bitadder_0/c_4bitadder and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1351 4bitadder_1/fulladder_2/halfadder_0/nand_0/v_out_nand and_11/v_out_and 4bitadder_1/fulladder_2/halfadder_0/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1352 4bitadder_1/fulladder_2/halfadder_0/nand_0/v_out_nand 4bitadder_0/c_4bitadder and_7/vdd 4bitadder_1/fulladder_2/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1353 4bitadder_1/fulladder_2/halfadder_0/nand_0/v_out_nand and_11/v_out_and and_7/vdd 4bitadder_1/fulladder_2/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1354 4bitadder_1/fulladder_2/halfadder_0/nand_1/a_13_n14# 4bitadder_1/fulladder_2/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1355 4bitadder_1/fulladder_2/halfadder_0/nand_1/v_out_nand 4bitadder_0/c_4bitadder 4bitadder_1/fulladder_2/halfadder_0/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1356 4bitadder_1/fulladder_2/halfadder_0/nand_1/v_out_nand 4bitadder_1/fulladder_2/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_2/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1357 4bitadder_1/fulladder_2/halfadder_0/nand_1/v_out_nand 4bitadder_0/c_4bitadder and_7/vdd 4bitadder_1/fulladder_2/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1358 4bitadder_1/fulladder_2/halfadder_0/nand_2/a_13_n14# 4bitadder_1/fulladder_2/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1359 4bitadder_1/fulladder_2/halfadder_0/nand_2/v_out_nand and_11/v_out_and 4bitadder_1/fulladder_2/halfadder_0/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1360 4bitadder_1/fulladder_2/halfadder_0/nand_2/v_out_nand 4bitadder_1/fulladder_2/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_2/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1361 4bitadder_1/fulladder_2/halfadder_0/nand_2/v_out_nand and_11/v_out_and and_7/vdd 4bitadder_1/fulladder_2/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1362 4bitadder_1/fulladder_2/halfadder_1/nand_3/a_13_n14# 4bitadder_1/fulladder_2/halfadder_1/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1363 and_14/v_out_and 4bitadder_1/fulladder_2/halfadder_1/nand_2/v_out_nand 4bitadder_1/fulladder_2/halfadder_1/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1364 and_14/v_out_and 4bitadder_1/fulladder_2/halfadder_1/nand_1/v_out_nand and_7/vdd 4bitadder_1/fulladder_2/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1365 and_14/v_out_and 4bitadder_1/fulladder_2/halfadder_1/nand_2/v_out_nand and_7/vdd 4bitadder_1/fulladder_2/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1366 4bitadder_1/fulladder_2/halfadder_1/nand_4/a_13_n14# 4bitadder_1/fulladder_2/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1367 4bitadder_1/fulladder_2/or_0/v_a_or 4bitadder_1/fulladder_2/halfadder_1/nand_0/v_out_nand 4bitadder_1/fulladder_2/halfadder_1/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1368 4bitadder_1/fulladder_2/or_0/v_a_or 4bitadder_1/fulladder_2/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_2/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1369 4bitadder_1/fulladder_2/or_0/v_a_or 4bitadder_1/fulladder_2/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_2/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1370 4bitadder_1/fulladder_2/halfadder_1/nand_0/a_13_n14# 4bitadder_1/fulladder_2/halfadder_1/v_a_halfadder and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1371 4bitadder_1/fulladder_2/halfadder_1/nand_0/v_out_nand 4bitadder_1/fulladder_2/c_in_fulladder 4bitadder_1/fulladder_2/halfadder_1/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1372 4bitadder_1/fulladder_2/halfadder_1/nand_0/v_out_nand 4bitadder_1/fulladder_2/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_1/fulladder_2/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1373 4bitadder_1/fulladder_2/halfadder_1/nand_0/v_out_nand 4bitadder_1/fulladder_2/c_in_fulladder and_7/vdd 4bitadder_1/fulladder_2/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1374 4bitadder_1/fulladder_2/halfadder_1/nand_1/a_13_n14# 4bitadder_1/fulladder_2/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1375 4bitadder_1/fulladder_2/halfadder_1/nand_1/v_out_nand 4bitadder_1/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_2/halfadder_1/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1376 4bitadder_1/fulladder_2/halfadder_1/nand_1/v_out_nand 4bitadder_1/fulladder_2/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_2/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1377 4bitadder_1/fulladder_2/halfadder_1/nand_1/v_out_nand 4bitadder_1/fulladder_2/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_1/fulladder_2/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1378 4bitadder_1/fulladder_2/halfadder_1/nand_2/a_13_n14# 4bitadder_1/fulladder_2/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1379 4bitadder_1/fulladder_2/halfadder_1/nand_2/v_out_nand 4bitadder_1/fulladder_2/c_in_fulladder 4bitadder_1/fulladder_2/halfadder_1/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1380 4bitadder_1/fulladder_2/halfadder_1/nand_2/v_out_nand 4bitadder_1/fulladder_2/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_1/fulladder_2/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1381 4bitadder_1/fulladder_2/halfadder_1/nand_2/v_out_nand 4bitadder_1/fulladder_2/c_in_fulladder and_7/vdd 4bitadder_1/fulladder_2/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1382 4bitadder_1/fulladder_2/or_0/a_n15_n30# 4bitadder_1/fulladder_2/or_0/v_b_or and_0/gnd Gnd nfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1383 4bitadder_1/fulladder_2/or_0/a_n15_n30# 4bitadder_1/fulladder_2/or_0/v_a_or and_0/gnd Gnd nfet w=12 l=3
++  ad=0 pd=0 as=0 ps=0
+M1384 4bitadder_1/c_4bitadder 4bitadder_1/fulladder_2/or_0/a_n15_n30# and_0/gnd Gnd nfet w=16 l=3
++  ad=84 pd=44 as=0 ps=0
+M1385 4bitadder_1/fulladder_2/or_0/a_n15_10# 4bitadder_1/fulladder_2/or_0/v_a_or and_7/vdd 4bitadder_1/fulladder_2/or_0/w_n32_2# pfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1386 and_7/vdd 4bitadder_1/fulladder_2/or_0/a_n15_n30# 4bitadder_1/c_4bitadder 4bitadder_1/fulladder_2/or_0/w_78_2# pfet w=16 l=3
++  ad=0 pd=0 as=80 ps=42
+M1387 4bitadder_1/fulladder_2/or_0/a_n15_n30# 4bitadder_1/fulladder_2/or_0/v_b_or 4bitadder_1/fulladder_2/or_0/a_n15_10# 4bitadder_1/fulladder_2/or_0/w_n32_2# pfet w=12 l=3
++  ad=72 pd=36 as=0 ps=0
+M1388 and_1/v_out_and and_1/nand_0/v_out_nand and_7/vdd and_1/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1389 and_1/v_out_and and_1/nand_0/v_out_nand and_1/gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=68 ps=46
+M1390 and_1/nand_0/a_13_n14# and_1/a_n24_n7# and_1/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1391 and_1/nand_0/v_out_nand and_1/a_n24_n27# and_1/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1392 and_1/nand_0/v_out_nand and_1/a_n24_n7# and_7/vdd and_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1393 and_1/nand_0/v_out_nand and_1/a_n24_n27# and_7/vdd and_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1394 4bitadder_2/halfadder_0/nand_3/a_13_n14# 4bitadder_2/halfadder_0/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1395 4bitadder_2/s0_4bitadder 4bitadder_2/halfadder_0/nand_2/v_out_nand 4bitadder_2/halfadder_0/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1396 4bitadder_2/s0_4bitadder 4bitadder_2/halfadder_0/nand_1/v_out_nand and_7/vdd 4bitadder_2/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1397 4bitadder_2/s0_4bitadder 4bitadder_2/halfadder_0/nand_2/v_out_nand and_7/vdd 4bitadder_2/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1398 4bitadder_2/halfadder_0/nand_4/a_13_n14# 4bitadder_2/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1399 4bitadder_2/fulladder_0/c_in_fulladder 4bitadder_2/halfadder_0/nand_0/v_out_nand 4bitadder_2/halfadder_0/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1400 4bitadder_2/fulladder_0/c_in_fulladder 4bitadder_2/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_2/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1401 4bitadder_2/fulladder_0/c_in_fulladder 4bitadder_2/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_2/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1402 4bitadder_2/halfadder_0/nand_0/a_13_n14# 4bitadder_2/b0_4bitadder and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1403 4bitadder_2/halfadder_0/nand_0/v_out_nand and_12/v_out_and 4bitadder_2/halfadder_0/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1404 4bitadder_2/halfadder_0/nand_0/v_out_nand 4bitadder_2/b0_4bitadder and_7/vdd 4bitadder_2/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1405 4bitadder_2/halfadder_0/nand_0/v_out_nand and_12/v_out_and and_7/vdd 4bitadder_2/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1406 4bitadder_2/halfadder_0/nand_1/a_13_n14# 4bitadder_2/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1407 4bitadder_2/halfadder_0/nand_1/v_out_nand 4bitadder_2/b0_4bitadder 4bitadder_2/halfadder_0/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1408 4bitadder_2/halfadder_0/nand_1/v_out_nand 4bitadder_2/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_2/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1409 4bitadder_2/halfadder_0/nand_1/v_out_nand 4bitadder_2/b0_4bitadder and_7/vdd 4bitadder_2/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1410 4bitadder_2/halfadder_0/nand_2/a_13_n14# 4bitadder_2/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1411 4bitadder_2/halfadder_0/nand_2/v_out_nand and_12/v_out_and 4bitadder_2/halfadder_0/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1412 4bitadder_2/halfadder_0/nand_2/v_out_nand 4bitadder_2/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_2/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1413 4bitadder_2/halfadder_0/nand_2/v_out_nand and_12/v_out_and and_7/vdd 4bitadder_2/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1414 4bitadder_2/fulladder_0/halfadder_0/nand_3/a_13_n14# 4bitadder_2/fulladder_0/halfadder_0/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1415 4bitadder_2/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_0/halfadder_0/nand_2/v_out_nand 4bitadder_2/fulladder_0/halfadder_0/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1416 4bitadder_2/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_0/halfadder_0/nand_1/v_out_nand and_7/vdd 4bitadder_2/fulladder_0/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1417 4bitadder_2/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_0/halfadder_0/nand_2/v_out_nand and_7/vdd 4bitadder_2/fulladder_0/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1418 4bitadder_2/fulladder_0/halfadder_0/nand_4/a_13_n14# 4bitadder_2/fulladder_0/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1419 4bitadder_2/fulladder_0/or_0/v_b_or 4bitadder_2/fulladder_0/halfadder_0/nand_0/v_out_nand 4bitadder_2/fulladder_0/halfadder_0/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1420 4bitadder_2/fulladder_0/or_0/v_b_or 4bitadder_2/fulladder_0/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_0/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1421 4bitadder_2/fulladder_0/or_0/v_b_or 4bitadder_2/fulladder_0/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_0/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1422 4bitadder_2/fulladder_0/halfadder_0/nand_0/a_13_n14# and_13/v_out_and and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1423 4bitadder_2/fulladder_0/halfadder_0/nand_0/v_out_nand and_13/v_out_and 4bitadder_2/fulladder_0/halfadder_0/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1424 4bitadder_2/fulladder_0/halfadder_0/nand_0/v_out_nand and_13/v_out_and and_7/vdd 4bitadder_2/fulladder_0/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1425 4bitadder_2/fulladder_0/halfadder_0/nand_0/v_out_nand and_13/v_out_and and_7/vdd 4bitadder_2/fulladder_0/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1426 4bitadder_2/fulladder_0/halfadder_0/nand_1/a_13_n14# 4bitadder_2/fulladder_0/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1427 4bitadder_2/fulladder_0/halfadder_0/nand_1/v_out_nand and_13/v_out_and 4bitadder_2/fulladder_0/halfadder_0/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1428 4bitadder_2/fulladder_0/halfadder_0/nand_1/v_out_nand 4bitadder_2/fulladder_0/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_0/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1429 4bitadder_2/fulladder_0/halfadder_0/nand_1/v_out_nand and_13/v_out_and and_7/vdd 4bitadder_2/fulladder_0/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1430 4bitadder_2/fulladder_0/halfadder_0/nand_2/a_13_n14# 4bitadder_2/fulladder_0/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1431 4bitadder_2/fulladder_0/halfadder_0/nand_2/v_out_nand and_13/v_out_and 4bitadder_2/fulladder_0/halfadder_0/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1432 4bitadder_2/fulladder_0/halfadder_0/nand_2/v_out_nand 4bitadder_2/fulladder_0/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_0/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1433 4bitadder_2/fulladder_0/halfadder_0/nand_2/v_out_nand and_13/v_out_and and_7/vdd 4bitadder_2/fulladder_0/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1434 4bitadder_2/fulladder_0/halfadder_1/nand_3/a_13_n14# 4bitadder_2/fulladder_0/halfadder_1/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1435 4bitadder_2/s1_4bitadder 4bitadder_2/fulladder_0/halfadder_1/nand_2/v_out_nand 4bitadder_2/fulladder_0/halfadder_1/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1436 4bitadder_2/s1_4bitadder 4bitadder_2/fulladder_0/halfadder_1/nand_1/v_out_nand and_7/vdd 4bitadder_2/fulladder_0/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1437 4bitadder_2/s1_4bitadder 4bitadder_2/fulladder_0/halfadder_1/nand_2/v_out_nand and_7/vdd 4bitadder_2/fulladder_0/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1438 4bitadder_2/fulladder_0/halfadder_1/nand_4/a_13_n14# 4bitadder_2/fulladder_0/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1439 4bitadder_2/fulladder_0/or_0/v_a_or 4bitadder_2/fulladder_0/halfadder_1/nand_0/v_out_nand 4bitadder_2/fulladder_0/halfadder_1/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1440 4bitadder_2/fulladder_0/or_0/v_a_or 4bitadder_2/fulladder_0/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_0/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1441 4bitadder_2/fulladder_0/or_0/v_a_or 4bitadder_2/fulladder_0/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_0/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1442 4bitadder_2/fulladder_0/halfadder_1/nand_0/a_13_n14# 4bitadder_2/fulladder_0/halfadder_1/v_a_halfadder and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1443 4bitadder_2/fulladder_0/halfadder_1/nand_0/v_out_nand 4bitadder_2/fulladder_0/c_in_fulladder 4bitadder_2/fulladder_0/halfadder_1/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1444 4bitadder_2/fulladder_0/halfadder_1/nand_0/v_out_nand 4bitadder_2/fulladder_0/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_2/fulladder_0/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1445 4bitadder_2/fulladder_0/halfadder_1/nand_0/v_out_nand 4bitadder_2/fulladder_0/c_in_fulladder and_7/vdd 4bitadder_2/fulladder_0/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1446 4bitadder_2/fulladder_0/halfadder_1/nand_1/a_13_n14# 4bitadder_2/fulladder_0/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1447 4bitadder_2/fulladder_0/halfadder_1/nand_1/v_out_nand 4bitadder_2/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_0/halfadder_1/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1448 4bitadder_2/fulladder_0/halfadder_1/nand_1/v_out_nand 4bitadder_2/fulladder_0/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_0/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1449 4bitadder_2/fulladder_0/halfadder_1/nand_1/v_out_nand 4bitadder_2/fulladder_0/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_2/fulladder_0/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1450 4bitadder_2/fulladder_0/halfadder_1/nand_2/a_13_n14# 4bitadder_2/fulladder_0/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1451 4bitadder_2/fulladder_0/halfadder_1/nand_2/v_out_nand 4bitadder_2/fulladder_0/c_in_fulladder 4bitadder_2/fulladder_0/halfadder_1/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1452 4bitadder_2/fulladder_0/halfadder_1/nand_2/v_out_nand 4bitadder_2/fulladder_0/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_0/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1453 4bitadder_2/fulladder_0/halfadder_1/nand_2/v_out_nand 4bitadder_2/fulladder_0/c_in_fulladder and_7/vdd 4bitadder_2/fulladder_0/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1454 4bitadder_2/fulladder_0/or_0/a_n15_n30# 4bitadder_2/fulladder_0/or_0/v_b_or and_0/gnd Gnd nfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1455 4bitadder_2/fulladder_0/or_0/a_n15_n30# 4bitadder_2/fulladder_0/or_0/v_a_or and_0/gnd Gnd nfet w=12 l=3
++  ad=0 pd=0 as=0 ps=0
+M1456 4bitadder_2/fulladder_1/c_in_fulladder 4bitadder_2/fulladder_0/or_0/a_n15_n30# and_0/gnd Gnd nfet w=16 l=3
++  ad=84 pd=44 as=0 ps=0
+M1457 4bitadder_2/fulladder_0/or_0/a_n15_10# 4bitadder_2/fulladder_0/or_0/v_a_or and_7/vdd 4bitadder_2/fulladder_0/or_0/w_n32_2# pfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1458 and_7/vdd 4bitadder_2/fulladder_0/or_0/a_n15_n30# 4bitadder_2/fulladder_1/c_in_fulladder 4bitadder_2/fulladder_0/or_0/w_78_2# pfet w=16 l=3
++  ad=0 pd=0 as=80 ps=42
+M1459 4bitadder_2/fulladder_0/or_0/a_n15_n30# 4bitadder_2/fulladder_0/or_0/v_b_or 4bitadder_2/fulladder_0/or_0/a_n15_10# 4bitadder_2/fulladder_0/or_0/w_n32_2# pfet w=12 l=3
++  ad=72 pd=36 as=0 ps=0
+M1460 4bitadder_2/fulladder_1/halfadder_0/nand_3/a_13_n14# 4bitadder_2/fulladder_1/halfadder_0/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1461 4bitadder_2/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_1/halfadder_0/nand_2/v_out_nand 4bitadder_2/fulladder_1/halfadder_0/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1462 4bitadder_2/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_1/halfadder_0/nand_1/v_out_nand and_7/vdd 4bitadder_2/fulladder_1/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1463 4bitadder_2/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_1/halfadder_0/nand_2/v_out_nand and_7/vdd 4bitadder_2/fulladder_1/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1464 4bitadder_2/fulladder_1/halfadder_0/nand_4/a_13_n14# 4bitadder_2/fulladder_1/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1465 4bitadder_2/fulladder_1/or_0/v_b_or 4bitadder_2/fulladder_1/halfadder_0/nand_0/v_out_nand 4bitadder_2/fulladder_1/halfadder_0/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1466 4bitadder_2/fulladder_1/or_0/v_b_or 4bitadder_2/fulladder_1/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_1/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1467 4bitadder_2/fulladder_1/or_0/v_b_or 4bitadder_2/fulladder_1/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_1/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1468 4bitadder_2/fulladder_1/halfadder_0/nand_0/a_13_n14# and_14/v_out_and and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1469 4bitadder_2/fulladder_1/halfadder_0/nand_0/v_out_nand and_14/v_out_and 4bitadder_2/fulladder_1/halfadder_0/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1470 4bitadder_2/fulladder_1/halfadder_0/nand_0/v_out_nand and_14/v_out_and and_7/vdd 4bitadder_2/fulladder_1/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1471 4bitadder_2/fulladder_1/halfadder_0/nand_0/v_out_nand and_14/v_out_and and_7/vdd 4bitadder_2/fulladder_1/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1472 4bitadder_2/fulladder_1/halfadder_0/nand_1/a_13_n14# 4bitadder_2/fulladder_1/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1473 4bitadder_2/fulladder_1/halfadder_0/nand_1/v_out_nand and_14/v_out_and 4bitadder_2/fulladder_1/halfadder_0/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1474 4bitadder_2/fulladder_1/halfadder_0/nand_1/v_out_nand 4bitadder_2/fulladder_1/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_1/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1475 4bitadder_2/fulladder_1/halfadder_0/nand_1/v_out_nand and_14/v_out_and and_7/vdd 4bitadder_2/fulladder_1/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1476 4bitadder_2/fulladder_1/halfadder_0/nand_2/a_13_n14# 4bitadder_2/fulladder_1/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1477 4bitadder_2/fulladder_1/halfadder_0/nand_2/v_out_nand and_14/v_out_and 4bitadder_2/fulladder_1/halfadder_0/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1478 4bitadder_2/fulladder_1/halfadder_0/nand_2/v_out_nand 4bitadder_2/fulladder_1/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_1/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1479 4bitadder_2/fulladder_1/halfadder_0/nand_2/v_out_nand and_14/v_out_and and_7/vdd 4bitadder_2/fulladder_1/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1480 4bitadder_2/fulladder_1/halfadder_1/nand_3/a_13_n14# 4bitadder_2/fulladder_1/halfadder_1/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1481 4bitadder_2/s2_4bitadder 4bitadder_2/fulladder_1/halfadder_1/nand_2/v_out_nand 4bitadder_2/fulladder_1/halfadder_1/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1482 4bitadder_2/s2_4bitadder 4bitadder_2/fulladder_1/halfadder_1/nand_1/v_out_nand and_7/vdd 4bitadder_2/fulladder_1/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1483 4bitadder_2/s2_4bitadder 4bitadder_2/fulladder_1/halfadder_1/nand_2/v_out_nand and_7/vdd 4bitadder_2/fulladder_1/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1484 4bitadder_2/fulladder_1/halfadder_1/nand_4/a_13_n14# 4bitadder_2/fulladder_1/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1485 4bitadder_2/fulladder_1/or_0/v_a_or 4bitadder_2/fulladder_1/halfadder_1/nand_0/v_out_nand 4bitadder_2/fulladder_1/halfadder_1/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1486 4bitadder_2/fulladder_1/or_0/v_a_or 4bitadder_2/fulladder_1/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_1/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1487 4bitadder_2/fulladder_1/or_0/v_a_or 4bitadder_2/fulladder_1/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_1/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1488 4bitadder_2/fulladder_1/halfadder_1/nand_0/a_13_n14# 4bitadder_2/fulladder_1/halfadder_1/v_a_halfadder and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1489 4bitadder_2/fulladder_1/halfadder_1/nand_0/v_out_nand 4bitadder_2/fulladder_1/c_in_fulladder 4bitadder_2/fulladder_1/halfadder_1/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1490 4bitadder_2/fulladder_1/halfadder_1/nand_0/v_out_nand 4bitadder_2/fulladder_1/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_2/fulladder_1/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1491 4bitadder_2/fulladder_1/halfadder_1/nand_0/v_out_nand 4bitadder_2/fulladder_1/c_in_fulladder and_7/vdd 4bitadder_2/fulladder_1/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1492 4bitadder_2/fulladder_1/halfadder_1/nand_1/a_13_n14# 4bitadder_2/fulladder_1/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1493 4bitadder_2/fulladder_1/halfadder_1/nand_1/v_out_nand 4bitadder_2/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_1/halfadder_1/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1494 4bitadder_2/fulladder_1/halfadder_1/nand_1/v_out_nand 4bitadder_2/fulladder_1/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_1/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1495 4bitadder_2/fulladder_1/halfadder_1/nand_1/v_out_nand 4bitadder_2/fulladder_1/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_2/fulladder_1/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1496 4bitadder_2/fulladder_1/halfadder_1/nand_2/a_13_n14# 4bitadder_2/fulladder_1/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1497 4bitadder_2/fulladder_1/halfadder_1/nand_2/v_out_nand 4bitadder_2/fulladder_1/c_in_fulladder 4bitadder_2/fulladder_1/halfadder_1/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1498 4bitadder_2/fulladder_1/halfadder_1/nand_2/v_out_nand 4bitadder_2/fulladder_1/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_1/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1499 4bitadder_2/fulladder_1/halfadder_1/nand_2/v_out_nand 4bitadder_2/fulladder_1/c_in_fulladder and_7/vdd 4bitadder_2/fulladder_1/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1500 4bitadder_2/fulladder_1/or_0/a_n15_n30# 4bitadder_2/fulladder_1/or_0/v_b_or and_0/gnd Gnd nfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1501 4bitadder_2/fulladder_1/or_0/a_n15_n30# 4bitadder_2/fulladder_1/or_0/v_a_or and_0/gnd Gnd nfet w=12 l=3
++  ad=0 pd=0 as=0 ps=0
+M1502 4bitadder_2/fulladder_2/c_in_fulladder 4bitadder_2/fulladder_1/or_0/a_n15_n30# and_0/gnd Gnd nfet w=16 l=3
++  ad=84 pd=44 as=0 ps=0
+M1503 4bitadder_2/fulladder_1/or_0/a_n15_10# 4bitadder_2/fulladder_1/or_0/v_a_or and_7/vdd 4bitadder_2/fulladder_1/or_0/w_n32_2# pfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1504 and_7/vdd 4bitadder_2/fulladder_1/or_0/a_n15_n30# 4bitadder_2/fulladder_2/c_in_fulladder 4bitadder_2/fulladder_1/or_0/w_78_2# pfet w=16 l=3
++  ad=0 pd=0 as=80 ps=42
+M1505 4bitadder_2/fulladder_1/or_0/a_n15_n30# 4bitadder_2/fulladder_1/or_0/v_b_or 4bitadder_2/fulladder_1/or_0/a_n15_10# 4bitadder_2/fulladder_1/or_0/w_n32_2# pfet w=12 l=3
++  ad=72 pd=36 as=0 ps=0
+M1506 4bitadder_2/fulladder_2/halfadder_0/nand_3/a_13_n14# 4bitadder_2/fulladder_2/halfadder_0/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1507 4bitadder_2/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_2/halfadder_0/nand_2/v_out_nand 4bitadder_2/fulladder_2/halfadder_0/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1508 4bitadder_2/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_2/halfadder_0/nand_1/v_out_nand and_7/vdd 4bitadder_2/fulladder_2/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1509 4bitadder_2/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_2/halfadder_0/nand_2/v_out_nand and_7/vdd 4bitadder_2/fulladder_2/halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1510 4bitadder_2/fulladder_2/halfadder_0/nand_4/a_13_n14# 4bitadder_2/fulladder_2/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1511 4bitadder_2/fulladder_2/or_0/v_b_or 4bitadder_2/fulladder_2/halfadder_0/nand_0/v_out_nand 4bitadder_2/fulladder_2/halfadder_0/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1512 4bitadder_2/fulladder_2/or_0/v_b_or 4bitadder_2/fulladder_2/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_2/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1513 4bitadder_2/fulladder_2/or_0/v_b_or 4bitadder_2/fulladder_2/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_2/halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1514 4bitadder_2/fulladder_2/halfadder_0/nand_0/a_13_n14# 4bitadder_1/c_4bitadder and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1515 4bitadder_2/fulladder_2/halfadder_0/nand_0/v_out_nand and_15/v_out_and 4bitadder_2/fulladder_2/halfadder_0/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1516 4bitadder_2/fulladder_2/halfadder_0/nand_0/v_out_nand 4bitadder_1/c_4bitadder and_7/vdd 4bitadder_2/fulladder_2/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1517 4bitadder_2/fulladder_2/halfadder_0/nand_0/v_out_nand and_15/v_out_and and_7/vdd 4bitadder_2/fulladder_2/halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1518 4bitadder_2/fulladder_2/halfadder_0/nand_1/a_13_n14# 4bitadder_2/fulladder_2/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1519 4bitadder_2/fulladder_2/halfadder_0/nand_1/v_out_nand 4bitadder_1/c_4bitadder 4bitadder_2/fulladder_2/halfadder_0/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1520 4bitadder_2/fulladder_2/halfadder_0/nand_1/v_out_nand 4bitadder_2/fulladder_2/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_2/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1521 4bitadder_2/fulladder_2/halfadder_0/nand_1/v_out_nand 4bitadder_1/c_4bitadder and_7/vdd 4bitadder_2/fulladder_2/halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1522 4bitadder_2/fulladder_2/halfadder_0/nand_2/a_13_n14# 4bitadder_2/fulladder_2/halfadder_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1523 4bitadder_2/fulladder_2/halfadder_0/nand_2/v_out_nand and_15/v_out_and 4bitadder_2/fulladder_2/halfadder_0/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1524 4bitadder_2/fulladder_2/halfadder_0/nand_2/v_out_nand 4bitadder_2/fulladder_2/halfadder_0/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_2/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1525 4bitadder_2/fulladder_2/halfadder_0/nand_2/v_out_nand and_15/v_out_and and_7/vdd 4bitadder_2/fulladder_2/halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1526 4bitadder_2/fulladder_2/halfadder_1/nand_3/a_13_n14# 4bitadder_2/fulladder_2/halfadder_1/nand_1/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1527 4bitadder_2/s3_4bitadder 4bitadder_2/fulladder_2/halfadder_1/nand_2/v_out_nand 4bitadder_2/fulladder_2/halfadder_1/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1528 4bitadder_2/s3_4bitadder 4bitadder_2/fulladder_2/halfadder_1/nand_1/v_out_nand and_7/vdd 4bitadder_2/fulladder_2/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1529 4bitadder_2/s3_4bitadder 4bitadder_2/fulladder_2/halfadder_1/nand_2/v_out_nand and_7/vdd 4bitadder_2/fulladder_2/halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1530 4bitadder_2/fulladder_2/halfadder_1/nand_4/a_13_n14# 4bitadder_2/fulladder_2/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1531 4bitadder_2/fulladder_2/or_0/v_a_or 4bitadder_2/fulladder_2/halfadder_1/nand_0/v_out_nand 4bitadder_2/fulladder_2/halfadder_1/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1532 4bitadder_2/fulladder_2/or_0/v_a_or 4bitadder_2/fulladder_2/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_2/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1533 4bitadder_2/fulladder_2/or_0/v_a_or 4bitadder_2/fulladder_2/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_2/halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1534 4bitadder_2/fulladder_2/halfadder_1/nand_0/a_13_n14# 4bitadder_2/fulladder_2/halfadder_1/v_a_halfadder and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1535 4bitadder_2/fulladder_2/halfadder_1/nand_0/v_out_nand 4bitadder_2/fulladder_2/c_in_fulladder 4bitadder_2/fulladder_2/halfadder_1/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1536 4bitadder_2/fulladder_2/halfadder_1/nand_0/v_out_nand 4bitadder_2/fulladder_2/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_2/fulladder_2/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1537 4bitadder_2/fulladder_2/halfadder_1/nand_0/v_out_nand 4bitadder_2/fulladder_2/c_in_fulladder and_7/vdd 4bitadder_2/fulladder_2/halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1538 4bitadder_2/fulladder_2/halfadder_1/nand_1/a_13_n14# 4bitadder_2/fulladder_2/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1539 4bitadder_2/fulladder_2/halfadder_1/nand_1/v_out_nand 4bitadder_2/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_2/halfadder_1/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1540 4bitadder_2/fulladder_2/halfadder_1/nand_1/v_out_nand 4bitadder_2/fulladder_2/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_2/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1541 4bitadder_2/fulladder_2/halfadder_1/nand_1/v_out_nand 4bitadder_2/fulladder_2/halfadder_1/v_a_halfadder and_7/vdd 4bitadder_2/fulladder_2/halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1542 4bitadder_2/fulladder_2/halfadder_1/nand_2/a_13_n14# 4bitadder_2/fulladder_2/halfadder_1/nand_0/v_out_nand and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1543 4bitadder_2/fulladder_2/halfadder_1/nand_2/v_out_nand 4bitadder_2/fulladder_2/c_in_fulladder 4bitadder_2/fulladder_2/halfadder_1/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1544 4bitadder_2/fulladder_2/halfadder_1/nand_2/v_out_nand 4bitadder_2/fulladder_2/halfadder_1/nand_0/v_out_nand and_7/vdd 4bitadder_2/fulladder_2/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1545 4bitadder_2/fulladder_2/halfadder_1/nand_2/v_out_nand 4bitadder_2/fulladder_2/c_in_fulladder and_7/vdd 4bitadder_2/fulladder_2/halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1546 4bitadder_2/fulladder_2/or_0/a_n15_n30# 4bitadder_2/fulladder_2/or_0/v_b_or and_0/gnd Gnd nfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1547 4bitadder_2/fulladder_2/or_0/a_n15_n30# 4bitadder_2/fulladder_2/or_0/v_a_or and_0/gnd Gnd nfet w=12 l=3
++  ad=0 pd=0 as=0 ps=0
+M1548 4bitadder_2/c_4bitadder 4bitadder_2/fulladder_2/or_0/a_n15_n30# and_0/gnd Gnd nfet w=16 l=3
++  ad=84 pd=44 as=0 ps=0
+M1549 4bitadder_2/fulladder_2/or_0/a_n15_10# 4bitadder_2/fulladder_2/or_0/v_a_or and_7/vdd 4bitadder_2/fulladder_2/or_0/w_n32_2# pfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1550 and_7/vdd 4bitadder_2/fulladder_2/or_0/a_n15_n30# 4bitadder_2/c_4bitadder 4bitadder_2/fulladder_2/or_0/w_78_2# pfet w=16 l=3
++  ad=0 pd=0 as=80 ps=42
+M1551 4bitadder_2/fulladder_2/or_0/a_n15_n30# 4bitadder_2/fulladder_2/or_0/v_b_or 4bitadder_2/fulladder_2/or_0/a_n15_10# 4bitadder_2/fulladder_2/or_0/w_n32_2# pfet w=12 l=3
++  ad=72 pd=36 as=0 ps=0
+M1552 and_3/v_out_and and_2/nand_0/v_out_nand and_7/vdd and_2/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=96 pd=56 as=0 ps=0
+M1553 and_3/v_out_and and_2/nand_0/v_out_nand and_2/gnd Gnd nfet w=8 l=2
++  ad=96 pd=56 as=68 ps=46
+M1554 and_2/nand_0/a_13_n14# and_2/a_n24_n7# and_2/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1555 and_2/nand_0/v_out_nand and_2/a_n24_n27# and_2/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1556 and_2/nand_0/v_out_nand and_2/a_n24_n7# and_7/vdd and_2/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1557 and_2/nand_0/v_out_nand and_2/a_n24_n27# and_7/vdd and_2/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1558 and_3/v_out_and and_3/nand_0/v_out_nand and_7/vdd and_3/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1559 and_3/v_out_and and_3/nand_0/v_out_nand and_3/gnd Gnd nfet w=8 l=2
++  ad=0 pd=0 as=68 ps=46
+M1560 and_3/nand_0/a_13_n14# and_3/a_n24_n7# and_3/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1561 and_3/nand_0/v_out_nand and_3/a_n24_n27# and_3/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1562 and_3/nand_0/v_out_nand and_3/a_n24_n7# and_7/vdd and_3/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1563 and_3/nand_0/v_out_nand and_3/a_n24_n27# and_7/vdd and_3/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1564 and_5/v_out_and and_4/nand_0/v_out_nand and_7/vdd and_4/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1565 and_5/v_out_and and_4/nand_0/v_out_nand and_4/gnd Gnd nfet w=8 l=2
++  ad=0 pd=0 as=68 ps=46
+M1566 and_4/nand_0/a_13_n14# and_4/a_n24_n7# and_4/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1567 and_4/nand_0/v_out_nand and_4/a_n24_n27# and_4/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1568 and_4/nand_0/v_out_nand and_4/a_n24_n7# and_7/vdd and_4/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1569 and_4/nand_0/v_out_nand and_4/a_n24_n27# and_7/vdd and_4/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 4bitadder_2/fulladder_1/halfadder_0/nand_1/w_0_3# and_14/v_out_and 2.46fF
+C1 and_4/inverter_0/w_n13_n2# and_4/nand_0/v_out_nand 3.18fF
+C2 and_7/vdd 4bitadder_2/fulladder_1/halfadder_1/nand_3/w_0_3# 2.26fF
+C3 4bitadder_2/halfadder_0/nand_0/w_0_3# and_12/v_out_and 6.51fF
+C4 and_3/v_out_and and_0/gnd 3.54fF
+C5 4bitadder_1/fulladder_1/halfadder_0/nand_0/w_0_3# and_7/vdd 2.26fF
+C6 4bitadder_2/fulladder_2/halfadder_0/nand_1/w_0_3# 4bitadder_2/fulladder_2/halfadder_0/nand_0/v_out_nand 2.46fF
+C7 4bitadder_1/fulladder_2/halfadder_1/nand_3/w_0_3# 4bitadder_1/fulladder_2/halfadder_1/nand_2/v_out_nand 2.46fF
+C8 4bitadder_2/fulladder_0/halfadder_0/nand_1/w_0_3# 4bitadder_2/fulladder_0/halfadder_0/nand_0/v_out_nand 2.46fF
+C9 4bitadder_1/fulladder_0/halfadder_1/nand_3/w_0_3# 4bitadder_1/fulladder_0/halfadder_1/nand_2/v_out_nand 2.46fF
+C10 and_7/vdd 4bitadder_2/fulladder_2/halfadder_0/nand_3/w_0_3# 2.26fF
+C11 4bitadder_0/halfadder_0/nand_2/w_0_3# 4bitadder_0/halfadder_0/nand_0/v_out_nand 2.46fF
+C12 4bitadder_0/fulladder_0/halfadder_1/nand_1/w_0_3# and_7/vdd 2.26fF
+C13 4bitadder_0/halfadder_0/nand_3/w_0_3# 4bitadder_0/halfadder_0/nand_1/v_out_nand 2.46fF
+C14 4bitadder_0/fulladder_1/halfadder_1/nand_0/w_0_3# and_7/vdd 2.26fF
+C15 4bitadder_0/fulladder_0/halfadder_0/nand_3/w_0_3# and_7/vdd 2.26fF
+C16 4bitadder_2/fulladder_2/halfadder_0/nand_0/w_0_3# and_15/v_out_and 6.51fF
+C17 4bitadder_1/fulladder_2/or_0/w_78_2# 4bitadder_1/fulladder_2/or_0/a_n15_n30# 5.74fF
+C18 4bitadder_1/fulladder_0/or_0/w_78_2# 4bitadder_1/fulladder_0/or_0/a_n15_n30# 5.74fF
+C19 4bitadder_0/fulladder_1/halfadder_0/nand_2/w_0_3# and_5/v_out_and 2.46fF
+C20 4bitadder_0/fulladder_2/halfadder_1/nand_3/w_0_3# and_7/vdd 2.26fF
+C21 4bitadder_2/fulladder_2/halfadder_1/nand_4/w_0_3# 4bitadder_2/fulladder_2/halfadder_1/nand_0/v_out_nand 4.92fF
+C22 and_0/inverter_0/w_n13_n2# and_0/nand_0/v_out_nand 3.18fF
+C23 and_9/a_n24_n7# and_9/nand_0/w_0_3# 2.46fF
+C24 4bitadder_2/fulladder_0/halfadder_1/nand_4/w_0_3# 4bitadder_2/fulladder_0/halfadder_1/nand_0/v_out_nand 4.92fF
+C25 4bitadder_0/fulladder_2/halfadder_0/nand_2/w_0_3# 4bitadder_0/fulladder_2/halfadder_0/nand_0/v_out_nand 2.46fF
+C26 4bitadder_2/s0_4bitadder 4bitadder_2/fulladder_0/c_in_fulladder 2.70fF
+C27 4bitadder_1/fulladder_1/halfadder_1/nand_3/w_0_3# 4bitadder_1/fulladder_1/halfadder_1/nand_1/v_out_nand 2.46fF
+C28 4bitadder_1/fulladder_2/halfadder_0/nand_4/w_0_3# 4bitadder_1/fulladder_2/halfadder_0/nand_0/v_out_nand 4.92fF
+C29 and_9/nand_0/w_0_3# and_9/a_n24_n27# 2.46fF
+C30 4bitadder_2/halfadder_0/nand_4/w_0_3# 4bitadder_2/halfadder_0/nand_0/v_out_nand 4.92fF
+C31 4bitadder_0/fulladder_0/halfadder_0/nand_2/w_0_3# 4bitadder_0/fulladder_0/halfadder_0/nand_0/v_out_nand 2.46fF
+C32 and_0/nand_0/w_0_3# and_7/vdd 2.26fF
+C33 and_7/vdd 4bitadder_2/fulladder_1/halfadder_0/nand_1/w_0_3# 2.26fF
+C34 4bitadder_2/fulladder_2/or_0/v_a_or 4bitadder_2/fulladder_2/or_0/w_n32_2# 5.19fF
+C35 and_7/vdd and_13/v_out_and 11.69fF
+C36 4bitadder_0/fulladder_0/halfadder_0/nand_2/w_0_3# and_7/vdd 2.26fF
+C37 4bitadder_2/fulladder_0/or_0/v_a_or 4bitadder_2/fulladder_0/or_0/w_n32_2# 5.19fF
+C38 4bitadder_2/fulladder_2/halfadder_1/nand_0/w_0_3# 4bitadder_2/fulladder_2/c_in_fulladder 6.51fF
+C39 4bitadder_2/fulladder_1/halfadder_0/nand_3/w_0_3# 4bitadder_2/fulladder_1/halfadder_0/nand_2/v_out_nand 2.46fF
+C40 4bitadder_1/fulladder_1/halfadder_1/nand_2/w_0_3# 4bitadder_1/fulladder_1/c_in_fulladder 2.46fF
+C41 4bitadder_2/fulladder_0/halfadder_1/nand_0/w_0_3# 4bitadder_2/fulladder_0/c_in_fulladder 6.51fF
+C42 and_8/nand_0/w_0_3# and_8/vdd 2.26fF
+C43 and_0/gnd 4bitadder_2/s3_4bitadder 2.52fF
+C44 4bitadder_1/fulladder_0/halfadder_0/nand_3/w_0_3# 4bitadder_1/fulladder_0/halfadder_0/nand_2/v_out_nand 2.46fF
+C45 4bitadder_1/fulladder_0/halfadder_1/nand_2/w_0_3# and_7/vdd 2.26fF
+C46 4bitadder_1/fulladder_2/halfadder_1/nand_2/w_0_3# 4bitadder_1/fulladder_2/halfadder_1/nand_0/v_out_nand 2.46fF
+C47 and_5/nand_0/w_0_3# and_5/a_n24_n27# 2.46fF
+C48 4bitadder_1/b0_4bitadder 4bitadder_1/halfadder_0/nand_1/w_0_3# 2.46fF
+C49 4bitadder_1/halfadder_0/nand_3/w_0_3# 4bitadder_1/halfadder_0/nand_2/v_out_nand 2.46fF
+C50 4bitadder_0/fulladder_0/halfadder_0/nand_1/w_0_3# and_3/v_out_and 2.46fF
+C51 4bitadder_1/fulladder_1/halfadder_1/nand_4/w_0_3# and_7/vdd 2.26fF
+C52 and_11/a_n24_n7# and_11/nand_0/w_0_3# 2.46fF
+C53 4bitadder_1/fulladder_0/halfadder_1/nand_2/w_0_3# 4bitadder_1/fulladder_0/halfadder_1/nand_0/v_out_nand 2.46fF
+C54 4bitadder_0/halfadder_0/nand_1/w_0_3# and_7/vdd 2.26fF
+C55 4bitadder_1/fulladder_1/or_0/a_n15_10# 4bitadder_1/fulladder_1/or_0/w_n32_2# 3.38fF
+C56 and_11/nand_0/w_0_3# and_11/a_n24_n27# 2.46fF
+C57 4bitadder_0/fulladder_1/halfadder_0/nand_1/w_0_3# 4bitadder_0/fulladder_1/halfadder_0/nand_0/v_out_nand 2.46fF
+C58 4bitadder_2/s0_4bitadder and_0/gnd 2.70fF
+C59 and_11/v_out_and and_0/gnd 7.25fF
+C60 4bitadder_0/fulladder_2/halfadder_0/nand_1/w_0_3# and_7/vdd 2.26fF
+C61 and_5/v_out_and and_7/vdd 11.82fF
+C62 4bitadder_0/fulladder_1/halfadder_0/nand_4/w_0_3# and_7/vdd 2.26fF
+C63 4bitadder_2/fulladder_2/halfadder_0/nand_3/w_0_3# 4bitadder_2/fulladder_2/halfadder_0/nand_1/v_out_nand 2.46fF
+C64 and_10/nand_0/w_0_3# and_10/vdd 2.26fF
+C65 4bitadder_2/fulladder_0/halfadder_0/nand_4/w_0_3# 4bitadder_2/fulladder_0/halfadder_0/nand_0/v_out_nand 4.92fF
+C66 4bitadder_0/c_4bitadder 4bitadder_1/fulladder_2/halfadder_0/nand_1/w_0_3# 2.46fF
+C67 4bitadder_2/fulladder_2/or_0/v_b_or 4bitadder_2/s3_4bitadder 3.78fF
+C68 4bitadder_1/fulladder_2/halfadder_1/nand_1/w_0_3# and_7/vdd 2.26fF
+C69 4bitadder_2/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_2/halfadder_1/nand_1/w_0_3# 2.46fF
+C70 4bitadder_1/fulladder_1/c_in_fulladder and_7/vdd 2.60fF
+C71 4bitadder_0/fulladder_1/halfadder_0/nand_0/w_0_3# and_5/v_out_and 8.97fF
+C72 and_13/a_n24_n7# and_13/nand_0/w_0_3# 2.46fF
+C73 4bitadder_1/fulladder_1/halfadder_1/nand_1/w_0_3# 4bitadder_1/fulladder_1/halfadder_1/nand_0/v_out_nand 2.46fF
+C74 and_7/inverter_0/w_n13_n2# and_7/nand_0/v_out_nand 3.18fF
+C75 and_13/nand_0/w_0_3# and_13/a_n24_n27# 2.46fF
+C76 4bitadder_0/fulladder_1/halfadder_1/nand_4/w_0_3# 4bitadder_0/fulladder_1/halfadder_1/nand_0/v_out_nand 4.92fF
+C77 4bitadder_1/fulladder_1/or_0/v_b_or 4bitadder_1/fulladder_1/or_0/w_n32_2# 5.19fF
+C78 4bitadder_0/fulladder_0/or_0/v_b_or 4bitadder_0/fulladder_0/or_0/w_n32_2# 5.19fF
+C79 4bitadder_2/fulladder_0/halfadder_0/nand_0/w_0_3# and_13/v_out_and 8.97fF
+C80 4bitadder_1/fulladder_0/halfadder_1/nand_3/w_0_3# and_7/vdd 2.26fF
+C81 4bitadder_0/halfadder_0/nand_3/w_0_3# and_7/vdd 2.26fF
+C82 4bitadder_1/halfadder_0/nand_2/w_0_3# and_7/vdd 2.26fF
+C83 4bitadder_1/halfadder_0/nand_3/w_0_3# and_7/vdd 2.26fF
+C84 and_12/nand_0/w_0_3# and_12/vdd 2.26fF
+C85 and_15/v_out_and 4bitadder_2/fulladder_2/c_in_fulladder 5.40fF
+C86 4bitadder_0/fulladder_1/or_0/v_a_or 4bitadder_0/fulladder_1/or_0/w_n32_2# 5.19fF
+C87 4bitadder_0/fulladder_2/halfadder_0/nand_3/w_0_3# 4bitadder_0/fulladder_2/halfadder_0/nand_2/v_out_nand 2.46fF
+C88 and_13/v_out_and 4bitadder_2/fulladder_0/c_in_fulladder 12.60fF
+C89 4bitadder_1/fulladder_0/or_0/v_b_or 4bitadder_2/b0_4bitadder 3.42fF
+C90 4bitadder_0/fulladder_1/halfadder_1/nand_0/w_0_3# 4bitadder_0/fulladder_1/c_in_fulladder 6.51fF
+C91 and_15/a_n24_n7# and_15/nand_0/w_0_3# 2.46fF
+C92 4bitadder_1/fulladder_2/halfadder_0/nand_2/w_0_3# and_7/vdd 2.26fF
+C93 4bitadder_1/fulladder_1/halfadder_0/nand_3/w_0_3# and_7/vdd 2.26fF
+C94 and_9/inverter_0/w_n13_n2# and_9/nand_0/v_out_nand 3.18fF
+C95 and_15/nand_0/w_0_3# and_15/a_n24_n27# 2.46fF
+C96 4bitadder_0/halfadder_0/nand_4/w_0_3# and_7/vdd 2.26fF
+C97 4bitadder_1/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_1/halfadder_1/nand_0/w_0_3# 2.46fF
+C98 and_7/vdd 4bitadder_2/fulladder_2/halfadder_1/nand_2/w_0_3# 2.26fF
+C99 and_1/nand_0/w_0_3# and_1/a_n24_n7# 2.46fF
+C100 and_7/vdd and_4/nand_0/w_0_3# 2.26fF
+C101 4bitadder_0/fulladder_1/or_0/v_b_or and_9/v_out_and 3.60fF
+C102 and_14/nand_0/w_0_3# and_14/vdd 2.26fF
+C103 4bitadder_0/fulladder_1/halfadder_0/nand_3/w_0_3# 4bitadder_0/fulladder_1/halfadder_0/nand_1/v_out_nand 2.46fF
+C104 and_0/gnd and_13/v_out_and 9.21fF
+C105 and_11/inverter_0/w_n13_n2# and_11/nand_0/v_out_nand 3.18fF
+C106 4bitadder_1/fulladder_0/halfadder_0/nand_1/w_0_3# and_7/vdd 2.26fF
+C107 4bitadder_2/fulladder_2/halfadder_1/nand_3/w_0_3# 4bitadder_2/fulladder_2/halfadder_1/nand_2/v_out_nand 2.46fF
+C108 4bitadder_0/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_1/halfadder_1/nand_1/w_0_3# 2.46fF
+C109 4bitadder_2/fulladder_0/halfadder_1/nand_3/w_0_3# 4bitadder_2/fulladder_0/halfadder_1/nand_2/v_out_nand 2.46fF
+C110 4bitadder_1/halfadder_0/nand_2/w_0_3# 4bitadder_1/halfadder_0/nand_0/v_out_nand 2.46fF
+C111 and_7/vdd 4bitadder_2/fulladder_0/halfadder_1/nand_1/w_0_3# 2.26fF
+C112 4bitadder_2/fulladder_0/halfadder_0/nand_3/w_0_3# and_7/vdd 2.26fF
+C113 and_7/vdd 4bitadder_2/fulladder_1/halfadder_1/nand_0/w_0_3# 2.26fF
+C114 4bitadder_1/halfadder_0/nand_0/w_0_3# and_7/vdd 2.26fF
+C115 4bitadder_0/fulladder_0/halfadder_1/nand_4/w_0_3# and_7/vdd 2.26fF
+C116 4bitadder_2/fulladder_2/or_0/w_78_2# 4bitadder_2/fulladder_2/or_0/a_n15_n30# 5.74fF
+C117 4bitadder_2/fulladder_0/or_0/w_78_2# 4bitadder_2/fulladder_0/or_0/a_n15_n30# 5.74fF
+C118 4bitadder_1/fulladder_1/halfadder_0/nand_2/w_0_3# and_10/v_out_and 2.46fF
+C119 4bitadder_0/fulladder_2/halfadder_0/nand_1/w_0_3# and_0/gnd 2.46fF
+C120 and_13/inverter_0/w_n13_n2# and_13/nand_0/v_out_nand 3.18fF
+C121 and_7/vdd 4bitadder_2/fulladder_2/halfadder_1/nand_3/w_0_3# 2.26fF
+C122 and_5/v_out_and 4bitadder_0/fulladder_1/c_in_fulladder 8.64fF
+C123 and_5/v_out_and and_0/gnd 8.67fF
+C124 4bitadder_1/fulladder_2/halfadder_0/nand_0/w_0_3# and_7/vdd 2.26fF
+C125 and_1/inverter_0/w_n13_n2# and_1/nand_0/v_out_nand 3.18fF
+C126 4bitadder_1/fulladder_2/halfadder_0/nand_2/w_0_3# 4bitadder_1/fulladder_2/halfadder_0/nand_0/v_out_nand 2.46fF
+C127 4bitadder_2/fulladder_1/halfadder_1/nand_3/w_0_3# 4bitadder_2/fulladder_1/halfadder_1/nand_1/v_out_nand 2.46fF
+C128 and_0/nand_0/w_0_3# and_0/a_n24_n27# 2.46fF
+C129 4bitadder_0/fulladder_0/halfadder_0/nand_0/w_0_3# and_7/vdd 2.26fF
+C130 4bitadder_2/fulladder_2/halfadder_0/nand_4/w_0_3# 4bitadder_2/fulladder_2/halfadder_0/nand_0/v_out_nand 4.92fF
+C131 4bitadder_1/fulladder_0/halfadder_0/nand_2/w_0_3# 4bitadder_1/fulladder_0/halfadder_0/nand_0/v_out_nand 2.46fF
+C132 and_7/vdd and_2/nand_0/w_0_3# 2.26fF
+C133 and_7/vdd 4bitadder_2/fulladder_0/halfadder_0/nand_2/w_0_3# 2.26fF
+C134 4bitadder_0/fulladder_1/halfadder_1/nand_1/w_0_3# and_7/vdd 2.26fF
+C135 4bitadder_0/fulladder_2/halfadder_1/nand_0/w_0_3# and_7/vdd 2.26fF
+C136 4bitadder_0/fulladder_0/c_in_fulladder and_7/vdd 2.60fF
+C137 4bitadder_2/fulladder_1/halfadder_1/nand_2/w_0_3# 4bitadder_2/fulladder_1/c_in_fulladder 2.46fF
+C138 4bitadder_2/fulladder_0/halfadder_0/nand_3/w_0_3# 4bitadder_2/fulladder_0/halfadder_0/nand_2/v_out_nand 2.46fF
+C139 and_15/inverter_0/w_n13_n2# and_15/nand_0/v_out_nand 3.18fF
+C140 4bitadder_2/fulladder_2/halfadder_1/nand_2/w_0_3# 4bitadder_2/fulladder_2/halfadder_1/nand_0/v_out_nand 2.46fF
+C141 4bitadder_2/b0_4bitadder 4bitadder_2/halfadder_0/nand_1/w_0_3# 2.46fF
+C142 4bitadder_2/halfadder_0/nand_3/w_0_3# 4bitadder_2/halfadder_0/nand_2/v_out_nand 2.46fF
+C143 4bitadder_1/fulladder_0/halfadder_0/nand_1/w_0_3# and_9/v_out_and 2.46fF
+C144 4bitadder_2/fulladder_0/halfadder_1/nand_2/w_0_3# 4bitadder_2/fulladder_0/halfadder_1/nand_0/v_out_nand 2.46fF
+C145 4bitadder_2/halfadder_0/nand_1/w_0_3# and_7/vdd 2.26fF
+C146 4bitadder_2/fulladder_1/or_0/a_n15_10# 4bitadder_2/fulladder_1/or_0/w_n32_2# 3.38fF
+C147 4bitadder_1/fulladder_1/halfadder_0/nand_1/w_0_3# 4bitadder_1/fulladder_1/halfadder_0/nand_0/v_out_nand 2.46fF
+C148 and_3/nand_0/w_0_3# and_3/a_n24_n27# 2.46fF
+C149 4bitadder_0/fulladder_1/halfadder_1/nand_3/w_0_3# 4bitadder_0/fulladder_1/halfadder_1/nand_2/v_out_nand 2.46fF
+C150 and_7/vdd 4bitadder_2/fulladder_2/halfadder_0/nand_1/w_0_3# 2.26fF
+C151 4bitadder_0/fulladder_1/halfadder_0/nand_2/w_0_3# and_7/vdd 2.26fF
+C152 and_7/vdd and_14/v_out_and 15.73fF
+C153 and_7/vdd 4bitadder_2/fulladder_1/halfadder_0/nand_4/w_0_3# 2.26fF
+C154 4bitadder_1/fulladder_0/halfadder_0/nand_4/w_0_3# and_7/vdd 2.26fF
+C155 4bitadder_1/c_4bitadder 4bitadder_2/fulladder_2/halfadder_0/nand_1/w_0_3# 2.46fF
+C156 4bitadder_2/s1_4bitadder and_7/vdd 3.92fF
+C157 4bitadder_1/fulladder_1/halfadder_1/nand_2/w_0_3# and_7/vdd 2.26fF
+C158 4bitadder_1/fulladder_1/halfadder_0/nand_0/w_0_3# and_10/v_out_and 8.97fF
+C159 4bitadder_0/fulladder_1/or_0/w_78_2# 4bitadder_0/fulladder_1/or_0/a_n15_n30# 5.74fF
+C160 4bitadder_0/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_0/halfadder_1/nand_0/w_0_3# 2.46fF
+C161 4bitadder_2/fulladder_1/halfadder_1/nand_1/w_0_3# 4bitadder_2/fulladder_1/halfadder_1/nand_0/v_out_nand 2.46fF
+C162 4bitadder_1/fulladder_2/halfadder_1/nand_4/w_0_3# and_7/vdd 2.26fF
+C163 4bitadder_1/fulladder_1/halfadder_1/nand_4/w_0_3# 4bitadder_1/fulladder_1/halfadder_1/nand_0/v_out_nand 4.92fF
+C164 4bitadder_2/fulladder_1/or_0/v_b_or 4bitadder_2/fulladder_1/or_0/w_n32_2# 5.19fF
+C165 4bitadder_1/fulladder_0/or_0/v_b_or 4bitadder_1/fulladder_0/or_0/w_n32_2# 5.19fF
+C166 4bitadder_0/fulladder_2/halfadder_1/nand_3/w_0_3# 4bitadder_0/fulladder_2/halfadder_1/nand_1/v_out_nand 2.46fF
+C167 4bitadder_0/fulladder_0/halfadder_1/nand_3/w_0_3# 4bitadder_0/fulladder_0/halfadder_1/nand_1/v_out_nand 2.46fF
+C168 4bitadder_0/fulladder_1/halfadder_0/nand_4/w_0_3# 4bitadder_0/fulladder_1/halfadder_0/nand_0/v_out_nand 4.92fF
+C169 4bitadder_1/s0_4bitadder and_7/vdd 3.78fF
+C170 and_6/v_out_and and_7/vdd 7.77fF
+C171 4bitadder_1/fulladder_1/or_0/v_a_or 4bitadder_1/fulladder_1/or_0/w_n32_2# 5.19fF
+C172 4bitadder_0/fulladder_2/halfadder_0/nand_4/w_0_3# and_7/vdd 2.26fF
+C173 4bitadder_0/fulladder_2/halfadder_1/nand_2/w_0_3# 4bitadder_0/fulladder_2/c_in_fulladder 2.46fF
+C174 4bitadder_1/fulladder_2/halfadder_0/nand_3/w_0_3# 4bitadder_1/fulladder_2/halfadder_0/nand_2/v_out_nand 2.46fF
+C175 4bitadder_0/fulladder_0/halfadder_1/nand_2/w_0_3# 4bitadder_0/fulladder_0/c_in_fulladder 2.46fF
+C176 4bitadder_0/c_4bitadder and_11/v_out_and 10.80fF
+C177 4bitadder_1/fulladder_1/halfadder_1/nand_0/w_0_3# 4bitadder_1/fulladder_1/c_in_fulladder 6.51fF
+C178 4bitadder_1/fulladder_2/c_in_fulladder and_7/vdd 2.60fF
+C179 4bitadder_0/s0_4bitadder 4bitadder_0/fulladder_0/c_in_fulladder 2.70fF
+C180 4bitadder_2/halfadder_0/nand_4/w_0_3# and_7/vdd 2.26fF
+C181 4bitadder_2/b0_4bitadder and_7/vdd 3.92fF
+C182 4bitadder_1/fulladder_0/halfadder_1/nand_0/w_0_3# and_7/vdd 2.26fF
+C183 4bitadder_0/fulladder_1/halfadder_1/nand_2/w_0_3# 4bitadder_0/fulladder_1/halfadder_1/nand_0/v_out_nand 2.46fF
+C184 4bitadder_2/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_1/halfadder_1/nand_0/w_0_3# 2.46fF
+C185 4bitadder_0/fulladder_2/or_0/a_n15_10# 4bitadder_0/fulladder_2/or_0/w_n32_2# 3.38fF
+C186 and_2/nand_0/w_0_3# and_2/a_n24_n7# 2.46fF
+C187 4bitadder_0/fulladder_0/or_0/a_n15_10# 4bitadder_0/fulladder_0/or_0/w_n32_2# 3.38fF
+C188 4bitadder_1/fulladder_1/or_0/v_b_or and_13/v_out_and 3.60fF
+C189 4bitadder_1/fulladder_1/halfadder_1/nand_3/w_0_3# and_7/vdd 2.26fF
+C190 and_7/vdd 4bitadder_1/c_4bitadder 7.20fF
+C191 and_3/a_n24_n7# and_3/nand_0/w_0_3# 2.46fF
+C192 4bitadder_0/fulladder_1/halfadder_0/nand_0/w_0_3# and_7/vdd 2.26fF
+C193 4bitadder_1/fulladder_1/halfadder_0/nand_3/w_0_3# 4bitadder_1/fulladder_1/halfadder_0/nand_1/v_out_nand 2.46fF
+C194 4bitadder_1/fulladder_2/halfadder_0/nand_3/w_0_3# and_7/vdd 2.26fF
+C195 4bitadder_0/fulladder_0/halfadder_0/nand_3/w_0_3# 4bitadder_0/fulladder_0/halfadder_0/nand_1/v_out_nand 2.46fF
+C196 4bitadder_0/fulladder_2/halfadder_1/nand_1/w_0_3# 4bitadder_0/fulladder_2/halfadder_1/nand_0/v_out_nand 2.46fF
+C197 4bitadder_1/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_1/halfadder_1/nand_1/w_0_3# 2.46fF
+C198 4bitadder_0/halfadder_0/nand_0/w_0_3# and_0/v_out_and 2.46fF
+C199 4bitadder_0/fulladder_0/halfadder_1/nand_1/w_0_3# 4bitadder_0/fulladder_0/halfadder_1/nand_0/v_out_nand 2.46fF
+C200 4bitadder_2/halfadder_0/nand_2/w_0_3# 4bitadder_2/halfadder_0/nand_0/v_out_nand 2.46fF
+C201 4bitadder_0/fulladder_2/or_0/v_b_or 4bitadder_0/fulladder_2/or_0/w_n32_2# 5.19fF
+C202 and_7/vdd 4bitadder_2/fulladder_0/halfadder_1/nand_4/w_0_3# 2.26fF
+C203 4bitadder_2/fulladder_1/halfadder_0/nand_2/w_0_3# and_14/v_out_and 2.46fF
+C204 and_10/v_out_and 4bitadder_1/fulladder_1/c_in_fulladder 8.64fF
+C205 and_0/gnd and_14/v_out_and 11.19fF
+C206 and_2/inverter_0/w_n13_n2# and_2/nand_0/v_out_nand 3.18fF
+C207 4bitadder_1/fulladder_1/halfadder_0/nand_1/w_0_3# and_7/vdd 2.26fF
+C208 4bitadder_2/fulladder_2/halfadder_0/nand_2/w_0_3# 4bitadder_2/fulladder_2/halfadder_0/nand_0/v_out_nand 2.46fF
+C209 4bitadder_2/fulladder_0/halfadder_0/nand_0/w_0_3# and_7/vdd 2.26fF
+C210 and_1/nand_0/w_0_3# and_1/a_n24_n27# 2.46fF
+C211 4bitadder_2/s1_4bitadder and_0/gnd 2.52fF
+C212 and_9/v_out_and and_7/vdd 11.69fF
+C213 4bitadder_2/fulladder_0/halfadder_0/nand_2/w_0_3# 4bitadder_2/fulladder_0/halfadder_0/nand_0/v_out_nand 2.46fF
+C214 4bitadder_0/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_2/halfadder_1/nand_0/w_0_3# 2.46fF
+C215 and_7/vdd 4bitadder_2/fulladder_1/halfadder_1/nand_1/w_0_3# 2.26fF
+C216 and_7/vdd 4bitadder_2/fulladder_2/halfadder_1/nand_0/w_0_3# 2.26fF
+C217 and_7/vdd 4bitadder_2/fulladder_0/c_in_fulladder 2.60fF
+C218 4bitadder_0/fulladder_0/halfadder_1/nand_2/w_0_3# and_7/vdd 2.26fF
+C219 4bitadder_0/halfadder_0/nand_3/w_0_3# 4bitadder_0/halfadder_0/nand_2/v_out_nand 2.46fF
+C220 4bitadder_0/fulladder_1/halfadder_1/nand_4/w_0_3# and_7/vdd 2.26fF
+C221 4bitadder_0/s0_4bitadder and_7/vdd 3.78fF
+C222 and_6/a_n24_n7# and_6/nand_0/w_0_3# 2.46fF
+C223 4bitadder_2/fulladder_0/halfadder_0/nand_1/w_0_3# and_13/v_out_and 2.46fF
+C224 4bitadder_1/s0_4bitadder and_0/gnd 2.70fF
+C225 and_6/nand_0/w_0_3# and_6/a_n24_n27# 2.46fF
+C226 and_6/v_out_and and_0/gnd 18.05fF
+C227 4bitadder_0/halfadder_0/nand_2/w_0_3# and_1/v_out_and 2.46fF
+C228 4bitadder_2/fulladder_1/halfadder_0/nand_1/w_0_3# 4bitadder_2/fulladder_1/halfadder_0/nand_0/v_out_nand 2.46fF
+C229 4bitadder_1/fulladder_1/halfadder_1/nand_3/w_0_3# 4bitadder_1/fulladder_1/halfadder_1/nand_2/v_out_nand 2.46fF
+C230 and_7/vdd 4bitadder_2/fulladder_1/halfadder_0/nand_2/w_0_3# 2.26fF
+C231 4bitadder_2/b0_4bitadder and_0/gnd 3.00fF
+C232 4bitadder_0/fulladder_2/halfadder_1/nand_1/w_0_3# and_7/vdd 2.26fF
+C233 and_6/nand_0/w_0_3# and_7/vdd 2.26fF
+C234 4bitadder_0/fulladder_1/c_in_fulladder and_7/vdd 2.60fF
+C235 and_7/vdd and_0/gnd 7.20fF
+C236 and_8/a_n24_n7# and_8/nand_0/w_0_3# 2.46fF
+C237 4bitadder_2/fulladder_1/halfadder_0/nand_0/w_0_3# and_14/v_out_and 8.97fF
+C238 and_8/nand_0/w_0_3# and_8/a_n24_n27# 2.46fF
+C239 and_0/gnd 4bitadder_1/c_4bitadder 7.72fF
+C240 4bitadder_1/fulladder_1/or_0/w_78_2# 4bitadder_1/fulladder_1/or_0/a_n15_n30# 5.74fF
+C241 4bitadder_1/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_0/halfadder_1/nand_0/w_0_3# 2.46fF
+C242 4bitadder_0/fulladder_2/halfadder_0/nand_2/w_0_3# and_6/v_out_and 2.46fF
+C243 and_5/nand_0/w_0_3# and_5/a_n24_n7# 2.46fF
+C244 4bitadder_0/fulladder_0/halfadder_0/nand_2/w_0_3# and_3/v_out_and 2.46fF
+C245 4bitadder_0/fulladder_0/halfadder_1/nand_3/w_0_3# and_7/vdd 2.26fF
+C246 4bitadder_2/fulladder_1/halfadder_1/nand_4/w_0_3# 4bitadder_2/fulladder_1/halfadder_1/nand_0/v_out_nand 4.92fF
+C247 4bitadder_0/halfadder_0/nand_2/w_0_3# and_7/vdd 2.26fF
+C248 4bitadder_2/fulladder_0/or_0/v_b_or 4bitadder_2/fulladder_0/or_0/w_n32_2# 5.19fF
+C249 4bitadder_1/fulladder_2/halfadder_1/nand_3/w_0_3# 4bitadder_1/fulladder_2/halfadder_1/nand_1/v_out_nand 2.46fF
+C250 4bitadder_0/fulladder_1/halfadder_0/nand_2/w_0_3# 4bitadder_0/fulladder_1/halfadder_0/nand_0/v_out_nand 2.46fF
+C251 4bitadder_1/fulladder_0/halfadder_1/nand_3/w_0_3# 4bitadder_1/fulladder_0/halfadder_1/nand_1/v_out_nand 2.46fF
+C252 4bitadder_1/fulladder_1/halfadder_0/nand_4/w_0_3# 4bitadder_1/fulladder_1/halfadder_0/nand_0/v_out_nand 4.92fF
+C253 4bitadder_0/halfadder_0/nand_1/w_0_3# 4bitadder_0/halfadder_0/nand_0/v_out_nand 2.46fF
+C254 and_7/vdd and_15/v_out_and 7.77fF
+C255 4bitadder_0/fulladder_2/halfadder_0/nand_2/w_0_3# and_7/vdd 2.26fF
+C256 4bitadder_0/fulladder_1/halfadder_0/nand_3/w_0_3# and_7/vdd 2.26fF
+C257 and_7/vdd 4bitadder_2/fulladder_2/halfadder_0/nand_4/w_0_3# 2.26fF
+C258 4bitadder_2/fulladder_1/or_0/v_a_or 4bitadder_2/fulladder_1/or_0/w_n32_2# 5.19fF
+C259 and_10/a_n24_n7# and_10/nand_0/w_0_3# 2.46fF
+C260 4bitadder_1/fulladder_2/halfadder_1/nand_2/w_0_3# 4bitadder_1/fulladder_2/c_in_fulladder 2.46fF
+C261 4bitadder_2/fulladder_2/halfadder_0/nand_3/w_0_3# 4bitadder_2/fulladder_2/halfadder_0/nand_2/v_out_nand 2.46fF
+C262 4bitadder_2/fulladder_1/halfadder_1/nand_0/w_0_3# 4bitadder_2/fulladder_1/c_in_fulladder 6.51fF
+C263 4bitadder_1/fulladder_0/halfadder_1/nand_2/w_0_3# 4bitadder_1/fulladder_0/c_in_fulladder 2.46fF
+C264 and_10/nand_0/w_0_3# and_10/a_n24_n27# 2.46fF
+C265 4bitadder_1/c_4bitadder and_15/v_out_and 10.80fF
+C266 4bitadder_0/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_0/halfadder_1/nand_1/w_0_3# 2.46fF
+C267 4bitadder_1/fulladder_2/halfadder_1/nand_2/w_0_3# and_7/vdd 2.26fF
+C268 4bitadder_0/fulladder_1/halfadder_0/nand_1/w_0_3# and_5/v_out_and 2.46fF
+C269 4bitadder_1/fulladder_1/halfadder_1/nand_2/w_0_3# 4bitadder_1/fulladder_1/halfadder_1/nand_0/v_out_nand 2.46fF
+C270 4bitadder_1/fulladder_2/or_0/a_n15_10# 4bitadder_1/fulladder_2/or_0/w_n32_2# 3.38fF
+C271 4bitadder_0/halfadder_0/nand_0/w_0_3# and_1/v_out_and 6.51fF
+C272 4bitadder_1/fulladder_0/or_0/a_n15_10# 4bitadder_1/fulladder_0/or_0/w_n32_2# 3.38fF
+C273 4bitadder_0/fulladder_2/halfadder_0/nand_1/w_0_3# 4bitadder_0/fulladder_2/halfadder_0/nand_0/v_out_nand 2.46fF
+C274 and_9/nand_0/w_0_3# and_9/vdd 2.26fF
+C275 4bitadder_0/fulladder_0/halfadder_0/nand_1/w_0_3# 4bitadder_0/fulladder_0/halfadder_0/nand_0/v_out_nand 2.46fF
+C276 and_9/v_out_and and_0/gnd 9.21fF
+C277 and_7/vdd 4bitadder_2/fulladder_1/halfadder_0/nand_0/w_0_3# 2.26fF
+C278 and_12/a_n24_n7# and_12/nand_0/w_0_3# 2.46fF
+C279 4bitadder_0/fulladder_0/halfadder_0/nand_1/w_0_3# and_7/vdd 2.26fF
+C280 and_12/nand_0/w_0_3# and_12/a_n24_n27# 2.46fF
+C281 4bitadder_2/fulladder_1/halfadder_0/nand_3/w_0_3# 4bitadder_2/fulladder_1/halfadder_0/nand_1/v_out_nand 2.46fF
+C282 4bitadder_2/fulladder_1/or_0/v_b_or 4bitadder_2/s2_4bitadder 3.60fF
+C283 4bitadder_1/fulladder_0/halfadder_0/nand_3/w_0_3# 4bitadder_1/fulladder_0/halfadder_0/nand_1/v_out_nand 2.46fF
+C284 4bitadder_0/fulladder_2/halfadder_0/nand_0/w_0_3# and_6/v_out_and 6.51fF
+C285 4bitadder_1/fulladder_0/halfadder_1/nand_1/w_0_3# and_7/vdd 2.26fF
+C286 4bitadder_1/fulladder_2/halfadder_1/nand_1/w_0_3# 4bitadder_1/fulladder_2/halfadder_1/nand_0/v_out_nand 2.46fF
+C287 4bitadder_2/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_1/halfadder_1/nand_1/w_0_3# 2.46fF
+C288 4bitadder_1/halfadder_0/nand_0/w_0_3# 4bitadder_1/b0_4bitadder 2.46fF
+C289 4bitadder_1/halfadder_0/nand_3/w_0_3# 4bitadder_1/halfadder_0/nand_1/v_out_nand 2.46fF
+C290 4bitadder_1/fulladder_1/halfadder_1/nand_0/w_0_3# and_7/vdd 2.26fF
+C291 4bitadder_1/fulladder_0/halfadder_0/nand_3/w_0_3# and_7/vdd 2.26fF
+C292 4bitadder_0/s0_4bitadder and_0/gnd 2.70fF
+C293 4bitadder_1/fulladder_0/halfadder_1/nand_1/w_0_3# 4bitadder_1/fulladder_0/halfadder_1/nand_0/v_out_nand 2.46fF
+C294 4bitadder_0/halfadder_0/nand_0/w_0_3# and_7/vdd 2.26fF
+C295 4bitadder_0/fulladder_2/halfadder_1/nand_4/w_0_3# 4bitadder_0/fulladder_2/halfadder_1/nand_0/v_out_nand 4.92fF
+C296 4bitadder_1/fulladder_2/or_0/v_b_or 4bitadder_1/fulladder_2/or_0/w_n32_2# 5.19fF
+C297 and_11/nand_0/w_0_3# and_11/vdd 2.26fF
+C298 4bitadder_0/fulladder_0/halfadder_1/nand_4/w_0_3# 4bitadder_0/fulladder_0/halfadder_1/nand_0/v_out_nand 4.92fF
+C299 4bitadder_1/fulladder_2/halfadder_1/nand_3/w_0_3# and_7/vdd 2.26fF
+C300 and_14/a_n24_n7# and_14/nand_0/w_0_3# 2.46fF
+C301 4bitadder_0/halfadder_0/nand_4/w_0_3# 4bitadder_0/halfadder_0/nand_0/v_out_nand 4.92fF
+C302 and_8/inverter_0/w_n13_n2# and_8/nand_0/v_out_nand 3.18fF
+C303 4bitadder_0/fulladder_2/halfadder_0/nand_0/w_0_3# and_7/vdd 2.26fF
+C304 and_14/nand_0/w_0_3# and_14/a_n24_n27# 2.46fF
+C305 4bitadder_0/fulladder_2/or_0/v_a_or 4bitadder_0/fulladder_2/or_0/w_n32_2# 5.19fF
+C306 and_14/v_out_and 4bitadder_2/fulladder_1/c_in_fulladder 8.64fF
+C307 4bitadder_0/fulladder_0/or_0/v_a_or 4bitadder_0/fulladder_0/or_0/w_n32_2# 5.19fF
+C308 4bitadder_1/fulladder_2/halfadder_0/nand_0/w_0_3# 4bitadder_0/c_4bitadder 2.46fF
+C309 4bitadder_0/fulladder_2/halfadder_1/nand_0/w_0_3# 4bitadder_0/fulladder_2/c_in_fulladder 6.51fF
+C310 4bitadder_0/fulladder_1/halfadder_0/nand_3/w_0_3# 4bitadder_0/fulladder_1/halfadder_0/nand_2/v_out_nand 2.46fF
+C311 and_1/nand_0/w_0_3# and_7/vdd 2.26fF
+C312 4bitadder_0/fulladder_0/halfadder_1/nand_0/w_0_3# 4bitadder_0/fulladder_0/c_in_fulladder 6.51fF
+C313 and_2/nand_0/w_0_3# and_2/a_n24_n27# 2.46fF
+C314 4bitadder_1/fulladder_0/halfadder_0/nand_2/w_0_3# and_7/vdd 2.26fF
+C315 4bitadder_1/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_2/halfadder_1/nand_0/w_0_3# 2.46fF
+C316 and_13/nand_0/w_0_3# and_13/vdd 2.26fF
+C317 and_7/vdd 4bitadder_2/fulladder_0/halfadder_1/nand_2/w_0_3# 2.26fF
+C318 and_10/inverter_0/w_n13_n2# and_10/nand_0/v_out_nand 3.18fF
+C319 4bitadder_0/fulladder_2/or_0/v_b_or and_10/v_out_and 3.78fF
+C320 and_7/vdd 4bitadder_2/s2_4bitadder 3.46fF
+C321 and_7/vdd 4bitadder_2/fulladder_1/halfadder_1/nand_4/w_0_3# 2.26fF
+C322 4bitadder_1/halfadder_0/nand_1/w_0_3# and_7/vdd 2.26fF
+C323 and_5/nand_0/w_0_3# and_7/vdd 2.26fF
+C324 4bitadder_0/fulladder_2/halfadder_0/nand_3/w_0_3# 4bitadder_0/fulladder_2/halfadder_0/nand_1/v_out_nand 2.46fF
+C325 and_0/gnd and_15/v_out_and 7.25fF
+C326 4bitadder_0/fulladder_0/halfadder_0/nand_4/w_0_3# 4bitadder_0/fulladder_0/halfadder_0/nand_0/v_out_nand 4.92fF
+C327 4bitadder_1/fulladder_2/halfadder_0/nand_1/w_0_3# and_7/vdd 2.26fF
+C328 4bitadder_1/halfadder_0/nand_2/w_0_3# and_8/v_out_and 2.46fF
+C329 4bitadder_2/s1_4bitadder 4bitadder_2/fulladder_0/or_0/v_b_or 3.42fF
+C330 and_10/v_out_and and_7/vdd 15.73fF
+C331 4bitadder_2/fulladder_1/halfadder_1/nand_3/w_0_3# 4bitadder_2/fulladder_1/halfadder_1/nand_2/v_out_nand 2.46fF
+C332 4bitadder_1/fulladder_1/halfadder_0/nand_4/w_0_3# and_7/vdd 2.26fF
+C333 4bitadder_0/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_2/halfadder_1/nand_1/w_0_3# 2.46fF
+C334 4bitadder_0/fulladder_0/halfadder_0/nand_4/w_0_3# and_7/vdd 2.26fF
+C335 and_7/vdd 4bitadder_2/fulladder_2/halfadder_1/nand_1/w_0_3# 2.26fF
+C336 and_12/inverter_0/w_n13_n2# and_12/nand_0/v_out_nand 3.18fF
+C337 and_7/vdd 4bitadder_2/fulladder_1/c_in_fulladder 2.60fF
+C338 4bitadder_0/fulladder_1/halfadder_1/nand_2/w_0_3# and_7/vdd 2.26fF
+C339 4bitadder_0/fulladder_2/halfadder_1/nand_4/w_0_3# and_7/vdd 2.26fF
+C340 4bitadder_0/fulladder_0/halfadder_0/nand_0/w_0_3# and_3/v_out_and 8.97fF
+C341 4bitadder_2/fulladder_1/or_0/w_78_2# 4bitadder_2/fulladder_1/or_0/a_n15_n30# 5.74fF
+C342 4bitadder_2/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_0/halfadder_1/nand_0/w_0_3# 2.46fF
+C343 4bitadder_1/fulladder_2/halfadder_0/nand_2/w_0_3# and_11/v_out_and 2.46fF
+C344 and_6/v_out_and 4bitadder_0/fulladder_2/c_in_fulladder 5.40fF
+C345 4bitadder_1/fulladder_0/halfadder_0/nand_2/w_0_3# and_9/v_out_and 2.46fF
+C346 and_7/vdd 4bitadder_2/fulladder_0/halfadder_1/nand_3/w_0_3# 2.26fF
+C347 4bitadder_2/halfadder_0/nand_2/w_0_3# and_7/vdd 2.26fF
+C348 and_3/v_out_and 4bitadder_0/fulladder_0/c_in_fulladder 12.60fF
+C349 4bitadder_2/halfadder_0/nand_3/w_0_3# and_7/vdd 2.26fF
+C350 4bitadder_2/fulladder_2/halfadder_1/nand_3/w_0_3# 4bitadder_2/fulladder_2/halfadder_1/nand_1/v_out_nand 2.46fF
+C351 4bitadder_1/fulladder_1/halfadder_0/nand_2/w_0_3# 4bitadder_1/fulladder_1/halfadder_0/nand_0/v_out_nand 2.46fF
+C352 4bitadder_2/fulladder_0/halfadder_1/nand_3/w_0_3# 4bitadder_2/fulladder_0/halfadder_1/nand_1/v_out_nand 2.46fF
+C353 4bitadder_2/fulladder_1/halfadder_0/nand_4/w_0_3# 4bitadder_2/fulladder_1/halfadder_0/nand_0/v_out_nand 4.92fF
+C354 and_14/inverter_0/w_n13_n2# and_14/nand_0/v_out_nand 3.18fF
+C355 4bitadder_1/halfadder_0/nand_1/w_0_3# 4bitadder_1/halfadder_0/nand_0/v_out_nand 2.46fF
+C356 and_7/vdd 4bitadder_2/fulladder_2/halfadder_0/nand_2/w_0_3# 2.26fF
+C357 and_7/vdd 4bitadder_2/fulladder_1/halfadder_0/nand_3/w_0_3# 2.26fF
+C358 4bitadder_0/fulladder_2/c_in_fulladder and_7/vdd 2.60fF
+C359 4bitadder_2/fulladder_2/halfadder_1/nand_2/w_0_3# 4bitadder_2/fulladder_2/c_in_fulladder 2.46fF
+C360 4bitadder_1/halfadder_0/nand_4/w_0_3# and_7/vdd 2.26fF
+C361 4bitadder_1/b0_4bitadder and_7/vdd 3.92fF
+C362 4bitadder_0/fulladder_0/halfadder_1/nand_0/w_0_3# and_7/vdd 2.26fF
+C363 4bitadder_2/fulladder_0/halfadder_1/nand_2/w_0_3# 4bitadder_2/fulladder_0/c_in_fulladder 2.46fF
+C364 and_7/nand_0/w_0_3# and_7/vdd 2.26fF
+C365 4bitadder_1/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_0/halfadder_1/nand_1/w_0_3# 2.46fF
+C366 4bitadder_0/c_4bitadder 4bitadder_1/fulladder_2/c_in_fulladder 5.76fF
+C367 4bitadder_1/fulladder_1/halfadder_0/nand_1/w_0_3# and_10/v_out_and 2.46fF
+C368 4bitadder_0/fulladder_2/halfadder_0/nand_0/w_0_3# and_0/gnd 2.46fF
+C369 4bitadder_2/fulladder_1/halfadder_1/nand_2/w_0_3# 4bitadder_2/fulladder_1/halfadder_1/nand_0/v_out_nand 2.46fF
+C370 4bitadder_0/fulladder_1/halfadder_1/nand_3/w_0_3# and_7/vdd 2.26fF
+C371 4bitadder_0/c_4bitadder and_7/vdd 7.20fF
+C372 4bitadder_2/fulladder_2/or_0/a_n15_10# 4bitadder_2/fulladder_2/or_0/w_n32_2# 3.38fF
+C373 4bitadder_1/halfadder_0/nand_0/w_0_3# and_8/v_out_and 6.51fF
+C374 and_5/inverter_0/w_n13_n2# and_5/nand_0/v_out_nand 3.18fF
+C375 4bitadder_2/fulladder_0/or_0/a_n15_10# 4bitadder_2/fulladder_0/or_0/w_n32_2# 3.38fF
+C376 4bitadder_1/fulladder_2/halfadder_0/nand_1/w_0_3# 4bitadder_1/fulladder_2/halfadder_0/nand_0/v_out_nand 2.46fF
+C377 4bitadder_0/fulladder_2/halfadder_1/nand_3/w_0_3# 4bitadder_0/fulladder_2/halfadder_1/nand_2/v_out_nand 2.46fF
+C378 4bitadder_1/fulladder_0/halfadder_0/nand_1/w_0_3# 4bitadder_1/fulladder_0/halfadder_0/nand_0/v_out_nand 2.46fF
+C379 4bitadder_0/fulladder_0/halfadder_1/nand_3/w_0_3# 4bitadder_0/fulladder_0/halfadder_1/nand_2/v_out_nand 2.46fF
+C380 4bitadder_0/fulladder_2/halfadder_0/nand_3/w_0_3# and_7/vdd 2.26fF
+C381 and_7/vdd 4bitadder_2/fulladder_0/halfadder_0/nand_1/w_0_3# 2.26fF
+C382 and_4/a_n24_n7# and_4/nand_0/w_0_3# 2.46fF
+C383 and_3/inverter_0/w_n13_n2# and_3/nand_0/v_out_nand 3.18fF
+C384 and_4/nand_0/w_0_3# and_4/a_n24_n27# 2.46fF
+C385 4bitadder_2/fulladder_0/halfadder_0/nand_3/w_0_3# 4bitadder_2/fulladder_0/halfadder_0/nand_1/v_out_nand 2.46fF
+C386 4bitadder_1/fulladder_2/halfadder_0/nand_0/w_0_3# and_11/v_out_and 6.51fF
+C387 and_0/gnd 4bitadder_2/s2_4bitadder 5.67fF
+C388 4bitadder_0/fulladder_2/or_0/w_78_2# 4bitadder_0/fulladder_2/or_0/a_n15_n30# 5.74fF
+C389 4bitadder_2/fulladder_2/halfadder_1/nand_1/w_0_3# 4bitadder_2/fulladder_2/halfadder_1/nand_0/v_out_nand 2.46fF
+C390 4bitadder_2/halfadder_0/nand_0/w_0_3# 4bitadder_2/b0_4bitadder 2.46fF
+C391 4bitadder_2/halfadder_0/nand_3/w_0_3# 4bitadder_2/halfadder_0/nand_1/v_out_nand 2.46fF
+C392 4bitadder_0/fulladder_0/or_0/w_78_2# 4bitadder_0/fulladder_0/or_0/a_n15_n30# 5.74fF
+C393 4bitadder_2/fulladder_0/halfadder_1/nand_1/w_0_3# 4bitadder_2/fulladder_0/halfadder_1/nand_0/v_out_nand 2.46fF
+C394 4bitadder_2/halfadder_0/nand_0/w_0_3# and_7/vdd 2.26fF
+C395 4bitadder_1/fulladder_0/halfadder_1/nand_4/w_0_3# and_7/vdd 2.26fF
+C396 4bitadder_1/fulladder_2/halfadder_1/nand_4/w_0_3# 4bitadder_1/fulladder_2/halfadder_1/nand_0/v_out_nand 4.92fF
+C397 4bitadder_2/fulladder_2/or_0/v_b_or 4bitadder_2/fulladder_2/or_0/w_n32_2# 5.19fF
+C398 4bitadder_1/fulladder_0/halfadder_1/nand_4/w_0_3# 4bitadder_1/fulladder_0/halfadder_1/nand_0/v_out_nand 4.92fF
+C399 4bitadder_1/s0_4bitadder 4bitadder_1/fulladder_0/c_in_fulladder 2.70fF
+C400 4bitadder_0/fulladder_1/halfadder_1/nand_3/w_0_3# 4bitadder_0/fulladder_1/halfadder_1/nand_1/v_out_nand 2.46fF
+C401 4bitadder_0/fulladder_2/halfadder_0/nand_4/w_0_3# 4bitadder_0/fulladder_2/halfadder_0/nand_0/v_out_nand 4.92fF
+C402 4bitadder_1/halfadder_0/nand_4/w_0_3# 4bitadder_1/halfadder_0/nand_0/v_out_nand 4.92fF
+C403 and_10/v_out_and and_0/gnd 11.19fF
+C404 and_7/vdd 4bitadder_2/fulladder_2/halfadder_0/nand_0/w_0_3# 2.26fF
+C405 4bitadder_0/fulladder_1/halfadder_0/nand_1/w_0_3# and_7/vdd 2.26fF
+C406 4bitadder_1/fulladder_2/or_0/v_a_or 4bitadder_1/fulladder_2/or_0/w_n32_2# 5.19fF
+C407 and_15/nand_0/w_0_3# and_7/vdd 2.26fF
+C408 4bitadder_1/fulladder_0/halfadder_0/nand_0/w_0_3# and_7/vdd 2.26fF
+C409 and_3/v_out_and and_7/vdd 8.22fF
+C410 4bitadder_1/fulladder_0/or_0/v_a_or 4bitadder_1/fulladder_0/or_0/w_n32_2# 5.19fF
+C411 4bitadder_2/fulladder_2/halfadder_0/nand_0/w_0_3# 4bitadder_1/c_4bitadder 2.46fF
+C412 4bitadder_1/fulladder_2/halfadder_1/nand_0/w_0_3# 4bitadder_1/fulladder_2/c_in_fulladder 6.51fF
+C413 4bitadder_0/fulladder_1/halfadder_1/nand_2/w_0_3# 4bitadder_0/fulladder_1/c_in_fulladder 2.46fF
+C414 4bitadder_1/fulladder_1/halfadder_0/nand_3/w_0_3# 4bitadder_1/fulladder_1/halfadder_0/nand_2/v_out_nand 2.46fF
+C415 4bitadder_1/fulladder_0/halfadder_1/nand_0/w_0_3# 4bitadder_1/fulladder_0/c_in_fulladder 6.51fF
+C416 4bitadder_1/fulladder_1/halfadder_1/nand_1/w_0_3# and_7/vdd 2.26fF
+C417 4bitadder_0/fulladder_0/halfadder_0/nand_3/w_0_3# 4bitadder_0/fulladder_0/halfadder_0/nand_2/v_out_nand 2.46fF
+C418 4bitadder_1/fulladder_2/halfadder_1/nand_0/w_0_3# and_7/vdd 2.26fF
+C419 4bitadder_1/fulladder_0/c_in_fulladder and_7/vdd 2.60fF
+C420 4bitadder_0/fulladder_2/halfadder_1/nand_2/w_0_3# 4bitadder_0/fulladder_2/halfadder_1/nand_0/v_out_nand 2.46fF
+C421 4bitadder_2/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_2/halfadder_1/nand_0/w_0_3# 2.46fF
+C422 and_0/v_out_and 4bitadder_0/halfadder_0/nand_1/w_0_3# 2.46fF
+C423 4bitadder_0/fulladder_0/halfadder_1/nand_2/w_0_3# 4bitadder_0/fulladder_0/halfadder_1/nand_0/v_out_nand 2.46fF
+C424 4bitadder_0/fulladder_1/or_0/a_n15_10# 4bitadder_0/fulladder_1/or_0/w_n32_2# 3.38fF
+C425 4bitadder_1/fulladder_2/or_0/v_b_or and_14/v_out_and 3.78fF
+C426 4bitadder_1/fulladder_2/halfadder_0/nand_3/w_0_3# 4bitadder_1/fulladder_2/halfadder_0/nand_1/v_out_nand 2.46fF
+C427 4bitadder_1/fulladder_0/halfadder_0/nand_4/w_0_3# 4bitadder_1/fulladder_0/halfadder_0/nand_0/v_out_nand 4.92fF
+C428 4bitadder_0/fulladder_2/c_in_fulladder and_0/gnd 5.76fF
+C429 4bitadder_2/halfadder_0/nand_2/w_0_3# and_12/v_out_and 2.46fF
+C430 4bitadder_1/fulladder_1/halfadder_0/nand_2/w_0_3# and_7/vdd 2.26fF
+C431 4bitadder_1/b0_4bitadder and_0/gnd 3.00fF
+C432 4bitadder_1/fulladder_2/halfadder_1/v_a_halfadder 4bitadder_1/fulladder_2/halfadder_1/nand_1/w_0_3# 2.46fF
+C433 4bitadder_2/fulladder_0/halfadder_0/nand_4/w_0_3# and_7/vdd 2.26fF
+C434 and_7/nand_0/w_0_3# and_0/gnd 4.92fF
+C435 and_6/inverter_0/w_n13_n2# and_6/nand_0/v_out_nand 3.18fF
+C436 4bitadder_0/fulladder_1/halfadder_1/nand_1/w_0_3# 4bitadder_0/fulladder_1/halfadder_1/nand_0/v_out_nand 2.46fF
+C437 and_7/vdd and_3/nand_0/w_0_3# 2.26fF
+C438 and_7/vdd 4bitadder_2/fulladder_1/halfadder_1/nand_2/w_0_3# 2.26fF
+C439 4bitadder_0/c_4bitadder and_0/gnd 7.72fF
+C440 4bitadder_0/fulladder_1/or_0/v_b_or 4bitadder_0/fulladder_1/or_0/w_n32_2# 5.19fF
+C441 and_7/vdd 4bitadder_2/fulladder_2/halfadder_1/nand_4/w_0_3# 2.26fF
+C442 and_7/vdd 4bitadder_2/s3_4bitadder 3.92fF
+C443 4bitadder_1/fulladder_0/halfadder_0/nand_0/w_0_3# and_9/v_out_and 8.97fF
+C444 4bitadder_2/fulladder_2/halfadder_0/nand_2/w_0_3# and_15/v_out_and 2.46fF
+C445 and_11/v_out_and 4bitadder_1/fulladder_2/c_in_fulladder 5.40fF
+C446 4bitadder_2/fulladder_0/halfadder_0/nand_2/w_0_3# and_13/v_out_and 2.46fF
+C447 and_9/v_out_and 4bitadder_1/fulladder_0/c_in_fulladder 12.60fF
+C448 4bitadder_2/s0_4bitadder and_7/vdd 3.78fF
+C449 4bitadder_0/fulladder_0/or_0/v_b_or 4bitadder_1/b0_4bitadder 3.42fF
+C450 and_11/v_out_and and_7/vdd 7.77fF
+C451 4bitadder_1/fulladder_2/halfadder_0/nand_4/w_0_3# and_7/vdd 2.26fF
+C452 4bitadder_2/fulladder_1/halfadder_0/nand_2/w_0_3# 4bitadder_2/fulladder_1/halfadder_0/nand_0/v_out_nand 2.46fF
+C453 4bitadder_2/halfadder_0/nand_1/w_0_3# 4bitadder_2/halfadder_0/nand_0/v_out_nand 2.46fF
+C454 4bitadder_0/fulladder_1/halfadder_1/v_a_halfadder 4bitadder_0/fulladder_1/halfadder_1/nand_0/w_0_3# 2.46fF
+C455 4bitadder_0/fulladder_2/halfadder_1/nand_2/w_0_3# and_7/vdd 2.26fF
+C456 and_7/vdd 4bitadder_2/fulladder_2/c_in_fulladder 2.60fF
+C457 and_0/nand_0/w_0_3# and_0/a_n24_n7# 2.46fF
+C458 and_7/vdd 4bitadder_2/fulladder_0/halfadder_1/nand_0/w_0_3# 2.26fF
+C459 4bitadder_2/fulladder_0/halfadder_1/v_a_halfadder 4bitadder_2/fulladder_0/halfadder_1/nand_1/w_0_3# 2.46fF
+C460 4bitadder_1/c_4bitadder 4bitadder_2/fulladder_2/c_in_fulladder 5.76fF
+C461 and_4/nand_0/a_13_n14# Gnd 2.44fF
+C462 and_4/gnd Gnd 47.38fF
+C463 and_4/nand_0/v_out_nand Gnd 30.13fF
+C464 and_4/a_n24_n27# Gnd 41.41fF
+C465 and_4/a_n24_n7# Gnd 35.67fF
+C466 and_3/nand_0/a_13_n14# Gnd 2.44fF
+C467 and_3/gnd Gnd 47.38fF
+C468 and_3/nand_0/v_out_nand Gnd 30.13fF
+C469 and_3/a_n24_n27# Gnd 41.41fF
+C470 and_3/a_n24_n7# Gnd 35.67fF
+C471 and_2/nand_0/a_13_n14# Gnd 2.44fF
+C472 and_2/gnd Gnd 47.38fF
+C473 and_2/nand_0/v_out_nand Gnd 30.13fF
+C474 and_2/a_n24_n27# Gnd 41.41fF
+C475 and_2/a_n24_n7# Gnd 35.67fF
+C476 4bitadder_2/c_4bitadder Gnd 228.11fF
+C477 4bitadder_2/fulladder_2/or_0/a_n15_n30# Gnd 59.49fF
+C478 4bitadder_2/fulladder_2/halfadder_1/nand_0/v_out_nand Gnd 106.15fF
+C479 4bitadder_2/fulladder_2/c_in_fulladder Gnd 92.45fF
+C480 4bitadder_2/fulladder_2/halfadder_1/nand_2/a_13_n14# Gnd 2.44fF
+C481 4bitadder_2/fulladder_2/halfadder_1/nand_2/v_out_nand Gnd 43.65fF
+C482 4bitadder_2/fulladder_2/halfadder_1/nand_1/a_13_n14# Gnd 2.44fF
+C483 4bitadder_2/fulladder_2/halfadder_1/nand_1/v_out_nand Gnd 27.54fF
+C484 4bitadder_2/fulladder_2/halfadder_1/nand_0/a_13_n14# Gnd 2.44fF
+C485 4bitadder_2/fulladder_2/halfadder_1/v_a_halfadder Gnd 113.23fF
+C486 4bitadder_2/fulladder_2/halfadder_1/nand_4/a_13_n14# Gnd 2.44fF
+C487 4bitadder_2/fulladder_2/or_0/v_a_or Gnd 39.01fF
+C488 4bitadder_2/fulladder_2/halfadder_1/nand_3/a_13_n14# Gnd 2.44fF
+C489 4bitadder_2/s3_4bitadder Gnd 273.68fF
+C490 4bitadder_2/fulladder_2/halfadder_0/nand_0/v_out_nand Gnd 106.15fF
+C491 and_15/v_out_and Gnd 800.40fF
+C492 4bitadder_2/fulladder_2/halfadder_0/nand_2/a_13_n14# Gnd 2.44fF
+C493 4bitadder_2/fulladder_2/halfadder_0/nand_2/v_out_nand Gnd 43.65fF
+C494 4bitadder_2/fulladder_2/halfadder_0/nand_1/a_13_n14# Gnd 2.44fF
+C495 4bitadder_2/fulladder_2/halfadder_0/nand_1/v_out_nand Gnd 27.54fF
+C496 4bitadder_2/fulladder_2/halfadder_0/nand_0/a_13_n14# Gnd 2.44fF
+C497 4bitadder_1/c_4bitadder Gnd 1124.69fF
+C498 4bitadder_2/fulladder_2/halfadder_0/nand_4/a_13_n14# Gnd 2.44fF
+C499 4bitadder_2/fulladder_2/or_0/v_b_or Gnd 69.28fF
+C500 4bitadder_2/fulladder_2/halfadder_0/nand_3/a_13_n14# Gnd 2.44fF
+C501 4bitadder_2/fulladder_1/or_0/a_n15_n30# Gnd 59.49fF
+C502 4bitadder_2/fulladder_1/halfadder_1/nand_0/v_out_nand Gnd 106.15fF
+C503 4bitadder_2/fulladder_1/c_in_fulladder Gnd 88.31fF
+C504 4bitadder_2/fulladder_1/halfadder_1/nand_2/a_13_n14# Gnd 2.44fF
+C505 4bitadder_2/fulladder_1/halfadder_1/nand_2/v_out_nand Gnd 43.65fF
+C506 4bitadder_2/fulladder_1/halfadder_1/nand_1/a_13_n14# Gnd 2.44fF
+C507 4bitadder_2/fulladder_1/halfadder_1/nand_1/v_out_nand Gnd 27.54fF
+C508 4bitadder_2/fulladder_1/halfadder_1/nand_0/a_13_n14# Gnd 2.44fF
+C509 4bitadder_2/fulladder_1/halfadder_1/v_a_halfadder Gnd 113.23fF
+C510 4bitadder_2/fulladder_1/halfadder_1/nand_4/a_13_n14# Gnd 2.44fF
+C511 4bitadder_2/fulladder_1/or_0/v_a_or Gnd 39.01fF
+C512 4bitadder_2/fulladder_1/halfadder_1/nand_3/a_13_n14# Gnd 2.44fF
+C513 4bitadder_2/s2_4bitadder Gnd 308.54fF
+C514 4bitadder_2/fulladder_1/halfadder_0/nand_0/v_out_nand Gnd 106.15fF
+C515 and_14/v_out_and Gnd 1567.40fF
+C516 4bitadder_2/fulladder_1/halfadder_0/nand_2/a_13_n14# Gnd 2.44fF
+C517 4bitadder_2/fulladder_1/halfadder_0/nand_2/v_out_nand Gnd 43.65fF
+C518 4bitadder_2/fulladder_1/halfadder_0/nand_1/a_13_n14# Gnd 2.44fF
+C519 4bitadder_2/fulladder_1/halfadder_0/nand_1/v_out_nand Gnd 27.54fF
+C520 4bitadder_2/fulladder_1/halfadder_0/nand_0/a_13_n14# Gnd 2.44fF
+C521 4bitadder_2/fulladder_1/halfadder_0/nand_4/a_13_n14# Gnd 2.44fF
+C522 4bitadder_2/fulladder_1/or_0/v_b_or Gnd 69.28fF
+C523 4bitadder_2/fulladder_1/halfadder_0/nand_3/a_13_n14# Gnd 2.44fF
+C524 4bitadder_2/fulladder_0/or_0/a_n15_n30# Gnd 59.49fF
+C525 4bitadder_2/fulladder_0/halfadder_1/nand_0/v_out_nand Gnd 106.15fF
+C526 4bitadder_2/fulladder_0/c_in_fulladder Gnd 87.98fF
+C527 4bitadder_2/fulladder_0/halfadder_1/nand_2/a_13_n14# Gnd 2.44fF
+C528 4bitadder_2/fulladder_0/halfadder_1/nand_2/v_out_nand Gnd 43.65fF
+C529 4bitadder_2/fulladder_0/halfadder_1/nand_1/a_13_n14# Gnd 2.44fF
+C530 4bitadder_2/fulladder_0/halfadder_1/nand_1/v_out_nand Gnd 27.54fF
+C531 4bitadder_2/fulladder_0/halfadder_1/nand_0/a_13_n14# Gnd 2.44fF
+C532 4bitadder_2/fulladder_0/halfadder_1/v_a_halfadder Gnd 113.23fF
+C533 4bitadder_2/fulladder_0/halfadder_1/nand_4/a_13_n14# Gnd 2.44fF
+C534 4bitadder_2/fulladder_0/or_0/v_a_or Gnd 39.01fF
+C535 4bitadder_2/fulladder_0/halfadder_1/nand_3/a_13_n14# Gnd 2.44fF
+C536 4bitadder_2/s1_4bitadder Gnd 294.18fF
+C537 4bitadder_2/fulladder_0/halfadder_0/nand_0/v_out_nand Gnd 106.15fF
+C538 4bitadder_2/fulladder_0/halfadder_0/nand_2/a_13_n14# Gnd 2.44fF
+C539 4bitadder_2/fulladder_0/halfadder_0/nand_2/v_out_nand Gnd 43.65fF
+C540 4bitadder_2/fulladder_0/halfadder_0/nand_1/a_13_n14# Gnd 2.44fF
+C541 and_0/gnd Gnd 16596.88fF
+C542 4bitadder_2/fulladder_0/halfadder_0/nand_1/v_out_nand Gnd 27.54fF
+C543 4bitadder_2/fulladder_0/halfadder_0/nand_0/a_13_n14# Gnd 2.44fF
+C544 4bitadder_2/fulladder_0/halfadder_0/nand_4/a_13_n14# Gnd 2.44fF
+C545 4bitadder_2/fulladder_0/or_0/v_b_or Gnd 69.28fF
+C546 and_7/vdd Gnd 4561.05fF
+C547 4bitadder_2/fulladder_0/halfadder_0/nand_3/a_13_n14# Gnd 2.44fF
+C548 4bitadder_2/halfadder_0/nand_0/v_out_nand Gnd 106.15fF
+C549 4bitadder_2/halfadder_0/nand_2/a_13_n14# Gnd 2.44fF
+C550 4bitadder_2/halfadder_0/nand_2/v_out_nand Gnd 43.65fF
+C551 4bitadder_2/halfadder_0/nand_1/a_13_n14# Gnd 2.44fF
+C552 4bitadder_2/halfadder_0/nand_1/v_out_nand Gnd 27.54fF
+C553 4bitadder_2/halfadder_0/nand_0/a_13_n14# Gnd 2.44fF
+C554 4bitadder_2/b0_4bitadder Gnd 7883.48fF
+C555 4bitadder_2/halfadder_0/nand_4/a_13_n14# Gnd 2.44fF
+C556 4bitadder_2/halfadder_0/nand_3/a_13_n14# Gnd 2.44fF
+C557 4bitadder_2/s0_4bitadder Gnd 359.90fF
+C558 and_1/nand_0/a_13_n14# Gnd 2.44fF
+C559 and_1/gnd Gnd 47.38fF
+C560 and_1/nand_0/v_out_nand Gnd 30.13fF
+C561 and_1/a_n24_n27# Gnd 41.41fF
+C562 and_1/a_n24_n7# Gnd 35.67fF
+C563 4bitadder_1/fulladder_2/or_0/a_n15_n30# Gnd 59.49fF
+C564 4bitadder_1/fulladder_2/halfadder_1/nand_0/v_out_nand Gnd 106.15fF
+C565 4bitadder_1/fulladder_2/c_in_fulladder Gnd 92.45fF
+C566 4bitadder_1/fulladder_2/halfadder_1/nand_2/a_13_n14# Gnd 2.44fF
+C567 4bitadder_1/fulladder_2/halfadder_1/nand_2/v_out_nand Gnd 43.65fF
+C568 4bitadder_1/fulladder_2/halfadder_1/nand_1/a_13_n14# Gnd 2.44fF
+C569 4bitadder_1/fulladder_2/halfadder_1/nand_1/v_out_nand Gnd 27.54fF
+C570 4bitadder_1/fulladder_2/halfadder_1/nand_0/a_13_n14# Gnd 2.44fF
+C571 4bitadder_1/fulladder_2/halfadder_1/v_a_halfadder Gnd 113.23fF
+C572 4bitadder_1/fulladder_2/halfadder_1/nand_4/a_13_n14# Gnd 2.44fF
+C573 4bitadder_1/fulladder_2/or_0/v_a_or Gnd 39.01fF
+C574 4bitadder_1/fulladder_2/halfadder_1/nand_3/a_13_n14# Gnd 2.44fF
+C575 4bitadder_1/fulladder_2/halfadder_0/nand_0/v_out_nand Gnd 106.15fF
+C576 and_11/v_out_and Gnd 870.34fF
+C577 4bitadder_1/fulladder_2/halfadder_0/nand_2/a_13_n14# Gnd 2.44fF
+C578 4bitadder_1/fulladder_2/halfadder_0/nand_2/v_out_nand Gnd 43.65fF
+C579 4bitadder_1/fulladder_2/halfadder_0/nand_1/a_13_n14# Gnd 2.44fF
+C580 4bitadder_1/fulladder_2/halfadder_0/nand_1/v_out_nand Gnd 27.54fF
+C581 4bitadder_1/fulladder_2/halfadder_0/nand_0/a_13_n14# Gnd 2.44fF
+C582 4bitadder_0/c_4bitadder Gnd 7631.32fF
+C583 4bitadder_1/fulladder_2/halfadder_0/nand_4/a_13_n14# Gnd 2.44fF
+C584 4bitadder_1/fulladder_2/or_0/v_b_or Gnd 69.28fF
+C585 4bitadder_1/fulladder_2/halfadder_0/nand_3/a_13_n14# Gnd 2.44fF
+C586 4bitadder_1/fulladder_1/or_0/a_n15_n30# Gnd 59.49fF
+C587 4bitadder_1/fulladder_1/halfadder_1/nand_0/v_out_nand Gnd 106.15fF
+C588 4bitadder_1/fulladder_1/c_in_fulladder Gnd 88.31fF
+C589 4bitadder_1/fulladder_1/halfadder_1/nand_2/a_13_n14# Gnd 2.44fF
+C590 4bitadder_1/fulladder_1/halfadder_1/nand_2/v_out_nand Gnd 43.65fF
+C591 4bitadder_1/fulladder_1/halfadder_1/nand_1/a_13_n14# Gnd 2.44fF
+C592 4bitadder_1/fulladder_1/halfadder_1/nand_1/v_out_nand Gnd 27.54fF
+C593 4bitadder_1/fulladder_1/halfadder_1/nand_0/a_13_n14# Gnd 2.44fF
+C594 4bitadder_1/fulladder_1/halfadder_1/v_a_halfadder Gnd 113.23fF
+C595 4bitadder_1/fulladder_1/halfadder_1/nand_4/a_13_n14# Gnd 2.44fF
+C596 4bitadder_1/fulladder_1/or_0/v_a_or Gnd 39.01fF
+C597 4bitadder_1/fulladder_1/halfadder_1/nand_3/a_13_n14# Gnd 2.44fF
+C598 4bitadder_1/fulladder_1/halfadder_0/nand_0/v_out_nand Gnd 106.15fF
+C599 and_10/v_out_and Gnd 1556.60fF
+C600 4bitadder_1/fulladder_1/halfadder_0/nand_2/a_13_n14# Gnd 2.44fF
+C601 4bitadder_1/fulladder_1/halfadder_0/nand_2/v_out_nand Gnd 43.65fF
+C602 4bitadder_1/fulladder_1/halfadder_0/nand_1/a_13_n14# Gnd 2.44fF
+C603 4bitadder_1/fulladder_1/halfadder_0/nand_1/v_out_nand Gnd 27.54fF
+C604 4bitadder_1/fulladder_1/halfadder_0/nand_0/a_13_n14# Gnd 2.44fF
+C605 4bitadder_1/fulladder_1/halfadder_0/nand_4/a_13_n14# Gnd 2.44fF
+C606 4bitadder_1/fulladder_1/or_0/v_b_or Gnd 69.28fF
+C607 4bitadder_1/fulladder_1/halfadder_0/nand_3/a_13_n14# Gnd 2.44fF
+C608 4bitadder_1/fulladder_0/or_0/a_n15_n30# Gnd 59.49fF
+C609 4bitadder_1/fulladder_0/halfadder_1/nand_0/v_out_nand Gnd 106.15fF
+C610 4bitadder_1/fulladder_0/c_in_fulladder Gnd 87.98fF
+C611 4bitadder_1/fulladder_0/halfadder_1/nand_2/a_13_n14# Gnd 2.44fF
+C612 4bitadder_1/fulladder_0/halfadder_1/nand_2/v_out_nand Gnd 43.65fF
+C613 4bitadder_1/fulladder_0/halfadder_1/nand_1/a_13_n14# Gnd 2.44fF
+C614 4bitadder_1/fulladder_0/halfadder_1/nand_1/v_out_nand Gnd 27.54fF
+C615 4bitadder_1/fulladder_0/halfadder_1/nand_0/a_13_n14# Gnd 2.44fF
+C616 4bitadder_1/fulladder_0/halfadder_1/v_a_halfadder Gnd 113.23fF
+C617 4bitadder_1/fulladder_0/halfadder_1/nand_4/a_13_n14# Gnd 2.44fF
+C618 4bitadder_1/fulladder_0/or_0/v_a_or Gnd 39.01fF
+C619 4bitadder_1/fulladder_0/halfadder_1/nand_3/a_13_n14# Gnd 2.44fF
+C620 4bitadder_1/fulladder_0/halfadder_0/nand_0/v_out_nand Gnd 106.15fF
+C621 and_9/v_out_and Gnd 1313.29fF
+C622 4bitadder_1/fulladder_0/halfadder_0/nand_2/a_13_n14# Gnd 2.44fF
+C623 4bitadder_1/fulladder_0/halfadder_0/nand_2/v_out_nand Gnd 43.65fF
+C624 4bitadder_1/fulladder_0/halfadder_0/nand_1/a_13_n14# Gnd 2.44fF
+C625 4bitadder_1/fulladder_0/halfadder_0/nand_1/v_out_nand Gnd 27.54fF
+C626 4bitadder_1/fulladder_0/halfadder_0/nand_0/a_13_n14# Gnd 2.44fF
+C627 4bitadder_1/fulladder_0/halfadder_0/nand_4/a_13_n14# Gnd 2.44fF
+C628 4bitadder_1/fulladder_0/or_0/v_b_or Gnd 69.28fF
+C629 4bitadder_1/fulladder_0/halfadder_0/nand_3/a_13_n14# Gnd 2.44fF
+C630 4bitadder_1/halfadder_0/nand_0/v_out_nand Gnd 106.15fF
+C631 4bitadder_1/halfadder_0/nand_2/a_13_n14# Gnd 2.44fF
+C632 4bitadder_1/halfadder_0/nand_2/v_out_nand Gnd 43.65fF
+C633 4bitadder_1/halfadder_0/nand_1/a_13_n14# Gnd 2.44fF
+C634 4bitadder_1/halfadder_0/nand_1/v_out_nand Gnd 27.54fF
+C635 4bitadder_1/halfadder_0/nand_0/a_13_n14# Gnd 2.44fF
+C636 4bitadder_1/b0_4bitadder Gnd 7477.40fF
+C637 4bitadder_1/halfadder_0/nand_4/a_13_n14# Gnd 2.44fF
+C638 4bitadder_1/halfadder_0/nand_3/a_13_n14# Gnd 2.44fF
+C639 4bitadder_1/s0_4bitadder Gnd 359.90fF
+C640 and_0/nand_0/a_13_n14# Gnd 2.44fF
+C641 and_0/nand_0/v_out_nand Gnd 30.13fF
+C642 and_0/a_n24_n27# Gnd 41.41fF
+C643 and_0/a_n24_n7# Gnd 35.67fF
+C644 4bitadder_0/fulladder_2/or_0/a_n15_n30# Gnd 59.49fF
+C645 4bitadder_0/fulladder_2/halfadder_1/nand_0/v_out_nand Gnd 106.15fF
+C646 4bitadder_0/fulladder_2/c_in_fulladder Gnd 92.45fF
+C647 4bitadder_0/fulladder_2/halfadder_1/nand_2/a_13_n14# Gnd 2.44fF
+C648 4bitadder_0/fulladder_2/halfadder_1/nand_2/v_out_nand Gnd 43.65fF
+C649 4bitadder_0/fulladder_2/halfadder_1/nand_1/a_13_n14# Gnd 2.44fF
+C650 4bitadder_0/fulladder_2/halfadder_1/nand_1/v_out_nand Gnd 27.54fF
+C651 4bitadder_0/fulladder_2/halfadder_1/nand_0/a_13_n14# Gnd 2.44fF
+C652 4bitadder_0/fulladder_2/halfadder_1/v_a_halfadder Gnd 113.23fF
+C653 4bitadder_0/fulladder_2/halfadder_1/nand_4/a_13_n14# Gnd 2.44fF
+C654 4bitadder_0/fulladder_2/or_0/v_a_or Gnd 39.01fF
+C655 4bitadder_0/fulladder_2/halfadder_1/nand_3/a_13_n14# Gnd 2.44fF
+C656 4bitadder_0/fulladder_2/halfadder_0/nand_0/v_out_nand Gnd 106.15fF
+C657 and_6/v_out_and Gnd 897.41fF
+C658 4bitadder_0/fulladder_2/halfadder_0/nand_2/a_13_n14# Gnd 2.44fF
+C659 4bitadder_0/fulladder_2/halfadder_0/nand_2/v_out_nand Gnd 43.65fF
+C660 4bitadder_0/fulladder_2/halfadder_0/nand_1/a_13_n14# Gnd 2.44fF
+C661 4bitadder_0/fulladder_2/halfadder_0/nand_1/v_out_nand Gnd 27.54fF
+C662 4bitadder_0/fulladder_2/halfadder_0/nand_0/a_13_n14# Gnd 2.44fF
+C663 4bitadder_0/fulladder_2/halfadder_0/nand_4/a_13_n14# Gnd 2.44fF
+C664 4bitadder_0/fulladder_2/or_0/v_b_or Gnd 69.28fF
+C665 4bitadder_0/fulladder_2/halfadder_0/nand_3/a_13_n14# Gnd 2.44fF
+C666 4bitadder_0/fulladder_1/or_0/a_n15_n30# Gnd 59.49fF
+C667 4bitadder_0/fulladder_1/halfadder_1/nand_0/v_out_nand Gnd 106.15fF
+C668 4bitadder_0/fulladder_1/c_in_fulladder Gnd 88.31fF
+C669 4bitadder_0/fulladder_1/halfadder_1/nand_2/a_13_n14# Gnd 2.44fF
+C670 4bitadder_0/fulladder_1/halfadder_1/nand_2/v_out_nand Gnd 43.65fF
+C671 4bitadder_0/fulladder_1/halfadder_1/nand_1/a_13_n14# Gnd 2.44fF
+C672 4bitadder_0/fulladder_1/halfadder_1/nand_1/v_out_nand Gnd 27.54fF
+C673 4bitadder_0/fulladder_1/halfadder_1/nand_0/a_13_n14# Gnd 2.44fF
+C674 4bitadder_0/fulladder_1/halfadder_1/v_a_halfadder Gnd 113.23fF
+C675 4bitadder_0/fulladder_1/halfadder_1/nand_4/a_13_n14# Gnd 2.44fF
+C676 4bitadder_0/fulladder_1/or_0/v_a_or Gnd 39.01fF
+C677 4bitadder_0/fulladder_1/halfadder_1/nand_3/a_13_n14# Gnd 2.44fF
+C678 4bitadder_0/fulladder_1/halfadder_0/nand_0/v_out_nand Gnd 106.15fF
+C679 and_5/v_out_and Gnd 1304.45fF
+C680 4bitadder_0/fulladder_1/halfadder_0/nand_2/a_13_n14# Gnd 2.44fF
+C681 4bitadder_0/fulladder_1/halfadder_0/nand_2/v_out_nand Gnd 43.65fF
+C682 4bitadder_0/fulladder_1/halfadder_0/nand_1/a_13_n14# Gnd 2.44fF
+C683 4bitadder_0/fulladder_1/halfadder_0/nand_1/v_out_nand Gnd 27.54fF
+C684 4bitadder_0/fulladder_1/halfadder_0/nand_0/a_13_n14# Gnd 2.44fF
+C685 4bitadder_0/fulladder_1/halfadder_0/nand_4/a_13_n14# Gnd 2.44fF
+C686 4bitadder_0/fulladder_1/or_0/v_b_or Gnd 69.28fF
+C687 4bitadder_0/fulladder_1/halfadder_0/nand_3/a_13_n14# Gnd 2.44fF
+C688 4bitadder_0/fulladder_0/or_0/a_n15_n30# Gnd 59.49fF
+C689 4bitadder_0/fulladder_0/halfadder_1/nand_0/v_out_nand Gnd 106.15fF
+C690 4bitadder_0/fulladder_0/c_in_fulladder Gnd 87.98fF
+C691 4bitadder_0/fulladder_0/halfadder_1/nand_2/a_13_n14# Gnd 2.44fF
+C692 4bitadder_0/fulladder_0/halfadder_1/nand_2/v_out_nand Gnd 43.65fF
+C693 4bitadder_0/fulladder_0/halfadder_1/nand_1/a_13_n14# Gnd 2.44fF
+C694 4bitadder_0/fulladder_0/halfadder_1/nand_1/v_out_nand Gnd 27.54fF
+C695 4bitadder_0/fulladder_0/halfadder_1/nand_0/a_13_n14# Gnd 2.44fF
+C696 4bitadder_0/fulladder_0/halfadder_1/v_a_halfadder Gnd 113.23fF
+C697 4bitadder_0/fulladder_0/halfadder_1/nand_4/a_13_n14# Gnd 2.44fF
+C698 4bitadder_0/fulladder_0/or_0/v_a_or Gnd 39.01fF
+C699 4bitadder_0/fulladder_0/halfadder_1/nand_3/a_13_n14# Gnd 2.44fF
+C700 4bitadder_0/fulladder_0/halfadder_0/nand_0/v_out_nand Gnd 106.15fF
+C701 and_3/v_out_and Gnd 985.30fF
+C702 4bitadder_0/fulladder_0/halfadder_0/nand_2/a_13_n14# Gnd 2.44fF
+C703 4bitadder_0/fulladder_0/halfadder_0/nand_2/v_out_nand Gnd 43.65fF
+C704 4bitadder_0/fulladder_0/halfadder_0/nand_1/a_13_n14# Gnd 2.44fF
+C705 4bitadder_0/fulladder_0/halfadder_0/nand_1/v_out_nand Gnd 27.54fF
+C706 4bitadder_0/fulladder_0/halfadder_0/nand_0/a_13_n14# Gnd 2.44fF
+C707 4bitadder_0/fulladder_0/halfadder_0/nand_4/a_13_n14# Gnd 2.44fF
+C708 4bitadder_0/fulladder_0/or_0/v_b_or Gnd 69.28fF
+C709 4bitadder_0/fulladder_0/halfadder_0/nand_3/a_13_n14# Gnd 2.44fF
+C710 4bitadder_0/halfadder_0/nand_0/v_out_nand Gnd 106.15fF
+C711 4bitadder_0/halfadder_0/nand_2/a_13_n14# Gnd 2.44fF
+C712 4bitadder_0/halfadder_0/nand_2/v_out_nand Gnd 43.65fF
+C713 4bitadder_0/halfadder_0/nand_1/a_13_n14# Gnd 2.44fF
+C714 4bitadder_0/halfadder_0/nand_1/v_out_nand Gnd 27.54fF
+C715 4bitadder_0/halfadder_0/nand_0/a_13_n14# Gnd 2.44fF
+C716 and_0/v_out_and Gnd 76.73fF
+C717 4bitadder_0/halfadder_0/nand_4/a_13_n14# Gnd 2.44fF
+C718 4bitadder_0/halfadder_0/nand_3/a_13_n14# Gnd 2.44fF
+C719 4bitadder_0/s0_4bitadder Gnd 359.90fF
+C720 and_15/nand_0/a_13_n14# Gnd 2.44fF
+C721 and_15/gnd Gnd 47.38fF
+C722 and_15/nand_0/v_out_nand Gnd 30.13fF
+C723 and_15/a_n24_n27# Gnd 41.41fF
+C724 and_15/a_n24_n7# Gnd 35.67fF
+C725 and_14/nand_0/a_13_n14# Gnd 2.44fF
+C726 and_14/gnd Gnd 47.38fF
+C727 and_14/nand_0/v_out_nand Gnd 30.13fF
+C728 and_14/vdd Gnd 27.07fF
+C729 and_14/a_n24_n27# Gnd 41.41fF
+C730 and_14/a_n24_n7# Gnd 35.67fF
+C731 and_13/nand_0/a_13_n14# Gnd 2.44fF
+C732 and_13/gnd Gnd 47.38fF
+C733 and_13/nand_0/v_out_nand Gnd 30.13fF
+C734 and_13/vdd Gnd 27.07fF
+C735 and_13/a_n24_n27# Gnd 41.41fF
+C736 and_13/a_n24_n7# Gnd 35.67fF
+C737 and_12/nand_0/a_13_n14# Gnd 2.44fF
+C738 and_12/gnd Gnd 47.38fF
+C739 and_12/nand_0/v_out_nand Gnd 30.13fF
+C740 and_12/vdd Gnd 27.07fF
+C741 and_12/a_n24_n27# Gnd 41.41fF
+C742 and_12/a_n24_n7# Gnd 35.67fF
+C743 and_11/nand_0/a_13_n14# Gnd 2.44fF
+C744 and_11/gnd Gnd 47.38fF
+C745 and_11/nand_0/v_out_nand Gnd 30.13fF
+C746 and_11/vdd Gnd 27.07fF
+C747 and_11/a_n24_n27# Gnd 41.41fF
+C748 and_11/a_n24_n7# Gnd 35.67fF
+C749 and_10/nand_0/a_13_n14# Gnd 2.44fF
+C750 and_10/gnd Gnd 47.38fF
+C751 and_10/nand_0/v_out_nand Gnd 30.13fF
+C752 and_10/vdd Gnd 27.07fF
+C753 and_10/a_n24_n27# Gnd 41.41fF
+C754 and_10/a_n24_n7# Gnd 35.67fF
+C755 and_9/nand_0/a_13_n14# Gnd 2.44fF
+C756 and_9/gnd Gnd 47.38fF
+C757 and_9/nand_0/v_out_nand Gnd 30.13fF
+C758 and_9/vdd Gnd 27.07fF
+C759 and_9/a_n24_n27# Gnd 41.41fF
+C760 and_9/a_n24_n7# Gnd 35.67fF
+C761 and_8/nand_0/a_13_n14# Gnd 2.44fF
+C762 and_8/gnd Gnd 47.38fF
+C763 and_8/nand_0/v_out_nand Gnd 30.13fF
+C764 and_8/vdd Gnd 27.07fF
+C765 and_8/a_n24_n27# Gnd 41.41fF
+C766 and_8/a_n24_n7# Gnd 35.67fF
+C767 and_7/nand_0/a_13_n14# Gnd 2.44fF
+C768 and_7/gnd Gnd 47.38fF
+C769 and_7/nand_0/v_out_nand Gnd 30.13fF
+C770 and_7/v_out_and Gnd 6.06fF
+C771 and_6/nand_0/a_13_n14# Gnd 2.44fF
+C772 and_6/gnd Gnd 47.38fF
+C773 and_6/nand_0/v_out_nand Gnd 30.13fF
+C774 and_6/a_n24_n27# Gnd 41.41fF
+C775 and_6/a_n24_n7# Gnd 35.67fF
+C776 and_5/nand_0/a_13_n14# Gnd 2.44fF
+C777 and_5/gnd Gnd 47.38fF
+C778 and_5/nand_0/v_out_nand Gnd 30.13fF
+C779 and_5/a_n24_n27# Gnd 41.41fF
+C780 and_5/a_n24_n7# Gnd 35.67fF
