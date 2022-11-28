@@ -1,0 +1,156 @@
+* SPICE3 file created from fulladder.ext - technology: scmos
+
+.option scale=1u
+
+M1000 halfadder_0/nand_3/a_13_n14# halfadder_0/nand_3/v_a_nand gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=424 ps=296
+M1001 halfadder_1/v_a_halfadder halfadder_0/nand_3/v_b_nand halfadder_0/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1002 halfadder_1/v_a_halfadder halfadder_0/nand_3/v_a_nand vdd halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=953 ps=600
+M1003 halfadder_1/v_a_halfadder halfadder_0/nand_3/v_b_nand vdd halfadder_0/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 halfadder_0/nand_4/a_13_n14# halfadder_0/nand_4/v_b_nand gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1005 or_0/v_b_or halfadder_0/nand_4/v_b_nand halfadder_0/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1006 or_0/v_b_or halfadder_0/nand_4/v_b_nand vdd halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1007 or_0/v_b_or halfadder_0/nand_4/v_b_nand vdd halfadder_0/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 halfadder_0/nand_0/a_13_n14# v_b_fulladder gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1009 halfadder_0/nand_4/v_b_nand v_a_fulladder halfadder_0/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1010 halfadder_0/nand_4/v_b_nand v_b_fulladder vdd halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1011 halfadder_0/nand_4/v_b_nand v_a_fulladder vdd halfadder_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 halfadder_0/nand_1/a_13_n14# halfadder_0/nand_4/v_b_nand gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1013 halfadder_0/nand_3/v_a_nand v_b_fulladder halfadder_0/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1014 halfadder_0/nand_3/v_a_nand halfadder_0/nand_4/v_b_nand vdd halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1015 halfadder_0/nand_3/v_a_nand v_b_fulladder vdd halfadder_0/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 halfadder_0/nand_2/a_13_n14# halfadder_0/nand_4/v_b_nand gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1017 halfadder_0/nand_3/v_b_nand v_a_fulladder halfadder_0/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1018 halfadder_0/nand_3/v_b_nand halfadder_0/nand_4/v_b_nand vdd halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1019 halfadder_0/nand_3/v_b_nand v_a_fulladder vdd halfadder_0/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 halfadder_1/nand_3/a_13_n14# halfadder_1/nand_3/v_a_nand gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1021 sum_fulladder halfadder_1/nand_3/v_b_nand halfadder_1/nand_3/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1022 sum_fulladder halfadder_1/nand_3/v_a_nand vdd halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1023 sum_fulladder halfadder_1/nand_3/v_b_nand vdd halfadder_1/nand_3/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 halfadder_1/nand_4/a_13_n14# halfadder_1/nand_4/v_b_nand gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1025 or_0/v_a_or halfadder_1/nand_4/v_b_nand halfadder_1/nand_4/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1026 or_0/v_a_or halfadder_1/nand_4/v_b_nand vdd halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1027 or_0/v_a_or halfadder_1/nand_4/v_b_nand vdd halfadder_1/nand_4/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1028 halfadder_1/nand_0/a_13_n14# halfadder_1/v_a_halfadder gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1029 halfadder_1/nand_4/v_b_nand c_in_fulladder halfadder_1/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1030 halfadder_1/nand_4/v_b_nand halfadder_1/v_a_halfadder vdd halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1031 halfadder_1/nand_4/v_b_nand c_in_fulladder vdd halfadder_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 halfadder_1/nand_1/a_13_n14# halfadder_1/nand_4/v_b_nand gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1033 halfadder_1/nand_3/v_a_nand halfadder_1/v_a_halfadder halfadder_1/nand_1/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1034 halfadder_1/nand_3/v_a_nand halfadder_1/nand_4/v_b_nand vdd halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1035 halfadder_1/nand_3/v_a_nand halfadder_1/v_a_halfadder vdd halfadder_1/nand_1/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 halfadder_1/nand_2/a_13_n14# halfadder_1/nand_4/v_b_nand gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1037 halfadder_1/nand_3/v_b_nand c_in_fulladder halfadder_1/nand_2/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1038 halfadder_1/nand_3/v_b_nand halfadder_1/nand_4/v_b_nand vdd halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1039 halfadder_1/nand_3/v_b_nand c_in_fulladder vdd halfadder_1/nand_2/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1040 or_0/a_n15_n30# or_0/v_b_or gnd Gnd nfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1041 or_0/a_n15_n30# or_0/v_a_or gnd Gnd nfet w=12 l=3
++  ad=0 pd=0 as=0 ps=0
+M1042 carry_fulladder or_0/a_n15_n30# gnd Gnd nfet w=16 l=3
++  ad=84 pd=44 as=0 ps=0
+M1043 or_0/a_n15_10# or_0/v_a_or vdd or_0/w_n32_2# pfet w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1044 vdd or_0/a_n15_n30# carry_fulladder or_0/w_78_2# pfet w=16 l=3
++  ad=0 pd=0 as=80 ps=42
+M1045 or_0/a_n15_n30# or_0/v_b_or or_0/a_n15_10# or_0/w_n32_2# pfet w=12 l=3
++  ad=72 pd=36 as=0 ps=0
+C0 halfadder_0/nand_0/w_0_3# vdd 2.26fF
+C1 v_b_fulladder halfadder_0/nand_1/w_0_3# 2.46fF
+C2 v_a_fulladder halfadder_0/nand_2/w_0_3# 2.46fF
+C3 halfadder_1/nand_2/w_0_3# vdd 2.26fF
+C4 or_0/w_n32_2# or_0/v_a_or 5.19fF
+C5 v_a_fulladder halfadder_0/nand_0/w_0_3# 6.51fF
+C6 vdd halfadder_1/nand_4/w_0_3# 2.26fF
+C7 halfadder_0/nand_4/v_b_nand halfadder_0/nand_2/w_0_3# 2.46fF
+C8 halfadder_1/nand_3/v_a_nand halfadder_1/nand_3/w_0_3# 2.46fF
+C9 or_0/w_n32_2# or_0/v_b_or 5.19fF
+C10 halfadder_1/nand_0/w_0_3# halfadder_1/v_a_halfadder 2.46fF
+C11 halfadder_1/nand_1/w_0_3# vdd 2.26fF
+C12 c_in_fulladder halfadder_1/nand_2/w_0_3# 2.46fF
+C13 c_in_fulladder vdd 2.60fF
+C14 halfadder_0/nand_4/w_0_3# vdd 2.26fF
+C15 vdd halfadder_0/nand_1/w_0_3# 2.26fF
+C16 or_0/a_n15_n30# or_0/w_78_2# 5.74fF
+C17 or_0/w_n32_2# or_0/a_n15_10# 3.38fF
+C18 halfadder_1/nand_0/w_0_3# vdd 2.26fF
+C19 halfadder_0/nand_4/v_b_nand halfadder_0/nand_4/w_0_3# 4.92fF
+C20 halfadder_0/nand_4/v_b_nand halfadder_0/nand_1/w_0_3# 2.46fF
+C21 halfadder_1/nand_2/w_0_3# halfadder_1/nand_4/v_b_nand 2.46fF
+C22 halfadder_1/nand_0/w_0_3# c_in_fulladder 6.51fF
+C23 halfadder_1/nand_4/v_b_nand halfadder_1/nand_4/w_0_3# 4.92fF
+C24 halfadder_0/nand_0/w_0_3# v_b_fulladder 2.46fF
+C25 halfadder_1/nand_1/w_0_3# halfadder_1/nand_4/v_b_nand 2.46fF
+C26 halfadder_0/nand_3/w_0_3# vdd 2.26fF
+C27 halfadder_1/nand_3/w_0_3# vdd 2.26fF
+C28 halfadder_0/nand_3/v_a_nand halfadder_0/nand_3/w_0_3# 2.46fF
+C29 halfadder_1/nand_3/v_b_nand halfadder_1/nand_3/w_0_3# 2.46fF
+C30 halfadder_0/nand_3/v_b_nand halfadder_0/nand_3/w_0_3# 2.46fF
+C31 halfadder_1/nand_1/w_0_3# halfadder_1/v_a_halfadder 2.46fF
+C32 halfadder_0/nand_2/w_0_3# vdd 2.26fF
+C33 carry_fulladder Gnd 15.42fF
+C34 or_0/a_n15_n30# Gnd 59.49fF
+C35 halfadder_1/nand_4/v_b_nand Gnd 106.15fF
+C36 c_in_fulladder Gnd 72.14fF
+C37 halfadder_1/nand_2/a_13_n14# Gnd 2.44fF
+C38 halfadder_1/nand_3/v_b_nand Gnd 43.65fF
+C39 halfadder_1/nand_1/a_13_n14# Gnd 2.44fF
+C40 halfadder_1/nand_3/v_a_nand Gnd 27.54fF
+C41 halfadder_1/nand_0/a_13_n14# Gnd 2.44fF
+C42 halfadder_1/v_a_halfadder Gnd 113.23fF
+C43 halfadder_1/nand_4/a_13_n14# Gnd 2.44fF
+C44 or_0/v_a_or Gnd 39.01fF
+C45 halfadder_1/nand_3/a_13_n14# Gnd 2.44fF
+C46 sum_fulladder Gnd 32.13fF
+C47 halfadder_0/nand_4/v_b_nand Gnd 106.15fF
+C48 v_a_fulladder Gnd 81.96fF
+C49 halfadder_0/nand_2/a_13_n14# Gnd 2.44fF
+C50 halfadder_0/nand_3/v_b_nand Gnd 43.65fF
+C51 halfadder_0/nand_1/a_13_n14# Gnd 2.44fF
+C52 gnd Gnd 569.73fF
+C53 halfadder_0/nand_3/v_a_nand Gnd 27.54fF
+C54 halfadder_0/nand_0/a_13_n14# Gnd 2.44fF
+C55 v_b_fulladder Gnd 74.60fF
+C56 halfadder_0/nand_4/a_13_n14# Gnd 2.44fF
+C57 or_0/v_b_or Gnd 69.28fF
+C58 vdd Gnd 513.66fF
+C59 halfadder_0/nand_3/a_13_n14# Gnd 2.44fF

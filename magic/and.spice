@@ -1,0 +1,27 @@
+* SPICE3 file created from and.ext - technology: scmos
+
+.option scale=1u
+
+M1000 v_out_and nand_0/v_out_nand vdd inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=48 pd=28 as=128 ps=80
+M1001 v_out_and nand_0/v_out_nand gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=68 ps=46
+M1002 nand_0/a_13_n14# v_a_and gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1003 nand_0/v_out_nand v_b_and nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1004 nand_0/v_out_nand v_a_and vdd nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1005 nand_0/v_out_nand v_b_and vdd nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 vdd nand_0/w_0_3# 2.26fF
+C1 nand_0/v_out_nand inverter_0/w_n13_n2# 3.18fF
+C2 nand_0/w_0_3# v_a_and 2.46fF
+C3 nand_0/w_0_3# v_b_and 2.46fF
+C4 nand_0/a_13_n14# Gnd 2.44fF
+C5 gnd Gnd 24.82fF
+C6 nand_0/v_out_nand Gnd 30.13fF
+C7 vdd Gnd 27.07fF
+C8 v_b_and Gnd 39.77fF
+C9 v_a_and Gnd 35.34fF
+C10 v_out_and Gnd 6.06fF

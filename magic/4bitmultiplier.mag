@@ -1,0 +1,20 @@
+magic
+tech scmos
+timestamp 1669641408
+use and  and_3
+timestamp 1669640031
+transform 1 0 -337 0 1 763
+box -39 -36 185 82
+use and  and_2
+timestamp 1669640031
+transform 1 0 176 0 1 766
+box -39 -36 185 82
+use and  and_1
+timestamp 1669640031
+transform 1 0 561 0 1 776
+box -39 -36 185 82
+use and  and_0
+timestamp 1669640031
+transform 1 0 856 0 1 783
+box -39 -36 185 82
+<< end >>

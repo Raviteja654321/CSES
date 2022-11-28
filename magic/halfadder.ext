@@ -1,0 +1,77 @@
+timestamp 1669640721
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use nand nand_4 1 0 257 0 1 31
+use nand nand_3 1 0 194 0 1 30
+use nand nand_2 1 0 119 0 1 30
+use nand nand_1 1 0 50 0 1 30
+use nand nand_0 1 0 -11 0 1 30
+node "m2_268_n20#" 0 0 268 -20 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0
+node "gnd" 3 47564 1 5 m1 0 0 0 0 0 0 0 0 0 0 0 0 1040 528 0 0 0 0
+node "carry_halfadder" 0 7144 297 25 m1 0 0 0 0 0 0 0 0 0 0 0 0 152 84 0 0 0 0
+node "m1_239_55#" 0 4888 239 55 m1 0 0 0 0 0 0 0 0 0 0 0 0 104 60 0 0 0 0
+node "m1_165_55#" 0 6392 165 55 m1 0 0 0 0 0 0 0 0 0 0 0 0 144 80 0 0 0 0
+node "m1_35_55#" 1 16544 35 55 m1 0 0 0 0 0 0 0 0 0 0 0 0 360 188 0 0 0 0
+node "vdd" 0 2350 -1 56 m1 0 0 0 0 0 0 0 0 0 0 0 0 50 30 0 0 0 0
+node "sum_halfadder" 1 35894 235 23 m1 0 0 0 0 0 0 0 0 0 0 0 0 488 188 791 246 0 0
+node "a_268_n21#" 899 46339 268 -21 pc 0 0 0 0 174 166 0 0 0 0 0 0 211 112 1015 514 0 0
+node "a_97_27#" 1299 45042 97 27 pc 0 0 0 0 465 324 0 0 0 0 0 0 41 32 0 0 0 0
+node "a_39_26#" 180 10307 39 26 pc 0 0 0 0 93 60 0 0 0 0 0 0 82 46 0 0 0 0
+node "a_179_22#" 1271 32092 179 22 pc 0 0 0 0 252 236 0 0 0 0 0 0 112 62 0 0 0 0
+node "a_61_52#" 1038 21026 61 52 p 0 0 0 0 174 178 0 0 0 0 0 0 0 0 0 0 0 0
+node "v_a_halfadder" 2159 43398 -26 22 p 0 0 0 0 362 366 0 0 0 0 0 0 0 0 0 0 0 0
+node "v_b_halfadder" 1706 34354 -26 29 p 0 0 0 0 286 290 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_25_51#" 2064 41494 25 51 p 0 0 0 0 346 350 0 0 0 0 0 0 0 0 0 0 0 0
+cap "a_268_n21#" "gnd" 720
+cap "a_61_52#" "m1_35_55#" 240
+cap "gnd" "a_97_27#" 600
+cap "gnd" "v_a_halfadder" 240
+cap "m1_165_55#" "a_179_22#" 240
+cap "a_268_n21#" "m2_268_n20#" 1080
+cap "sum_halfadder" "m1_239_55#" 1440
+cap "a_268_n21#" "v_a_halfadder" 152
+subcap "gnd" -28952
+subcap "a_25_51#" -25860
+cap "nand_1/a_11_n18#" "nand_0/a_36_n18#" 240
+cap "nand_1/vdd" "nand_0/a_36_n18#" 480
+cap "nand_0/w_0_3#" "nand_0/a_36_n18#" 4046
+subcap "a_97_27#" -29060
+cap "nand_2/vdd" "nand_2/a_11_n18#" 240
+cap "nand_2/vdd" "nand_2/a_36_n18#" 240
+subcap "sum_halfadder" -21664
+cap "nand_3/vdd" "nand_3/a_36_n18#" 240
+cap "nand_4/gnd" "nand_4/a_11_n18#" 240
+merge "nand_3/gnd" "nand_4/gnd" -10716 0 0 0 0 0 0 0 0 0 0 0 0 -220 -150 0 0 0 0
+merge "nand_4/gnd" "nand_2/gnd"
+merge "nand_2/gnd" "nand_0/gnd"
+merge "nand_0/gnd" "nand_1/gnd"
+merge "nand_1/gnd" "gnd"
+merge "nand_3/vdd" "nand_2/vdd" -3525 0 0 0 0 0 0 0 0 0 0 0 0 -67 -60 0 0 0 0
+merge "nand_2/vdd" "nand_0/vdd"
+merge "nand_0/vdd" "vdd"
+merge "vdd" "nand_1/vdd"
+merge "nand_1/vdd" "m1_35_55#"
+merge "m1_35_55#" "m1_165_55#"
+merge "m1_165_55#" "nand_4/vdd"
+merge "nand_4/vdd" "m1_239_55#"
+merge "nand_3/v_out_nand" "sum_halfadder" -1739 0 0 0 0 0 0 0 0 0 0 0 0 -37 -38 0 0 0 0
+merge "nand_1/a_36_n18#" "nand_0/a_11_n18#" -1592 0 0 0 0 -8 -16 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand_0/a_11_n18#" "v_a_halfadder"
+merge "nand_3/a_36_n18#" "nand_2/v_out_nand" -984 0 0 0 0 -4 -8 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "nand_2/v_out_nand" "a_179_22#"
+merge "nand_3/a_11_n18#" "nand_1/v_out_nand" -1219 0 0 0 0 -4 -8 0 0 0 0 0 0 -9 -12 0 0 0 0
+merge "nand_1/v_out_nand" "a_97_27#"
+merge "nand_4/a_36_n18#" "nand_4/a_11_n18#" -6584 0 0 0 0 -20 -42 0 0 0 0 0 0 -44 -38 0 0 0 0
+merge "nand_4/a_11_n18#" "nand_2/a_11_n18#"
+merge "nand_2/a_11_n18#" "nand_0/v_out_nand"
+merge "nand_0/v_out_nand" "a_268_n21#"
+merge "a_268_n21#" "nand_1/a_11_n18#"
+merge "nand_1/a_11_n18#" "a_61_52#"
+merge "a_61_52#" "a_39_26#"
+merge "nand_2/a_36_n18#" "nand_0/a_36_n18#" -15798 0 0 0 0 -88 -104 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand_0/a_36_n18#" "a_25_51#"
+merge "a_25_51#" "v_b_halfadder"
+merge "nand_4/v_out_nand" "carry_halfadder" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0

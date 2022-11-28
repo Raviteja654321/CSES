@@ -1,0 +1,96 @@
+* SPICE3 file created from 4bitmultiplier.ext - technology: scmos
+
+.option scale=1u
+
+M1000 and_0/v_out_and and_0/nand_0/v_out_nand and_0/vdd and_0/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=48 pd=28 as=128 ps=80
+M1001 and_0/v_out_and and_0/nand_0/v_out_nand and_0/gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=68 ps=46
+M1002 and_0/nand_0/a_13_n14# and_0/v_a_and and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1003 and_0/nand_0/v_out_nand and_0/v_b_and and_0/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1004 and_0/nand_0/v_out_nand and_0/v_a_and and_0/vdd and_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1005 and_0/nand_0/v_out_nand and_0/v_b_and and_0/vdd and_0/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 and_1/v_out_and and_1/nand_0/v_out_nand and_1/vdd and_1/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=48 pd=28 as=128 ps=80
+M1007 and_1/v_out_and and_1/nand_0/v_out_nand and_1/gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=68 ps=46
+M1008 and_1/nand_0/a_13_n14# and_1/v_a_and and_1/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1009 and_1/nand_0/v_out_nand and_1/v_b_and and_1/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1010 and_1/nand_0/v_out_nand and_1/v_a_and and_1/vdd and_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1011 and_1/nand_0/v_out_nand and_1/v_b_and and_1/vdd and_1/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 and_2/v_out_and and_2/nand_0/v_out_nand and_2/vdd and_2/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=48 pd=28 as=128 ps=80
+M1013 and_2/v_out_and and_2/nand_0/v_out_nand and_2/gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=68 ps=46
+M1014 and_2/nand_0/a_13_n14# and_2/v_a_and and_2/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1015 and_2/nand_0/v_out_nand and_2/v_b_and and_2/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1016 and_2/nand_0/v_out_nand and_2/v_a_and and_2/vdd and_2/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1017 and_2/nand_0/v_out_nand and_2/v_b_and and_2/vdd and_2/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 and_3/v_out_and and_3/nand_0/v_out_nand and_3/vdd and_3/inverter_0/w_n13_n2# pfet w=8 l=2
++  ad=48 pd=28 as=128 ps=80
+M1019 and_3/v_out_and and_3/nand_0/v_out_nand and_3/gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=68 ps=46
+M1020 and_3/nand_0/a_13_n14# and_3/v_a_and and_3/gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1021 and_3/nand_0/v_out_nand and_3/v_b_and and_3/nand_0/a_13_n14# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1022 and_3/nand_0/v_out_nand and_3/v_a_and and_3/vdd and_3/nand_0/w_0_3# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1023 and_3/nand_0/v_out_nand and_3/v_b_and and_3/vdd and_3/nand_0/w_0_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 and_3/inverter_0/w_n13_n2# and_3/nand_0/v_out_nand 3.18fF
+C1 and_0/v_b_and and_0/nand_0/w_0_3# 2.46fF
+C2 and_2/nand_0/w_0_3# and_2/v_b_and 2.46fF
+C3 and_1/v_b_and and_1/nand_0/w_0_3# 2.46fF
+C4 and_0/nand_0/w_0_3# and_0/v_a_and 2.46fF
+C5 and_0/vdd and_0/nand_0/w_0_3# 2.26fF
+C6 and_3/nand_0/w_0_3# and_3/v_a_and 2.46fF
+C7 and_0/inverter_0/w_n13_n2# and_0/nand_0/v_out_nand 3.18fF
+C8 and_3/vdd and_3/nand_0/w_0_3# 2.26fF
+C9 and_3/nand_0/w_0_3# and_3/v_b_and 2.46fF
+C10 and_2/nand_0/w_0_3# and_2/v_a_and 2.46fF
+C11 and_2/nand_0/w_0_3# and_2/vdd 2.26fF
+C12 and_1/inverter_0/w_n13_n2# and_1/nand_0/v_out_nand 3.18fF
+C13 and_2/nand_0/v_out_nand and_2/inverter_0/w_n13_n2# 3.18fF
+C14 and_1/v_a_and and_1/nand_0/w_0_3# 2.46fF
+C15 and_1/vdd and_1/nand_0/w_0_3# 2.26fF
+C16 and_3/nand_0/a_13_n14# Gnd 2.44fF
+C17 and_3/gnd Gnd 24.82fF
+C18 and_3/nand_0/v_out_nand Gnd 30.13fF
+C19 and_3/vdd Gnd 27.07fF
+C20 and_3/v_b_and Gnd 39.77fF
+C21 and_3/v_a_and Gnd 35.34fF
+C22 and_3/v_out_and Gnd 6.06fF
+C23 and_2/nand_0/a_13_n14# Gnd 2.44fF
+C24 and_2/gnd Gnd 24.82fF
+C25 and_2/nand_0/v_out_nand Gnd 30.13fF
+C26 and_2/vdd Gnd 27.07fF
+C27 and_2/v_b_and Gnd 39.77fF
+C28 and_2/v_a_and Gnd 35.34fF
+C29 and_2/v_out_and Gnd 6.06fF
+C30 and_1/nand_0/a_13_n14# Gnd 2.44fF
+C31 and_1/gnd Gnd 24.82fF
+C32 and_1/nand_0/v_out_nand Gnd 30.13fF
+C33 and_1/vdd Gnd 27.07fF
+C34 and_1/v_b_and Gnd 39.77fF
+C35 and_1/v_a_and Gnd 35.34fF
+C36 and_1/v_out_and Gnd 6.06fF
+C37 and_0/nand_0/a_13_n14# Gnd 2.44fF
+C38 and_0/gnd Gnd 24.82fF
+C39 and_0/nand_0/v_out_nand Gnd 30.13fF
+C40 and_0/vdd Gnd 27.07fF
+C41 and_0/v_b_and Gnd 39.77fF
+C42 and_0/v_a_and Gnd 35.34fF
+C43 and_0/v_out_and Gnd 6.06fF
