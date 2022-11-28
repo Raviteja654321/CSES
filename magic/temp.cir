@@ -1,0 +1,346 @@
+
+.include 22nm_MGK.pm
+.param SUPPLY=1
+.param LAMBDA=22n
+.param width_N_1={2*LAMBDA}
+.param width_N_2={2*LAMBDA}
+.param width_P_1={2*LAMBDA}
+.param width_P_2={2*LAMBDA}
+.global gnd vdd 
+
+v_dd vdd gnd 'SUPPLY'
+va a0_4bitadder gnd pulse 0 1 0 100p 100p 10n 20n
+vb a1_4bitadder gnd pulse 0 1 5n 100p 100p 10n 20n
+vc a2_4bitadder gnd pulse 0 1 5n 100p 100p 15n 20n
+vd a3_4bitadder gnd pulse 0 1 10n 100p 100p 10n 20n
+
+va1 b0_4bitadder gnd pulse 0 1 0 100p 100p 10n 20n
+vb1 b1_4bitadder gnd pulse 0 1 5n 100p 100p 10n 20n
+vc1 b2_4bitadder gnd pulse 0 1 5n 100p 100p 15n 20n
+vd1 b3_4bitadder gnd pulse 0 1 10n 100p 100p 10n 20n
+
+.option scale=0.01u
+
+M1000 halfadder_0/nand_3/a_13_n14# halfadder_0/nand_1/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=1372 ps=978
+M1001 s0_4bitadder halfadder_0/nand_2/v_out_nand halfadder_0/nand_3/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1002 s0_4bitadder halfadder_0/nand_1/v_out_nand vdd halfadder_0/nand_3/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=3259 ps=2060
+M1003 s0_4bitadder halfadder_0/nand_2/v_out_nand vdd halfadder_0/nand_3/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 halfadder_0/nand_4/a_13_n14# halfadder_0/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1005 fulladder_0/c_in_fulladder halfadder_0/nand_0/v_out_nand halfadder_0/nand_4/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1006 fulladder_0/c_in_fulladder halfadder_0/nand_0/v_out_nand vdd halfadder_0/nand_4/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1007 fulladder_0/c_in_fulladder halfadder_0/nand_0/v_out_nand vdd halfadder_0/nand_4/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 halfadder_0/nand_0/a_13_n14# b0_4bitadder gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1009 halfadder_0/nand_0/v_out_nand a0_4bitadder halfadder_0/nand_0/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1010 halfadder_0/nand_0/v_out_nand b0_4bitadder vdd halfadder_0/nand_0/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1011 halfadder_0/nand_0/v_out_nand a0_4bitadder vdd halfadder_0/nand_0/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 halfadder_0/nand_1/a_13_n14# halfadder_0/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1013 halfadder_0/nand_1/v_out_nand b0_4bitadder halfadder_0/nand_1/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1014 halfadder_0/nand_1/v_out_nand halfadder_0/nand_0/v_out_nand vdd halfadder_0/nand_1/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1015 halfadder_0/nand_1/v_out_nand b0_4bitadder vdd halfadder_0/nand_1/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 halfadder_0/nand_2/a_13_n14# halfadder_0/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1017 halfadder_0/nand_2/v_out_nand a0_4bitadder halfadder_0/nand_2/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1018 halfadder_0/nand_2/v_out_nand halfadder_0/nand_0/v_out_nand vdd halfadder_0/nand_2/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1019 halfadder_0/nand_2/v_out_nand a0_4bitadder vdd halfadder_0/nand_2/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 fulladder_0/halfadder_0/nand_3/a_13_n14# fulladder_0/halfadder_0/nand_1/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1021 fulladder_0/halfadder_1/v_a_halfadder fulladder_0/halfadder_0/nand_2/v_out_nand fulladder_0/halfadder_0/nand_3/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1022 fulladder_0/halfadder_1/v_a_halfadder fulladder_0/halfadder_0/nand_1/v_out_nand vdd fulladder_0/halfadder_0/nand_3/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1023 fulladder_0/halfadder_1/v_a_halfadder fulladder_0/halfadder_0/nand_2/v_out_nand vdd fulladder_0/halfadder_0/nand_3/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 fulladder_0/halfadder_0/nand_4/a_13_n14# fulladder_0/halfadder_0/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1025 fulladder_0/or_0/v_b_or fulladder_0/halfadder_0/nand_0/v_out_nand fulladder_0/halfadder_0/nand_4/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1026 fulladder_0/or_0/v_b_or fulladder_0/halfadder_0/nand_0/v_out_nand vdd fulladder_0/halfadder_0/nand_4/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1027 fulladder_0/or_0/v_b_or fulladder_0/halfadder_0/nand_0/v_out_nand vdd fulladder_0/halfadder_0/nand_4/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1028 fulladder_0/halfadder_0/nand_0/a_13_n14# b1_4bitadder gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1029 fulladder_0/halfadder_0/nand_0/v_out_nand b1_4bitadder fulladder_0/halfadder_0/nand_0/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1030 fulladder_0/halfadder_0/nand_0/v_out_nand b1_4bitadder vdd fulladder_0/halfadder_0/nand_0/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1031 fulladder_0/halfadder_0/nand_0/v_out_nand b1_4bitadder vdd fulladder_0/halfadder_0/nand_0/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 fulladder_0/halfadder_0/nand_1/a_13_n14# fulladder_0/halfadder_0/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1033 fulladder_0/halfadder_0/nand_1/v_out_nand b1_4bitadder fulladder_0/halfadder_0/nand_1/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1034 fulladder_0/halfadder_0/nand_1/v_out_nand fulladder_0/halfadder_0/nand_0/v_out_nand vdd fulladder_0/halfadder_0/nand_1/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1035 fulladder_0/halfadder_0/nand_1/v_out_nand b1_4bitadder vdd fulladder_0/halfadder_0/nand_1/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 fulladder_0/halfadder_0/nand_2/a_13_n14# fulladder_0/halfadder_0/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1037 fulladder_0/halfadder_0/nand_2/v_out_nand b1_4bitadder fulladder_0/halfadder_0/nand_2/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1038 fulladder_0/halfadder_0/nand_2/v_out_nand fulladder_0/halfadder_0/nand_0/v_out_nand vdd fulladder_0/halfadder_0/nand_2/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1039 fulladder_0/halfadder_0/nand_2/v_out_nand b1_4bitadder vdd fulladder_0/halfadder_0/nand_2/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1040 fulladder_0/halfadder_1/nand_3/a_13_n14# fulladder_0/halfadder_1/nand_1/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1041 s1_4bitadder fulladder_0/halfadder_1/nand_2/v_out_nand fulladder_0/halfadder_1/nand_3/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1042 s1_4bitadder fulladder_0/halfadder_1/nand_1/v_out_nand vdd fulladder_0/halfadder_1/nand_3/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1043 s1_4bitadder fulladder_0/halfadder_1/nand_2/v_out_nand vdd fulladder_0/halfadder_1/nand_3/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1044 fulladder_0/halfadder_1/nand_4/a_13_n14# fulladder_0/halfadder_1/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1045 fulladder_0/or_0/v_a_or fulladder_0/halfadder_1/nand_0/v_out_nand fulladder_0/halfadder_1/nand_4/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1046 fulladder_0/or_0/v_a_or fulladder_0/halfadder_1/nand_0/v_out_nand vdd fulladder_0/halfadder_1/nand_4/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1047 fulladder_0/or_0/v_a_or fulladder_0/halfadder_1/nand_0/v_out_nand vdd fulladder_0/halfadder_1/nand_4/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1048 fulladder_0/halfadder_1/nand_0/a_13_n14# fulladder_0/halfadder_1/v_a_halfadder gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1049 fulladder_0/halfadder_1/nand_0/v_out_nand fulladder_0/c_in_fulladder fulladder_0/halfadder_1/nand_0/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1050 fulladder_0/halfadder_1/nand_0/v_out_nand fulladder_0/halfadder_1/v_a_halfadder vdd fulladder_0/halfadder_1/nand_0/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1051 fulladder_0/halfadder_1/nand_0/v_out_nand fulladder_0/c_in_fulladder vdd fulladder_0/halfadder_1/nand_0/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1052 fulladder_0/halfadder_1/nand_1/a_13_n14# fulladder_0/halfadder_1/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1053 fulladder_0/halfadder_1/nand_1/v_out_nand fulladder_0/halfadder_1/v_a_halfadder fulladder_0/halfadder_1/nand_1/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1054 fulladder_0/halfadder_1/nand_1/v_out_nand fulladder_0/halfadder_1/nand_0/v_out_nand vdd fulladder_0/halfadder_1/nand_1/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1055 fulladder_0/halfadder_1/nand_1/v_out_nand fulladder_0/halfadder_1/v_a_halfadder vdd fulladder_0/halfadder_1/nand_1/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1056 fulladder_0/halfadder_1/nand_2/a_13_n14# fulladder_0/halfadder_1/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1057 fulladder_0/halfadder_1/nand_2/v_out_nand fulladder_0/c_in_fulladder fulladder_0/halfadder_1/nand_2/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1058 fulladder_0/halfadder_1/nand_2/v_out_nand fulladder_0/halfadder_1/nand_0/v_out_nand vdd fulladder_0/halfadder_1/nand_2/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1059 fulladder_0/halfadder_1/nand_2/v_out_nand fulladder_0/c_in_fulladder vdd fulladder_0/halfadder_1/nand_2/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 fulladder_0/or_0/a_n15_n30# fulladder_0/or_0/v_b_or gnd Gnd nmos w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1061 fulladder_0/or_0/a_n15_n30# fulladder_0/or_0/v_a_or gnd Gnd nmos w=12 l=3
++  ad=0 pd=0 as=0 ps=0
+M1062 fulladder_1/c_in_fulladder fulladder_0/or_0/a_n15_n30# gnd Gnd nmos w=16 l=3
++  ad=84 pd=44 as=0 ps=0
+M1063 fulladder_0/or_0/a_n15_10# fulladder_0/or_0/v_a_or vdd fulladder_0/or_0/w_n32_2# pmos w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1064 vdd fulladder_0/or_0/a_n15_n30# fulladder_1/c_in_fulladder fulladder_0/or_0/w_78_2# pmos w=16 l=3
++  ad=0 pd=0 as=80 ps=42
+M1065 fulladder_0/or_0/a_n15_n30# fulladder_0/or_0/v_b_or fulladder_0/or_0/a_n15_10# fulladder_0/or_0/w_n32_2# pmos w=12 l=3
++  ad=72 pd=36 as=0 ps=0
+M1066 fulladder_1/halfadder_0/nand_3/a_13_n14# fulladder_1/halfadder_0/nand_1/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1067 fulladder_1/halfadder_1/v_a_halfadder fulladder_1/halfadder_0/nand_2/v_out_nand fulladder_1/halfadder_0/nand_3/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1068 fulladder_1/halfadder_1/v_a_halfadder fulladder_1/halfadder_0/nand_1/v_out_nand vdd fulladder_1/halfadder_0/nand_3/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1069 fulladder_1/halfadder_1/v_a_halfadder fulladder_1/halfadder_0/nand_2/v_out_nand vdd fulladder_1/halfadder_0/nand_3/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1070 fulladder_1/halfadder_0/nand_4/a_13_n14# fulladder_1/halfadder_0/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1071 fulladder_1/or_0/v_b_or fulladder_1/halfadder_0/nand_0/v_out_nand fulladder_1/halfadder_0/nand_4/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1072 fulladder_1/or_0/v_b_or fulladder_1/halfadder_0/nand_0/v_out_nand vdd fulladder_1/halfadder_0/nand_4/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1073 fulladder_1/or_0/v_b_or fulladder_1/halfadder_0/nand_0/v_out_nand vdd fulladder_1/halfadder_0/nand_4/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1074 fulladder_1/halfadder_0/nand_0/a_13_n14# b2_4bitadder gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1075 fulladder_1/halfadder_0/nand_0/v_out_nand b2_4bitadder fulladder_1/halfadder_0/nand_0/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1076 fulladder_1/halfadder_0/nand_0/v_out_nand b2_4bitadder vdd fulladder_1/halfadder_0/nand_0/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1077 fulladder_1/halfadder_0/nand_0/v_out_nand b2_4bitadder vdd fulladder_1/halfadder_0/nand_0/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1078 fulladder_1/halfadder_0/nand_1/a_13_n14# fulladder_1/halfadder_0/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1079 fulladder_1/halfadder_0/nand_1/v_out_nand b2_4bitadder fulladder_1/halfadder_0/nand_1/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1080 fulladder_1/halfadder_0/nand_1/v_out_nand fulladder_1/halfadder_0/nand_0/v_out_nand vdd fulladder_1/halfadder_0/nand_1/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1081 fulladder_1/halfadder_0/nand_1/v_out_nand b2_4bitadder vdd fulladder_1/halfadder_0/nand_1/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1082 fulladder_1/halfadder_0/nand_2/a_13_n14# fulladder_1/halfadder_0/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1083 fulladder_1/halfadder_0/nand_2/v_out_nand b2_4bitadder fulladder_1/halfadder_0/nand_2/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1084 fulladder_1/halfadder_0/nand_2/v_out_nand fulladder_1/halfadder_0/nand_0/v_out_nand vdd fulladder_1/halfadder_0/nand_2/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1085 fulladder_1/halfadder_0/nand_2/v_out_nand b2_4bitadder vdd fulladder_1/halfadder_0/nand_2/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1086 fulladder_1/halfadder_1/nand_3/a_13_n14# fulladder_1/halfadder_1/nand_1/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1087 s2_4bitadder fulladder_1/halfadder_1/nand_2/v_out_nand fulladder_1/halfadder_1/nand_3/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1088 s2_4bitadder fulladder_1/halfadder_1/nand_1/v_out_nand vdd fulladder_1/halfadder_1/nand_3/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1089 s2_4bitadder fulladder_1/halfadder_1/nand_2/v_out_nand vdd fulladder_1/halfadder_1/nand_3/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1090 fulladder_1/halfadder_1/nand_4/a_13_n14# fulladder_1/halfadder_1/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1091 fulladder_1/or_0/v_a_or fulladder_1/halfadder_1/nand_0/v_out_nand fulladder_1/halfadder_1/nand_4/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1092 fulladder_1/or_0/v_a_or fulladder_1/halfadder_1/nand_0/v_out_nand vdd fulladder_1/halfadder_1/nand_4/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1093 fulladder_1/or_0/v_a_or fulladder_1/halfadder_1/nand_0/v_out_nand vdd fulladder_1/halfadder_1/nand_4/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1094 fulladder_1/halfadder_1/nand_0/a_13_n14# fulladder_1/halfadder_1/v_a_halfadder gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1095 fulladder_1/halfadder_1/nand_0/v_out_nand fulladder_1/c_in_fulladder fulladder_1/halfadder_1/nand_0/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1096 fulladder_1/halfadder_1/nand_0/v_out_nand fulladder_1/halfadder_1/v_a_halfadder vdd fulladder_1/halfadder_1/nand_0/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1097 fulladder_1/halfadder_1/nand_0/v_out_nand fulladder_1/c_in_fulladder vdd fulladder_1/halfadder_1/nand_0/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1098 fulladder_1/halfadder_1/nand_1/a_13_n14# fulladder_1/halfadder_1/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1099 fulladder_1/halfadder_1/nand_1/v_out_nand fulladder_1/halfadder_1/v_a_halfadder fulladder_1/halfadder_1/nand_1/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1100 fulladder_1/halfadder_1/nand_1/v_out_nand fulladder_1/halfadder_1/nand_0/v_out_nand vdd fulladder_1/halfadder_1/nand_1/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1101 fulladder_1/halfadder_1/nand_1/v_out_nand fulladder_1/halfadder_1/v_a_halfadder vdd fulladder_1/halfadder_1/nand_1/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1102 fulladder_1/halfadder_1/nand_2/a_13_n14# fulladder_1/halfadder_1/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1103 fulladder_1/halfadder_1/nand_2/v_out_nand fulladder_1/c_in_fulladder fulladder_1/halfadder_1/nand_2/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1104 fulladder_1/halfadder_1/nand_2/v_out_nand fulladder_1/halfadder_1/nand_0/v_out_nand vdd fulladder_1/halfadder_1/nand_2/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1105 fulladder_1/halfadder_1/nand_2/v_out_nand fulladder_1/c_in_fulladder vdd fulladder_1/halfadder_1/nand_2/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1106 fulladder_1/or_0/a_n15_n30# fulladder_1/or_0/v_b_or gnd Gnd nmos w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1107 fulladder_1/or_0/a_n15_n30# fulladder_1/or_0/v_a_or gnd Gnd nmos w=12 l=3
++  ad=0 pd=0 as=0 ps=0
+M1108 fulladder_2/c_in_fulladder fulladder_1/or_0/a_n15_n30# gnd Gnd nmos w=16 l=3
++  ad=84 pd=44 as=0 ps=0
+M1109 fulladder_1/or_0/a_n15_10# fulladder_1/or_0/v_a_or vdd fulladder_1/or_0/w_n32_2# pmos w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1110 vdd fulladder_1/or_0/a_n15_n30# fulladder_2/c_in_fulladder fulladder_1/or_0/w_78_2# pmos w=16 l=3
++  ad=0 pd=0 as=80 ps=42
+M1111 fulladder_1/or_0/a_n15_n30# fulladder_1/or_0/v_b_or fulladder_1/or_0/a_n15_10# fulladder_1/or_0/w_n32_2# pmos w=12 l=3
++  ad=72 pd=36 as=0 ps=0
+M1112 fulladder_2/halfadder_0/nand_3/a_13_n14# fulladder_2/halfadder_0/nand_1/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1113 fulladder_2/halfadder_1/v_a_halfadder fulladder_2/halfadder_0/nand_2/v_out_nand fulladder_2/halfadder_0/nand_3/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1114 fulladder_2/halfadder_1/v_a_halfadder fulladder_2/halfadder_0/nand_1/v_out_nand vdd fulladder_2/halfadder_0/nand_3/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1115 fulladder_2/halfadder_1/v_a_halfadder fulladder_2/halfadder_0/nand_2/v_out_nand vdd fulladder_2/halfadder_0/nand_3/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1116 fulladder_2/halfadder_0/nand_4/a_13_n14# fulladder_2/halfadder_0/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1117 fulladder_2/or_0/v_b_or fulladder_2/halfadder_0/nand_0/v_out_nand fulladder_2/halfadder_0/nand_4/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1118 fulladder_2/or_0/v_b_or fulladder_2/halfadder_0/nand_0/v_out_nand vdd fulladder_2/halfadder_0/nand_4/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1119 fulladder_2/or_0/v_b_or fulladder_2/halfadder_0/nand_0/v_out_nand vdd fulladder_2/halfadder_0/nand_4/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1120 fulladder_2/halfadder_0/nand_0/a_13_n14# b3_4bitadder gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1121 fulladder_2/halfadder_0/nand_0/v_out_nand a3_4bitadder fulladder_2/halfadder_0/nand_0/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1122 fulladder_2/halfadder_0/nand_0/v_out_nand b3_4bitadder vdd fulladder_2/halfadder_0/nand_0/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1123 fulladder_2/halfadder_0/nand_0/v_out_nand a3_4bitadder vdd fulladder_2/halfadder_0/nand_0/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1124 fulladder_2/halfadder_0/nand_1/a_13_n14# fulladder_2/halfadder_0/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1125 fulladder_2/halfadder_0/nand_1/v_out_nand b3_4bitadder fulladder_2/halfadder_0/nand_1/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1126 fulladder_2/halfadder_0/nand_1/v_out_nand fulladder_2/halfadder_0/nand_0/v_out_nand vdd fulladder_2/halfadder_0/nand_1/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1127 fulladder_2/halfadder_0/nand_1/v_out_nand b3_4bitadder vdd fulladder_2/halfadder_0/nand_1/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1128 fulladder_2/halfadder_0/nand_2/a_13_n14# fulladder_2/halfadder_0/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1129 fulladder_2/halfadder_0/nand_2/v_out_nand a3_4bitadder fulladder_2/halfadder_0/nand_2/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1130 fulladder_2/halfadder_0/nand_2/v_out_nand fulladder_2/halfadder_0/nand_0/v_out_nand vdd fulladder_2/halfadder_0/nand_2/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1131 fulladder_2/halfadder_0/nand_2/v_out_nand a3_4bitadder vdd fulladder_2/halfadder_0/nand_2/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1132 fulladder_2/halfadder_1/nand_3/a_13_n14# fulladder_2/halfadder_1/nand_1/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1133 s3_4bitadder fulladder_2/halfadder_1/nand_2/v_out_nand fulladder_2/halfadder_1/nand_3/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1134 s3_4bitadder fulladder_2/halfadder_1/nand_1/v_out_nand vdd fulladder_2/halfadder_1/nand_3/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1135 s3_4bitadder fulladder_2/halfadder_1/nand_2/v_out_nand vdd fulladder_2/halfadder_1/nand_3/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1136 fulladder_2/halfadder_1/nand_4/a_13_n14# fulladder_2/halfadder_1/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1137 fulladder_2/or_0/v_a_or fulladder_2/halfadder_1/nand_0/v_out_nand fulladder_2/halfadder_1/nand_4/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1138 fulladder_2/or_0/v_a_or fulladder_2/halfadder_1/nand_0/v_out_nand vdd fulladder_2/halfadder_1/nand_4/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1139 fulladder_2/or_0/v_a_or fulladder_2/halfadder_1/nand_0/v_out_nand vdd fulladder_2/halfadder_1/nand_4/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1140 fulladder_2/halfadder_1/nand_0/a_13_n14# fulladder_2/halfadder_1/v_a_halfadder gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1141 fulladder_2/halfadder_1/nand_0/v_out_nand fulladder_2/c_in_fulladder fulladder_2/halfadder_1/nand_0/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1142 fulladder_2/halfadder_1/nand_0/v_out_nand fulladder_2/halfadder_1/v_a_halfadder vdd fulladder_2/halfadder_1/nand_0/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1143 fulladder_2/halfadder_1/nand_0/v_out_nand fulladder_2/c_in_fulladder vdd fulladder_2/halfadder_1/nand_0/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1144 fulladder_2/halfadder_1/nand_1/a_13_n14# fulladder_2/halfadder_1/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1145 fulladder_2/halfadder_1/nand_1/v_out_nand fulladder_2/halfadder_1/v_a_halfadder fulladder_2/halfadder_1/nand_1/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1146 fulladder_2/halfadder_1/nand_1/v_out_nand fulladder_2/halfadder_1/nand_0/v_out_nand vdd fulladder_2/halfadder_1/nand_1/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1147 fulladder_2/halfadder_1/nand_1/v_out_nand fulladder_2/halfadder_1/v_a_halfadder vdd fulladder_2/halfadder_1/nand_1/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1148 fulladder_2/halfadder_1/nand_2/a_13_n14# fulladder_2/halfadder_1/nand_0/v_out_nand gnd Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1149 fulladder_2/halfadder_1/nand_2/v_out_nand fulladder_2/c_in_fulladder fulladder_2/halfadder_1/nand_2/a_13_n14# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1150 fulladder_2/halfadder_1/nand_2/v_out_nand fulladder_2/halfadder_1/nand_0/v_out_nand vdd fulladder_2/halfadder_1/nand_2/w_0_3# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1151 fulladder_2/halfadder_1/nand_2/v_out_nand fulladder_2/c_in_fulladder vdd fulladder_2/halfadder_1/nand_2/w_0_3# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1152 fulladder_2/or_0/a_n15_n30# fulladder_2/or_0/v_b_or gnd Gnd nmos w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1153 fulladder_2/or_0/a_n15_n30# fulladder_2/or_0/v_a_or gnd Gnd nmos w=12 l=3
++  ad=0 pd=0 as=0 ps=0
+M1154 c_4bitadder fulladder_2/or_0/a_n15_n30# gnd Gnd nmos w=16 l=3
++  ad=84 pd=44 as=0 ps=0
+M1155 fulladder_2/or_0/a_n15_10# fulladder_2/or_0/v_a_or vdd fulladder_2/or_0/w_n32_2# pmos w=12 l=3
++  ad=156 pd=74 as=0 ps=0
+M1156 vdd fulladder_2/or_0/a_n15_n30# c_4bitadder fulladder_2/or_0/w_78_2# pmos w=16 l=3
++  ad=0 pd=0 as=80 ps=42
+M1157 fulladder_2/or_0/a_n15_n30# fulladder_2/or_0/v_b_or fulladder_2/or_0/a_n15_10# fulladder_2/or_0/w_n32_2# pmos w=12 l=3
++  ad=72 pd=36 as=0 ps=0
+
+.control
+tran 1n 60n
+plot s0_4bitadder s1_4bitadder+2 s2_4bitadder+4 s3_4bitadder+6
+plot c_4bitadder
+.endc
+.end

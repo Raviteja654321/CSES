@@ -1,0 +1,26 @@
+* SPICE3 file created from or.ext - technology: scmos
+
+.option scale=1u
+
+M1000 a_n15_n30# v_b_or gnd Gnd nfet w=12 l=3
++  ad=156 pd=74 as=224 ps=116
+M1001 a_n15_n30# v_a_or gnd Gnd nfet w=12 l=3
++  ad=0 pd=0 as=0 ps=0
+M1002 v_out_or a_n15_n30# gnd Gnd nfet w=16 l=3
++  ad=84 pd=44 as=0 ps=0
+M1003 a_n15_10# v_a_or vdd w_n32_2# pfet w=12 l=3
++  ad=156 pd=74 as=153 ps=80
+M1004 vdd a_n15_n30# v_out_or w_78_2# pfet w=16 l=3
++  ad=0 pd=0 as=80 ps=42
+M1005 a_n15_n30# v_b_or a_n15_10# w_n32_2# pfet w=12 l=3
++  ad=72 pd=36 as=0 ps=0
+C0 w_78_2# a_n15_n30# 5.74fF
+C1 v_b_or w_n32_2# 5.19fF
+C2 v_a_or w_n32_2# 5.19fF
+C3 a_n15_10# w_n32_2# 3.38fF
+C4 gnd Gnd 35.72fF
+C5 v_out_or Gnd 13.16fF
+C6 a_n15_n30# Gnd 59.49fF
+C7 vdd Gnd 48.88fF
+C8 v_b_or Gnd 51.10fF
+C9 v_a_or Gnd 22.29fF
